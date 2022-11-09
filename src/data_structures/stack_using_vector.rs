@@ -1,19 +1,19 @@
 #[derive(Debug)]
 pub struct StackV<T> {
     top: usize,
-    data: Vec<T>,
+    elem: Vec<T>,
 }
 
 impl<T> StackV<T> {
     pub fn new() -> Self {
         Self {
             top: 0,
-            data: Vec::new(),
+            elem: Vec::new(),
         }
     }
 
-    pub fn push(&mut self, val: T) {
-        self.data.push(val);
+    pub fn push(&mut self, elem: T) {
+        self.elem.push(elem);
         self.top += 1;
     }
 
@@ -23,7 +23,7 @@ impl<T> StackV<T> {
         }
 
         self.top -= 1;
-        self.data.pop()
+        self.elem.pop()
     }
 
     pub fn peek(&mut self) -> Option<&T> {
@@ -31,7 +31,7 @@ impl<T> StackV<T> {
             return None;
         }
 
-        self.data.get(self.top - 1)
+        self.elem.get(self.top - 1)
     }
 
     pub fn peek_mut(&mut self) -> Option<&mut T> {
@@ -39,7 +39,7 @@ impl<T> StackV<T> {
             return None;
         }
 
-        self.data.get_mut(self.top - 1)
+        self.elem.get_mut(self.top - 1)
     }
 
     pub fn is_empty(&self) -> bool {
@@ -58,7 +58,7 @@ impl<T> Default for StackV<T> {
 }
 
 #[cfg(test)]
-mod data_structures_tests {
+mod elem_structures_tests {
     use super::StackV;
 
     #[test]
@@ -79,14 +79,14 @@ mod data_structures_tests {
     }
 
     #[test]
-    fn is_valid_parentheses_test() {
+    fn is_elemid_parentheses_test() {
         let sa = "(2+3){func}[abc]";
         let sb = "(2+3)*(3-1";
-        assert!(is_valid_parentheses(sa));
-        assert!(!is_valid_parentheses(sb));
+        assert!(is_elemid_parentheses(sa));
+        assert!(!is_elemid_parentheses(sb));
     }
 
-    fn is_valid_parentheses(s: &str) -> bool {
+    fn is_elemid_parentheses(s: &str) -> bool {
         let mut stack: StackV<char> = StackV::new();
 
         for c in s.chars() {
