@@ -79,14 +79,14 @@ mod stackv_tests {
     }
 
     #[test]
-    fn is_elemid_parentheses_test() {
+    fn is_valid_parentheses_test() {
         let sa = "(2+3){func}[abc]";
         let sb = "(2+3)*(3-1";
-        assert!(is_elemid_parentheses(sa));
-        assert!(!is_elemid_parentheses(sb));
+        assert!(is_valid_parentheses(sa));
+        assert!(!is_valid_parentheses(sb));
     }
 
-    fn is_elemid_parentheses(s: &str) -> bool {
+    fn is_valid_parentheses(s: &str) -> bool {
         let mut stack: StackV<char> = StackV::new();
 
         for c in s.chars() {
