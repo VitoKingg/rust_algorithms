@@ -58,7 +58,7 @@ impl<T> Default for StackV<T> {
 }
 
 #[cfg(test)]
-mod tests {
+mod data_structures_tests {
     use super::StackV;
 
     #[test]
