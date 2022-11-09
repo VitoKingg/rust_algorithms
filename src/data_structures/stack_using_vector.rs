@@ -58,11 +58,11 @@ impl<T> Default for StackV<T> {
 }
 
 #[cfg(test)]
-mod elem_structures_tests {
+mod stackv_tests {
     use super::StackV;
 
     #[test]
-    fn stackv_test() {
+    fn basics_test() {
         let mut s: StackV<i32> = StackV::new();
         s.push(1);
         s.push(2);
