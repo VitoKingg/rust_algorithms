@@ -4,7 +4,7 @@ pub mod sorting;
 pub mod strings;
 
 #[cfg(test)]
-mod tests {
+mod lib_tests {
     #[test]
-    fn lib_test() {}
+    fn some_test() {}
 }
