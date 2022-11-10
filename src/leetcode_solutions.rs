@@ -1,3 +1,2 @@
+mod leetcode_0125_valid_palindrome;
 mod leetcode_0020_valid_parentheses;
-
-pub struct Solution;
