@@ -1,5 +1,6 @@
 pub mod data_structures;
 pub mod leetcode_solutions;
+pub mod math;
 pub mod sorting;
 pub mod strings;
 
