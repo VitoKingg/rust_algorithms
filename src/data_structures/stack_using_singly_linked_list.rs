@@ -3,6 +3,7 @@
 
 #[derive(Debug)]
 pub struct Stack<T> {
+    size: usize,
     top: Link<T>,
 }
 
@@ -16,7 +17,7 @@ struct Node<T> {
 
 impl<T> Stack<T> {
     pub fn new() -> Self {
-        Self { top: None }
+        Self { size: 0, top: None }
     }
 
     pub fn push(&mut self, elem: T) {
@@ -26,16 +27,16 @@ impl<T> Stack<T> {
         });
 
         self.top = Some(new_node);
+        self.size += 1;
     }
 
-    pub fn pop(&mut self) -> Result<T, &str> {
-        match self.top.take() {
-            Some(node) => {
-                self.top = node.next;
-                Ok(node.elem)
-            }
-            None => Err("Stack is empty"),
-        }
+    pub fn pop(&mut self) -> Option<T> {
+        self.top.take().map(|node| {
+            let node = *node;
+            self.top = node.next;
+            self.size -= 1;
+            node.elem
+        })
     }
 
     pub fn peek(&self) -> Option<&T> {
@@ -52,8 +53,13 @@ impl<T> Stack<T> {
         }
     }
 
+    pub fn size(&self) -> usize {
+        self.size
+    }
+
     pub fn is_empty(&self) -> bool {
         self.top.is_none()
+        // self.size == 0
     }
 
     pub fn into_iter_for_stack(self) -> IntoIter<T> {
@@ -94,7 +100,7 @@ impl<T> Iterator for IntoIter<T> {
     type Item = T;
 
     fn next(&mut self) -> Option<Self::Item> {
-        self.0.pop().ok()
+        self.0.pop()
     }
 }
 
@@ -135,25 +141,26 @@ mod stack_tests {
     #[test]
     fn basics() {
         let mut list = Stack::new();
-        assert_eq!(list.pop(), Err("Stack is empty"));
+        assert_eq!(list.pop(), None);
 
         list.push(1);
         list.push(2);
         list.push(3);
 
-        assert_eq!(list.pop(), Ok(3));
-        assert_eq!(list.pop(), Ok(2));
+        assert_eq!(list.size(), 3);
+        assert_eq!(list.pop(), Some(3));
+        assert_eq!(list.pop(), Some(2));
 
         list.push(4);
         list.push(5);
 
         assert!(!list.is_empty());
 
-        assert_eq!(list.pop(), Ok(5));
-        assert_eq!(list.pop(), Ok(4));
+        assert_eq!(list.pop(), Some(5));
+        assert_eq!(list.pop(), Some(4));
 
-        assert_eq!(list.pop(), Ok(1));
-        assert_eq!(list.pop(), Err("Stack is empty"));
+        assert_eq!(list.pop(), Some(1));
+        assert_eq!(list.pop(), None);
 
         assert!(list.is_empty());
     }
@@ -178,7 +185,7 @@ mod stack_tests {
         };
 
         assert_eq!(list.peek(), Some(&42));
-        assert_eq!(list.pop(), Ok(42));
+        assert_eq!(list.pop(), Some(42));
     }
 
     #[test]
