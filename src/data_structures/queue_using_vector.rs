@@ -12,12 +12,12 @@ impl<T> QueueV<T> {
         }
     }
 
-    pub fn enqueue(&mut self, val: T) -> Result<(), String> {
+    pub fn enqueue(&mut self, value: T) -> Result<(), String> {
         if Self::size(self) == self.capacity {
             return Err(String::from("No space available"));
         }
 
-        self.elem.insert(0, val);
+        self.elem.insert(0, value);
 
         Ok(())
     }
@@ -27,7 +27,7 @@ impl<T> QueueV<T> {
     }
 
     pub fn is_empty(&self) -> bool {
-        self.elem.len() == 0
+        self.elem.is_empty()
     }
 
     pub fn size(&self) -> usize {
