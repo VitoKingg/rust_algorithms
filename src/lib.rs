@@ -5,6 +5,7 @@ pub mod graph;
 pub mod leetcode_solutions;
 pub mod math;
 pub mod sorting;
+pub mod searching;
 pub mod string;
 
 #[cfg(test)]
