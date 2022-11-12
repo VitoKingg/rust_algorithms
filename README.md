@@ -92,7 +92,7 @@
 - [LeetCode 0128 Longest Consecutive Sequence (Medium)](./src/leetcode_solutions/leetcode_0128_longest_consecutive_sequence.rs)
 - [LeetCode 0594 Longest Harmonious Subsequence (Easy)](./src/leetcode_solutions/leetcode_0594_longest_harmonious_subsequence.rs)
 - [LeetCode 0149 Max Points on a Line (Hard)](./src/leetcode_solutions/leetcode_0149_max_points_on_a_line.rs)
-- [LeetCode 0322 Reconstruct Itinerary (Medium)](./src/leetcode_solutions/leetcode_0322_reconstruct_itinerary.rs)
+- [LeetCode 0332 Reconstruct Itinerary (Medium)](./src/leetcode_solutions/leetcode_0332_reconstruct_itinerary.rs)
 - [LeetCode 0870 Advantage Shuffle (Medium)](./src/leetcode_solutions/leetcode_0870_advantage_shuffle.rs)
 
 ### [tree](<https://en.wikipedia.org/wiki/Tree_(data_structure)>)
