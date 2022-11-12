@@ -404,6 +404,7 @@
 - [selection sort](https://en.wikipedia.org/wiki/Selection_sort) 选择排序
 -
 - [bubble sort](https://en.wikipedia.org/wiki/Bubble_sort) 冒泡排序
+- [bubble_sort.rs](./src/sorting/bubble_sort.rs)
 -
 - [comb sort](https://en.wikipedia.org/wiki/Comb_sort) 梳排序
 -
@@ -441,6 +442,7 @@
 ### [search algorithm](https://en.wikipedia.org/wiki/Search_algorithm)
 
 - [linear search](https://en.wikipedia.org/wiki/Linear_search) 线性搜索
+- [linear_search.rs](./src/searching/linear_search.rs)
 -
 - [interpolation search](https://en.wikipedia.org/wiki/Interpolation_search) 插值搜索
 -
