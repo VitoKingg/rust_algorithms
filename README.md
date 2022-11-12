@@ -449,7 +449,9 @@
 - [Fibonacci search technique](https://en.wikipedia.org/wiki/Fibonacci_search_technique)
 -
 - [binary search](https://en.wikipedia.org/wiki/Binary_search_algorithm) 二分搜索
+- [binary_search.rs](./src/searching/binary_search.rs)
 - [LeetCode tag - Binary Search](https://leetcode.com/tag/binary-search/)
+- 如果要查找的数据量很小，则没必要先排序再二分搜索；如果数据量很大，排序很耗时且内存消耗大，或许使用线性搜索性能更好；实际项目中数据量不大不小，很适合使用二分搜索。
 -
 - [breadth-first search](https://en.wikipedia.org/wiki/Breadth-first_search) 广度优先搜索
 - [LeetCode tag - Breadth-First Search](https://leetcode.com/tag/breadth-first-search/)
