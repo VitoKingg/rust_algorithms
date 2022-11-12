@@ -1,7 +1,7 @@
-//! [Anagram Wikipedia](https://en.wikipedia.org/wiki/Anagram)
-//! An anagram is a word or phrase formed by rearranging the letters of a different word or phrase,
-//! typically using all the original letters exactly once.
-//! anagram 变位词，乱序字符串：改变某个词或短语的字母顺序后构成的新词或短语
+/// [Anagram Wikipedia](https://en.wikipedia.org/wiki/Anagram)
+/// An anagram is a word or phrase formed by rearranging the letters of a different word or phrase,
+/// typically using all the original letters exactly once.
+/// anagram 变位词，乱序字符串：改变某个词或短语的字母顺序后构成的新词或短语
 
 pub fn anagram(s1: &str, s2: &str) -> bool {
     let mut c1 = [0; 26];
