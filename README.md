@@ -538,10 +538,10 @@
 - LeetCode 0169 Majority Element (Easy)
 - LeetCode 0470 Implement Rand10() Using Rand7() (Medium)
 - LeetCode 0202 Happy Number (Easy)
-- 计算 Fibonacci 数列的第 n 项
-- 冯诺依曼邻居问题 (离散数学)
+- [LeetCode 0509 Fibonacci Number](./src//leetcode_solutions/leetcode_0509_fibonacci_number.rs)
 - [Greatest Common Divisor (GCD, 最大公约数)](./src/math/gcd_of_n_numbers.rs)
 - [Least Common Multiple (LCM, 最小公倍数)](./src/math/lcm_of_n_numbers.rs)
+- 冯诺依曼邻居问题 (离散数学)
 
 ### [string-matching algorithm](https://en.wikipedia.org/wiki/String-searching_algorithm)
 
