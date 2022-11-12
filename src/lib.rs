@@ -12,5 +12,5 @@ pub mod string;
 #[cfg(test)]
 mod lib_tests {
     #[test]
-    fn some_test() {}
+    fn test_fn() {}
 }
