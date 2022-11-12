@@ -77,7 +77,7 @@ mod leetcode_tests {
     use super::Solution;
 
     #[test]
-    fn test_fibonacci() {
+    fn test_leetcode_0509() {
         assert_eq!(Solution::fib(2), 1);
         assert_eq!(Solution::fibonacci(2), 1);
         assert_eq!(Solution::fibonacci_memorized(2), 1);

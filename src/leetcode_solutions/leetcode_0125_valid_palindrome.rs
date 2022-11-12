@@ -20,7 +20,7 @@ mod leetcode_tests {
     use super::Solution;
 
     #[test]
-    fn leetcode_0125_test() {
+    fn test_leetcode_0125() {
         assert!(Solution::is_palindrome(String::from("121")));
         assert!(Solution::is_palindrome(String::from("12321")));
         assert!(!Solution::is_palindrome(String::from("1234")));

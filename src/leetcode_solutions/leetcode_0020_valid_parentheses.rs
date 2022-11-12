@@ -33,7 +33,7 @@ mod leetcode_tests {
     use super::Solution;
 
     #[test]
-    fn leetcode_0020_test() {
+    fn test_leetcode_0020() {
         assert!(Solution::is_valid(String::from("()")));
         assert!(Solution::is_valid(String::from("()[]{}")));
         assert!(!Solution::is_valid(String::from("(]")));
