@@ -257,16 +257,18 @@
 
 ### [recursion](https://en.wikipedia.org/wiki/Recursion) 递归
 
+- 递归通过将问题由大化小来逐步解决问题
 - 递归算法所消耗的空间量取决于递归深度
 - 递归往往消耗更多的空间，所以对于运行速度要求极高、存储空间需精打细算的场合，往往应该使用非递归算法
 - 递归消除
 - [tail recursion](https://en.wikipedia.org/wiki/Tail_call) 尾递归
+- 尾递归是递归的优化形式，能在一定程度上减少栈资源的使用
 
 ### [dynamic programming](https://en.wikipedia.org/wiki/Dynamic_programming) 动态规划
 
 - Every dynamic programming algorithm solution involves a grid.
 - Each cell is a subproblem, so think about how you can divide your problem into subproblems.
-- 递归法将大问题分解为小问题，调用自身；而动态规划从小问题推导到大问题，推导过程的中间值要缓存起来，推导过程称为状态转移
+- 动态规划可用于解决最优化问题，由小问题推导到大问题，推导过程的中间值要缓存起来，推导过程称为状态转移
 -
 - [LeetCode tag - Dynamic Programming](https://leetcode.com/tag/dynamic-programming/)
 -
@@ -308,7 +310,7 @@
 - [knapsack problem](https://en.wikipedia.org/wiki/Knapsack_problem) 背包问题
 - LeetCode 0416 Partition Equal Subset Sum (Medium)
 - LeetCode 0279 Perfect Squares (Medium)
-- LeetCode 0322 Coin Change (Medium)
+- [LeetCode 0322 Coin Change (Medium)](./src/leetcode_solutions/leetcode_0322_coin_change.rs)
 - LeetCode 0518 Coin Change II
 - LeetCode 0474 Ones and Zeroes (Medium)
 - LeetCode 0879
@@ -771,7 +773,7 @@
 - LeetCode 0120 Triangle (Medium)
 - LeetCode 0416 Partition Equal Subset Sum (Medium)
 - LeetCode 0494 Target Sum (Medium)
-- LeetCode 0322 Coin Change (Medium)
+- [LeetCode 0322 Coin Change (Medium)](./src/leetcode_solutions/leetcode_0322_coin_change.rs)
 - LeetCode 0377 Combination Sum IV (Medium)
 - LeetCode 0695 Max Area of Island (Medium)
 - LeetCode 0785 Is Graph Bipartite (Medium)
