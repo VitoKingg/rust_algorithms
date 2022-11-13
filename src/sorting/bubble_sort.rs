@@ -44,46 +44,46 @@ mod tests {
     #[test]
     fn test_bubble_sort() {
         // unsorted
-        let mut v1 = vec![5, 7, 2, 3, 1];
-        bubble_sort(&mut v1);
-        assert_eq!(v1, vec![1, 2, 3, 5, 7]);
+        let mut arr = vec![5, 7, 2, 3, 1];
+        bubble_sort(&mut arr);
+        assert_eq!(arr, vec![1, 2, 3, 5, 7]);
 
         // descending
-        let mut v2 = vec![5, 4, 3, 2, 1];
-        bubble_sort(&mut v2);
-        assert_eq!(v2, vec![1, 2, 3, 4, 5]);
+        let mut arr = vec![5, 4, 3, 2, 1];
+        bubble_sort(&mut arr);
+        assert_eq!(arr, vec![1, 2, 3, 4, 5]);
 
         // accending
-        let mut v3 = vec![1, 2, 3, 4, 5];
-        bubble_sort(&mut v3);
-        assert_eq!(v3, vec![1, 2, 3, 4, 5]);
+        let mut arr = vec![1, 2, 3, 4, 5];
+        bubble_sort(&mut arr);
+        assert_eq!(arr, vec![1, 2, 3, 4, 5]);
 
         // empty
-        let mut v4: Vec<usize> = vec![];
-        bubble_sort(&mut v4);
-        assert_eq!(v4, vec![]);
+        let mut arr: Vec<usize> = vec![];
+        bubble_sort(&mut arr);
+        assert_eq!(arr, vec![]);
     }
 
     #[test]
     fn test_bubble_sort2() {
         // unsorted
-        let mut v1 = vec![5, 7, 2, 3, 1];
-        bubble_sort2(&mut v1);
-        assert_eq!(v1, vec![1, 2, 3, 5, 7]);
+        let mut arr = vec![5, 7, 2, 3, 1];
+        bubble_sort2(&mut arr);
+        assert_eq!(arr, vec![1, 2, 3, 5, 7]);
 
         // descending
-        let mut v2 = vec![5, 4, 3, 2, 1];
-        bubble_sort2(&mut v2);
-        assert_eq!(v2, vec![1, 2, 3, 4, 5]);
+        let mut arr = vec![5, 4, 3, 2, 1];
+        bubble_sort2(&mut arr);
+        assert_eq!(arr, vec![1, 2, 3, 4, 5]);
 
         // accending
-        let mut v3 = vec![1, 2, 3, 4, 5];
-        bubble_sort2(&mut v3);
-        assert_eq!(v3, vec![1, 2, 3, 4, 5]);
+        let mut arr = vec![1, 2, 3, 4, 5];
+        bubble_sort2(&mut arr);
+        assert_eq!(arr, vec![1, 2, 3, 4, 5]);
 
         // empty
-        let mut v4: Vec<usize> = vec![];
-        bubble_sort2(&mut v4);
-        assert_eq!(v4, vec![]);
+        let mut arr: Vec<usize> = vec![];
+        bubble_sort2(&mut arr);
+        assert_eq!(arr, vec![]);
     }
 }
