@@ -417,6 +417,7 @@
 - [cocktail_shaker_sort.rs](./src/sorting/cocktail_shaker_sort.rs)
 -
 - [comb sort](https://en.wikipedia.org/wiki/Comb_sort) 梳排序
+- [comb_sort.rs](./src/sorting/comb_sort.rs)
 -
 - [merge sort](https://en.wikipedia.org/wiki/Merge_sort) 归并排序
 - [LeetCode tag - Merge Sort](https://leetcode.com/tag/merge-sort/)
