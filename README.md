@@ -398,6 +398,8 @@
 
 ### [sorting algorithm](https://en.wikipedia.org/wiki/Sorting_algorithm)
 
+- 评价排序算法除了看时间空间复杂度，还要看稳定性
+-
 - [LeetCode tag - Sorting](https://leetcode.com/tag/sorting/)
 - LeetCode 0075 Sort Colors
 - LeetCode 0215 Kth Largest Element in an Array
@@ -410,6 +412,8 @@
 -
 - [bubble sort](https://en.wikipedia.org/wiki/Bubble_sort) 冒泡排序
 - [bubble_sort.rs](./src/sorting/bubble_sort.rs)
+-
+- [cocktail shaker sort](https://en.wikipedia.org/wiki/Cocktail_shaker_sort) 鸡尾酒排序
 -
 - [comb sort](https://en.wikipedia.org/wiki/Comb_sort) 梳排序
 -
