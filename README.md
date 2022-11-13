@@ -419,6 +419,9 @@
 - [comb sort](https://en.wikipedia.org/wiki/Comb_sort) 梳排序
 - [comb_sort.rs](./src/sorting/comb_sort.rs)
 -
+- [I can't believe that I can prove that it can sort](https://blog.adacore.com/i-cant-believe-that-i-can-prove-that-it-can-sort)
+- [i_cant_believe_it_can_sort.rs](./src/sorting/i_cant_believe_it_can_sort.rs)
+-
 - [merge sort](https://en.wikipedia.org/wiki/Merge_sort) 归并排序
 - [LeetCode tag - Merge Sort](https://leetcode.com/tag/merge-sort/)
 -
