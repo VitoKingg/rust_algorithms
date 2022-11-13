@@ -2,7 +2,7 @@
 pub fn cocktail_shaker_sort<T: Ord>(arr: &mut [T]) {
     let arr_len = arr.len();
 
-    if arr_len == 0 {
+    if arr_len <= 1 {
         return;
     }
 
