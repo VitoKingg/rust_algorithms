@@ -414,6 +414,7 @@
 - [bubble_sort.rs](./src/sorting/bubble_sort.rs)
 -
 - [cocktail shaker sort](https://en.wikipedia.org/wiki/Cocktail_shaker_sort) 鸡尾酒排序
+- [cocktail_shaker_sort.rs](./src/sorting/cocktail_shaker_sort.rs)
 -
 - [comb sort](https://en.wikipedia.org/wiki/Comb_sort) 梳排序
 -
