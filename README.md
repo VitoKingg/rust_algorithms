@@ -452,9 +452,10 @@
 - [interpolation search](https://en.wikipedia.org/wiki/Interpolation_search) 插值搜索
 - [interpolation_search.rs](./src/searching/interpolation_search.rs)
 -
-- [Fibonacci search technique](https://en.wikipedia.org/wiki/Fibonacci_search_technique)
--
 - [exponential search](https://en.wikipedia.org/wiki/Exponential_search) 指数搜索
+- [exponential_search.rs](./src/searching/exponential_search.rs)
+-
+- [Fibonacci search technique](https://en.wikipedia.org/wiki/Fibonacci_search_technique)
 -
 - [breadth-first search](https://en.wikipedia.org/wiki/Breadth-first_search) 广度优先搜索
 - [LeetCode tag - Breadth-First Search](https://leetcode.com/tag/breadth-first-search/)
