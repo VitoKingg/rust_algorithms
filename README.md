@@ -2,6 +2,7 @@
 
 - [Rust Algorithms](https://github.com/TheAlgorithms/Rust)
 - [Learn Rust With Entirely Too Many Linked Lists](https://rust-unofficial.github.io/too-many-lists/)
+- [Data Structures and Algorithms in Rust](https://github.com/QMHTMY/RustBook)
 
 ## Data Structures
 
@@ -406,10 +407,6 @@
 - LeetCode 0347 Top K Frequent Elements
 - LeetCode 0451 Sort Characters By Frequency
 -
-- [insertion sort](https://en.wikipedia.org/wiki/Insertion_sort) 插入排序
--
-- [selection sort](https://en.wikipedia.org/wiki/Selection_sort) 选择排序
--
 - [bubble sort](https://en.wikipedia.org/wiki/Bubble_sort) 冒泡排序
 - [bubble_sort.rs](./src/sorting/bubble_sort.rs)
 -
@@ -422,31 +419,42 @@
 - [I can't believe that I can prove that it can sort](https://blog.adacore.com/i-cant-believe-that-i-can-prove-that-it-can-sort)
 - [i_cant_believe_it_can_sort.rs](./src/sorting/i_cant_believe_it_can_sort.rs)
 -
-- [merge sort](https://en.wikipedia.org/wiki/Merge_sort) 归并排序
-- [LeetCode tag - Merge Sort](https://leetcode.com/tag/merge-sort/)
--
-- [heapsort](https://en.wikipedia.org/wiki/Heapsort) 堆排序
--
 - [quicksort](https://en.wikipedia.org/wiki/Quicksort) 快速排序
-  - `pivot` selection:
+- [quicksort.rs](./src/sorting/quicksort.rs)
+- `pivot` selection:
   - the first element
   - the middle element
   - the last element
   - a random element
   - the median of the first, middle and last element (median-of-three, recommended, 三者取中法)
-  - 快速排序算法虽然能够确保，划分出来的子任务彼此独立，并且其规模综合保持渐进不变，却不能保证两个子任务的规模大体相当，甚至有可能极不平衡。因此，该算法并不能保证最坏情况下的 O(nlogn) 时间复杂度。尽管如此，在实际应用中快速排序算法仍为首选的排序算法。究其原因在于，快速排序算法易于实现，代码结构紧凑简练，而且对于按通常规律随机分布的输入序列，快速排序算法实际的平均运行时间较之同类算法更少。
-  - 大多数情况下快速排序算法平均效率为 O(nlogn)，较之其它排序算法，其时间复杂度中的常系数更小。
+- 快速排序算法虽然能够确保，划分出来的子任务彼此独立，并且其规模综合保持渐进不变，却不能保证两个子任务的规模大体相当，甚至有可能极不平衡。因此，该算法并不能保证最坏情况下的 O(nlogn) 时间复杂度。尽管如此，在实际应用中快速排序算法仍为首选的排序算法。究其原因在于，快速排序算法易于实现，代码结构紧凑简练，而且对于按通常规律随机分布的输入序列，快速排序算法实际的平均运行时间较之同类算法更少。
+- 大多数情况下快速排序算法平均效率为 O(nlogn)，较之其它排序算法，其时间复杂度中的常系数更小。
+- 如果待排序数组有大量重复元素，则快速排序会重复比较，造成性能浪费；解决方法是将数组分成三区进行排序，把重复元素放到第三个区域，只对另外两个区域进行排序；选择重复元素作为 pivot，小于 pivot 的元素放入左区，大于 pivot 的放入右区，相等的放入中区，然后对左右区域递归地调用快速排序
+-
+- [introsort](https://en.wikipedia.org/wiki/Introsort) 内观排序
+- `introsort` 是 `quicksort` 的一种改进形式，是 `C++ std::sort()` 的实现
+-
+- [insertion sort](https://en.wikipedia.org/wiki/Insertion_sort) 插入排序
 -
 - [shellsort](https://en.wikipedia.org/wiki/Shellsort) 希尔排序
 -
-- [counting sort](https://en.wikipedia.org/wiki/Counting_sort) 计数排序
-- [LeetCode tag - Counting Sort](https://leetcode.com/tag/counting-sort/)
+- [merge sort](https://en.wikipedia.org/wiki/Merge_sort) 归并排序
+- [LeetCode tag - Merge Sort](https://leetcode.com/tag/merge-sort/)
+-
+- [selection sort](https://en.wikipedia.org/wiki/Selection_sort) 选择排序
+-
+- [heapsort](https://en.wikipedia.org/wiki/Heapsort) 堆排序
 -
 - [bucket sort](https://en.wikipedia.org/wiki/Bucket_sort) 桶排序
 - [LeetCode tag - Bucket Sort](https://leetcode.com/tag/bucket-sort/)
 -
+- [counting sort](https://en.wikipedia.org/wiki/Counting_sort) 计数排序
+- [LeetCode tag - Counting Sort](https://leetcode.com/tag/counting-sort/)
+-
 - [radix sort](https://en.wikipedia.org/wiki/Radix_sort) 基数排序
 - [LeetCode tag - Radix Sort](https://leetcode.com/tag/radix-sort/)
+-
+- [Timsort](https://en.wikipedia.org/wiki/Timsort) 蒂姆排序
 -
 - [topological sort](https://en.wikipedia.org/wiki/Topological_sorting) 拓扑排序
 - [LeetCode tag - Topological Sort](https://leetcode.com/tag/topological-sort/)
