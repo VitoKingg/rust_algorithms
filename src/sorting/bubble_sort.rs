@@ -1,3 +1,4 @@
+// T(n) = O(n^2)
 pub fn bubble_sort<T: Ord>(arr: &mut [T]) {
     if arr.is_empty() {
         return;
@@ -20,12 +21,28 @@ pub fn bubble_sort<T: Ord>(arr: &mut [T]) {
     }
 }
 
+pub fn bubble_sort2<T: Ord>(arr: &mut [T]) {
+    let arr_len = arr.len();
+
+    if arr_len < 2 {
+        return;
+    }
+
+    for i in 1..arr_len {
+        for j in 0..arr_len - i {
+            if arr[j] > arr[j + 1] {
+                arr.swap(j, j + 1);
+            }
+        }
+    }
+}
+
 #[cfg(test)]
 mod tests {
-    use super::bubble_sort;
+    use super::*;
 
     #[test]
-    fn bubble_sort_test() {
+    fn test_bubble_sort() {
         // unsorted
         let mut v1 = vec![5, 7, 2, 3, 1];
         bubble_sort(&mut v1);
@@ -44,6 +61,29 @@ mod tests {
         // empty
         let mut v4: Vec<usize> = vec![];
         bubble_sort(&mut v4);
+        assert_eq!(v4, vec![]);
+    }
+
+    #[test]
+    fn test_bubble_sort2() {
+        // unsorted
+        let mut v1 = vec![5, 7, 2, 3, 1];
+        bubble_sort2(&mut v1);
+        assert_eq!(v1, vec![1, 2, 3, 5, 7]);
+
+        // descending
+        let mut v2 = vec![5, 4, 3, 2, 1];
+        bubble_sort2(&mut v2);
+        assert_eq!(v2, vec![1, 2, 3, 4, 5]);
+
+        // accending
+        let mut v3 = vec![1, 2, 3, 4, 5];
+        bubble_sort2(&mut v3);
+        assert_eq!(v3, vec![1, 2, 3, 4, 5]);
+
+        // empty
+        let mut v4: Vec<usize> = vec![];
+        bubble_sort2(&mut v4);
         assert_eq!(v4, vec![]);
     }
 }
