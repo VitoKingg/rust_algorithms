@@ -77,10 +77,15 @@
 
 ### [hash table](https://en.wikipedia.org/wiki/Hash_table)
 
+- load factor 装填因子
+- acceptable figures of load factor include 0.6 and 0.75
 - hash function
 - perfect hash function
-- load factor 装填因子
 - collision resolution
+  - separate chaining 拉链法
+  - opening addressing 开放寻址法
+- dynamic resizing 动态扩容
+- rehash
 -
 - associative arrays
 - database indexing
