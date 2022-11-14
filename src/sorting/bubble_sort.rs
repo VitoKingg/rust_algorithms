@@ -38,7 +38,7 @@ pub fn bubble_sort2<T: Ord>(arr: &mut [T]) {
 }
 
 #[cfg(test)]
-mod tests {
+mod sorting_tests {
     use super::*;
 
     #[test]

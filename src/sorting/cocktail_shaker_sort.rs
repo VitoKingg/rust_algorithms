@@ -36,7 +36,7 @@ pub fn cocktail_shaker_sort<T: Ord>(arr: &mut [T]) {
 }
 
 #[cfg(test)]
-mod tests {
+mod sorting_tests {
     use super::*;
 
     #[test]

@@ -66,7 +66,7 @@ fn merge<T: Ord + Copy>(arr: &mut [T], mid: usize) {
 }
 
 #[cfg(test)]
-mod tests {
+mod sorting_tests {
     use super::*;
 
     #[test]
