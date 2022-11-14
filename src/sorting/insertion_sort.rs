@@ -1,5 +1,5 @@
 // T(n) = O(n^2)
-pub fn insertion_sort<T: PartialOrd + Copy>(arr: &mut [T]) {
+pub fn insertion_sort<T: Ord + Copy>(arr: &mut [T]) {
     for i in 1..arr.len() {
         let mut pos = i;
         let curr = arr[i];

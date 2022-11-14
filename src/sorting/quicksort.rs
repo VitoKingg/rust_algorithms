@@ -20,7 +20,7 @@ fn _quicksort<T: Ord + std::fmt::Debug>(arr: &mut [T], left: usize, right: usize
     }
 }
 
-fn partition<T: PartialOrd>(arr: &mut [T], left: usize, right: usize) -> usize {
+fn partition<T: Ord>(arr: &mut [T], left: usize, right: usize) -> usize {
     // pivot can be:
     //  [
     //    the first element,
