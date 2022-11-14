@@ -479,6 +479,8 @@
 - [LeetCode tag - Radix Sort](https://leetcode.com/tag/radix-sort/)
 -
 - [Timsort](https://en.wikipedia.org/wiki/Timsort) 蒂姆排序
+- Timsort 是一种混合排序算法，结合了 merge sort 和 insertion sort
+- 其改进版是许多语言默认的排序算法
 -
 - [topological sort](https://en.wikipedia.org/wiki/Topological_sorting) 拓扑排序
 - [Rosetta Code - Topological sort](https://rosettacode.org/wiki/Topological_sort)
