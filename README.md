@@ -475,6 +475,7 @@
 -
 - [radix sort](https://en.wikipedia.org/wiki/Radix_sort) 基数排序
 - [Rosetta Code - Sorting algorithms/Radix sort](https://rosettacode.org/wiki/Sorting_algorithms/Radix_sort)
+- [radix_sort.rs](./src/sorting/radix_sort.rs)
 - [LeetCode tag - Radix Sort](https://leetcode.com/tag/radix-sort/)
 -
 - [Timsort](https://en.wikipedia.org/wiki/Timsort) 蒂姆排序
