@@ -460,6 +460,7 @@
 - [selection_sort.rs](./src/sorting/selection_sort.rs)
 -
 - [heapsort](https://en.wikipedia.org/wiki/Heapsort) 堆排序
+- [heapsort.rs](./src/sorting/heapsort.rs)
 - [Rosetta Code - Sorting algorithms/Heapsort](https://rosettacode.org/wiki/Sorting_algorithms/Heapsort)
 -
 - [bucket sort](https://en.wikipedia.org/wiki/Bucket_sort) 桶排序
