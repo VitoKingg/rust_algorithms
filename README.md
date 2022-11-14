@@ -472,6 +472,7 @@
 - [Timsort](https://en.wikipedia.org/wiki/Timsort) 蒂姆排序
 -
 - [topological sort](https://en.wikipedia.org/wiki/Topological_sorting) 拓扑排序
+- [Rosetta Code - Topological sort](https://rosettacode.org/wiki/Topological_sort)
 - [LeetCode tag - Topological Sort](https://leetcode.com/tag/topological-sort/)
 -
 - sleep sort 睡眠排序
