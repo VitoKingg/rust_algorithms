@@ -460,17 +460,17 @@
 - [selection_sort.rs](./src/sorting/selection_sort.rs)
 -
 - [heapsort](https://en.wikipedia.org/wiki/Heapsort) 堆排序
-- [heapsort.rs](./src/sorting/heapsort.rs)
 - [Rosetta Code - Sorting algorithms/Heapsort](https://rosettacode.org/wiki/Sorting_algorithms/Heapsort)
+- [heapsort.rs](./src/sorting/heapsort.rs)
 -
 - [bucket sort](https://en.wikipedia.org/wiki/Bucket_sort) 桶排序
 - [bucket_sort.rs](./src/sorting/bucket_sort.rs)
-- [Rust Algorithm Club - Bucket sort](https://rust-algo.club/sorting/bucket_sort/)
 - [LeetCode tag - Bucket Sort](https://leetcode.com/tag/bucket-sort/)
 - [flashsort](https://en.wikipedia.org/wiki/Flashsort) 闪排序
 -
 - [counting sort](https://en.wikipedia.org/wiki/Counting_sort) 计数排序
 - [Rosetta Code - Sorting algorithms/Counting sort](https://rosettacode.org/wiki/Sorting_algorithms/Counting_sort)
+- [counting_sort.rs](./src/sorting/counting_sort.rs)
 - [LeetCode tag - Counting Sort](https://leetcode.com/tag/counting-sort/)
 -
 - [radix sort](https://en.wikipedia.org/wiki/Radix_sort) 基数排序
