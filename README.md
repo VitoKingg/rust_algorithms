@@ -435,6 +435,7 @@
 - `introsort` 是 `quicksort` 的一种改进形式，是 `C++ std::sort()` 的实现
 -
 - [insertion sort](https://en.wikipedia.org/wiki/Insertion_sort) 插入排序
+- [insertion_sort.rs](./src/sorting/insertion_sort.rs)
 -
 - [shellsort](https://en.wikipedia.org/wiki/Shellsort) 希尔排序
 -
