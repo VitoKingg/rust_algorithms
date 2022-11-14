@@ -1,4 +1,4 @@
-// T(n) = O()
+/// T(n) = O()
 pub fn shell_sort<T: Ord + Copy>(arr: &mut [T]) {
     let mut gap = arr.len() / 2;
     while gap > 0 {

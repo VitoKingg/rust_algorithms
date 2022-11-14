@@ -1,4 +1,4 @@
-// T(n) = O(n^2)
+/// T(n) = O(n^2)
 pub fn insertion_sort<T: Ord + Copy>(arr: &mut [T]) {
     for i in 1..arr.len() {
         let mut pos = i;

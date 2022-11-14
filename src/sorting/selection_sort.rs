@@ -1,4 +1,4 @@
-// T(n) = O(n^2)
+/// T(n) = O(n^2)
 pub fn selection_sort<T: Ord>(arr: &mut [T]) {
     let arr_len = arr.len();
 

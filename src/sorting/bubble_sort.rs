@@ -1,4 +1,4 @@
-// T(n) = O(n^2)
+/// T(n) = O(n^2)
 pub fn bubble_sort<T: Ord>(arr: &mut [T]) {
     if arr.is_empty() {
         return;
