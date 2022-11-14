@@ -456,6 +456,7 @@
 -
 - [selection sort](https://en.wikipedia.org/wiki/Selection_sort) 选择排序
 - [Rosetta Code - Sorting algorithms/Selection sort](https://rosettacode.org/wiki/Sorting_algorithms/Selection_sort)
+- [selection_sort.rs](./src/sorting/selection_sort.rs)
 -
 - [heapsort](https://en.wikipedia.org/wiki/Heapsort) 堆排序
 - [Rosetta Code - Sorting algorithms/Heapsort](https://rosettacode.org/wiki/Sorting_algorithms/Heapsort)
