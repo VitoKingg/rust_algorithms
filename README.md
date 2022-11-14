@@ -400,6 +400,7 @@
 ### [sorting algorithm](https://en.wikipedia.org/wiki/Sorting_algorithm)
 
 - [Rosetta Code - Sorting algorithms](https://rosettacode.org/wiki/Category:Sorting_Algorithms)
+- [Wikipedia Talk:Sorting algorithm](https://en.wikipedia.org/wiki/Talk%3ASorting_algorithm)
 - 评价排序算法除了看时间空间复杂度，还要看稳定性
 -
 - [LeetCode tag - Sorting](https://leetcode.com/tag/sorting/)
