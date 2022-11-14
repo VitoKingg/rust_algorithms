@@ -451,6 +451,7 @@
 - [merge sort](https://en.wikipedia.org/wiki/Merge_sort) 归并排序
 - [Rosetta Code - Sorting algorithms/Merge sort](https://rosettacode.org/wiki/Sorting_algorithms/Merge_sort)
 - [merge_sort.rs](./src/sorting/merge_sort.rs)
+- [merge-insertion sort](https://en.wikipedia.org/wiki/Merge-insertion_sort) 插入归并排序
 - [LeetCode tag - Merge Sort](https://leetcode.com/tag/merge-sort/)
 -
 - [selection sort](https://en.wikipedia.org/wiki/Selection_sort) 选择排序
