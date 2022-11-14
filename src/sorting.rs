@@ -5,3 +5,4 @@ pub mod i_cant_believe_it_can_sort;
 pub mod insertion_sort;
 pub mod quicksort;
 pub mod selection_sort;
+pub mod shell_sort;
