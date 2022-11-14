@@ -464,7 +464,10 @@
 - [Rosetta Code - Sorting algorithms/Heapsort](https://rosettacode.org/wiki/Sorting_algorithms/Heapsort)
 -
 - [bucket sort](https://en.wikipedia.org/wiki/Bucket_sort) 桶排序
+- [bucket_sort.rs](./src/sorting/bucket_sort.rs)
+- [Rust Algorithm Club - Bucket sort](https://rust-algo.club/sorting/bucket_sort/)
 - [LeetCode tag - Bucket Sort](https://leetcode.com/tag/bucket-sort/)
+- [flashsort](https://en.wikipedia.org/wiki/Flashsort) 闪排序
 -
 - [counting sort](https://en.wikipedia.org/wiki/Counting_sort) 计数排序
 - [Rosetta Code - Sorting algorithms/Counting sort](https://rosettacode.org/wiki/Sorting_algorithms/Counting_sort)
