@@ -399,6 +399,7 @@
 
 ### [sorting algorithm](https://en.wikipedia.org/wiki/Sorting_algorithm)
 
+- [Rosetta Code - Sorting algorithms](https://rosettacode.org/wiki/Category:Sorting_Algorithms)
 - 评价排序算法除了看时间空间复杂度，还要看稳定性
 -
 - [LeetCode tag - Sorting](https://leetcode.com/tag/sorting/)
@@ -408,18 +409,23 @@
 - LeetCode 0451 Sort Characters By Frequency
 -
 - [bubble sort](https://en.wikipedia.org/wiki/Bubble_sort) 冒泡排序
+- [Rosetta Code - Sorting algorithms/Bubble sort](https://rosettacode.org/wiki/Sorting_algorithms/Bubble_sort)
 - [bubble_sort.rs](./src/sorting/bubble_sort.rs)
 -
 - [cocktail shaker sort](https://en.wikipedia.org/wiki/Cocktail_shaker_sort) 鸡尾酒排序
+- [Rosetta Code - Sorting algorithms/Cocktail sort](https://rosettacode.org/wiki/Sorting_algorithms/Cocktail_sort)
+- [Rosetta Code - Sorting algorithms/Cocktail sort with shifting bounds](https://rosettacode.org/wiki/Sorting_algorithms/Cocktail_sort_with_shifting_bounds)
 - [cocktail_shaker_sort.rs](./src/sorting/cocktail_shaker_sort.rs)
 -
 - [comb sort](https://en.wikipedia.org/wiki/Comb_sort) 梳排序
+- [Rosetta Code - Sorting algorithms/Comb sort](https://rosettacode.org/wiki/Sorting_algorithms/Comb_sort)
 - [comb_sort.rs](./src/sorting/comb_sort.rs)
 -
 - [I can't believe that I can prove that it can sort](https://blog.adacore.com/i-cant-believe-that-i-can-prove-that-it-can-sort)
 - [i_cant_believe_it_can_sort.rs](./src/sorting/i_cant_believe_it_can_sort.rs)
 -
 - [quicksort](https://en.wikipedia.org/wiki/Quicksort) 快速排序
+- [Rosetta Code - Sorting algorithms/Quicksort](https://rosettacode.org/wiki/Sorting_algorithms/Quicksort)
 - [quicksort.rs](./src/sorting/quicksort.rs)
 - `pivot` selection:
   - the first element
@@ -435,30 +441,41 @@
 - `introsort` 是 `quicksort` 的一种改进形式，是 `C++ std::sort()` 的实现
 -
 - [insertion sort](https://en.wikipedia.org/wiki/Insertion_sort) 插入排序
+- [Rosetta Code - Sorting algorithms/Insertion sort](https://rosettacode.org/wiki/Sorting_algorithms/Insertion_sort)
 - [insertion_sort.rs](./src/sorting/insertion_sort.rs)
 -
-- [shellsort](https://en.wikipedia.org/wiki/Shellsort) 希尔排序
+- [Shell sort](https://en.wikipedia.org/wiki/Shellsort) 希尔排序
+- [Rosetta Code - Sorting algorithms/Shell sort](https://rosettacode.org/wiki/Sorting_algorithms/Shell_sort)
+- [shell_sort.rs](./src/sorting/shell_sort.rs)
 -
 - [merge sort](https://en.wikipedia.org/wiki/Merge_sort) 归并排序
+- [Rosetta Code - Sorting algorithms/Merge sort](https://rosettacode.org/wiki/Sorting_algorithms/Merge_sort)
 - [LeetCode tag - Merge Sort](https://leetcode.com/tag/merge-sort/)
 -
 - [selection sort](https://en.wikipedia.org/wiki/Selection_sort) 选择排序
+- [Rosetta Code - Sorting algorithms/Selection sort](https://rosettacode.org/wiki/Sorting_algorithms/Selection_sort)
 -
 - [heapsort](https://en.wikipedia.org/wiki/Heapsort) 堆排序
+- [Rosetta Code - Sorting algorithms/Heapsort](https://rosettacode.org/wiki/Sorting_algorithms/Heapsort)
 -
 - [bucket sort](https://en.wikipedia.org/wiki/Bucket_sort) 桶排序
 - [LeetCode tag - Bucket Sort](https://leetcode.com/tag/bucket-sort/)
 -
 - [counting sort](https://en.wikipedia.org/wiki/Counting_sort) 计数排序
+- [Rosetta Code - Sorting algorithms/Counting sort](https://rosettacode.org/wiki/Sorting_algorithms/Counting_sort)
 - [LeetCode tag - Counting Sort](https://leetcode.com/tag/counting-sort/)
 -
 - [radix sort](https://en.wikipedia.org/wiki/Radix_sort) 基数排序
+- [Rosetta Code - Sorting algorithms/Radix sort](https://rosettacode.org/wiki/Sorting_algorithms/Radix_sort)
 - [LeetCode tag - Radix Sort](https://leetcode.com/tag/radix-sort/)
 -
 - [Timsort](https://en.wikipedia.org/wiki/Timsort) 蒂姆排序
 -
 - [topological sort](https://en.wikipedia.org/wiki/Topological_sorting) 拓扑排序
 - [LeetCode tag - Topological Sort](https://leetcode.com/tag/topological-sort/)
+-
+- sleep sort 睡眠排序
+- [Rosetta Code - Sorting algorithms/Sleep sort](https://rosettacode.org/wiki/Sorting_algorithms/Sleep_sort)
 -
 - [slowsort](https://en.wikipedia.org/wiki/Slowsort) 慢速排序
 
