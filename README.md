@@ -103,39 +103,61 @@
 
 ### [tree](<https://en.wikipedia.org/wiki/Tree_(data_structure)>)
 
-- [binary tree](https://en.wikipedia.org/wiki/Binary_tree)
+- [binary tree](https://en.wikipedia.org/wiki/Binary_tree) 二叉树
+-
 - [Huffman coding](https://en.wikipedia.org/wiki/Huffman_coding) (also called `Huffman tree`)
-- [binary search tree](https://en.wikipedia.org/wiki/Binary_search_tree)
+-
+- [binary search tree](https://en.wikipedia.org/wiki/Binary_search_tree) 二叉搜索树
+- [binary_search_tree.rs](./src/data_structures/binary_search_tree.rs)
 - [LeetCode tag - Binary Search Tree](https://leetcode.com/tag/binary-search-tree/)
+-
 - [self-balancing binary search tree](https://en.wikipedia.org/wiki/Self-balancing_binary_search_tree)
-- [AVL tree](https://en.wikipedia.org/wiki/AVL_tree)
-- [red-black tree](https://en.wikipedia.org/wiki/Red%E2%80%93black_tree)
+-
+- [AVL tree](https://en.wikipedia.org/wiki/AVL_tree) 平衡二叉树
+-
+- [red-black tree](https://en.wikipedia.org/wiki/Red%E2%80%93black_tree) 红黑树
   - `Completely Fair Schedular` used in current Linux kernels
   - `epoll` system call
+-
 - [B-tree](https://en.wikipedia.org/wiki/B-tree)
   - The B-tree is well suited for storage systems that read and write relatively large blocks of data, such as databases and file systems.
+-
 - [B+ tree](https://en.wikipedia.org/wiki/B%2B_tree)
   - databases and file systems
+-
 - [2-3 tree](https://en.wikipedia.org/wiki/2%E2%80%933_tree)
+-
 - [2-3-4 tree](https://en.wikipedia.org/wiki/2%E2%80%933%E2%80%934_tree)
+-
 - [AA tree](https://en.wikipedia.org/wiki/AA_tree)
+-
 - [dancing tree](https://en.wikipedia.org/wiki/Dancing_tree)
+-
 - [HTree](https://en.wikipedia.org/wiki/HTree)
+-
 - [weight-balanced tree](https://en.wikipedia.org/wiki/Weight-balanced_tree)
+-
 - [interval tree](https://en.wikipedia.org/wiki/Interval_tree)
+-
 - [splay tree](https://en.wikipedia.org/wiki/Splay_tree) 伸展树
+-
 - [treap](https://en.wikipedia.org/wiki/Treap)
+-
 - [scapegoat tree](https://en.wikipedia.org/wiki/Scapegoat_tree)
+-
 - [tango tree](https://en.wikipedia.org/wiki/Tango_tree)
 -
 - [k-d tree](https://en.wikipedia.org/wiki/K-d_tree)
   - nearest neighbor search
   - range search
+-
 - [m-ary tree](https://en.wikipedia.org/wiki/M-ary_tree)
 - [quadtree](https://en.wikipedia.org/wiki/Quadtree) 四叉树
 - [octree](https://en.wikipedia.org/wiki/Octree) 八叉树
+-
 - [segment tree](https://en.wikipedia.org/wiki/Segment_tree) 线段树
 -
+- [LeetCode tag - Tree](https://leetcode.com/tag/tree/)
 - [LeetCode 0104 Maximum Depth of Binary Tree (Easy)](./src/leetcode_solutions/leetcode_0104_maximum_depth_of_binary_tree.rs)
 - [LeetCode 0110 Balanced Binary Tree (Easy)](./src/leetcode_solutions/leetcode_0110_balanced_binary_tree.rs)
 - [LeetCode 0226 Invert Binary Tree (Easy)](./src/leetcode_solutions/leetcode_0226_invert_binary_tree.rs)
@@ -172,6 +194,18 @@
 - undirected graph 无向图
 - weighted graph 带权图
 - sparse graph 稀疏图
+-
+- [breadth-first search](https://en.wikipedia.org/wiki/Breadth-first_search) 广度优先搜索
+- [LeetCode tag - Breadth-First Search](https://leetcode.com/tag/breadth-first-search/)
+-
+- [depth-first search](https://en.wikipedia.org/wiki/Depth-first_search) 深度优先搜索
+- [LeetCode tag - Depth-First Search](https://leetcode.com/tag/depth-first-search/)
+-
+- [best-first search](https://en.wikipedia.org/wiki/Best-first_search) 最佳优先搜索
+-
+- [Dijkstra's algorithm (/ˈdaɪkstrəz/)](https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm)
+- [Bellman–Ford algorithm](https://en.wikipedia.org/wiki/Bellman%E2%80%93Ford_algorithm)
+- [Prim's algorithm](https://en.wikipedia.org/wiki/Prim%27s_algorithm)
 -
 - [LeetCode 0785 Is Graph Bipartite (Medium)](./src/leetcode_solutions/leetcode_0785_is_graph_bipartite.rs)
 - [LeetCode 0210 Course Schedule II (Medium)](./src/leetcode_solutions/leetcode_0210_course_schedule_ii.rs)
@@ -508,19 +542,6 @@
 - [exponential_search.rs](./src/searching/exponential_search.rs)
 -
 - [Fibonacci search technique](https://en.wikipedia.org/wiki/Fibonacci_search_technique)
--
-- [breadth-first search](https://en.wikipedia.org/wiki/Breadth-first_search) 广度优先搜索
-- [LeetCode tag - Breadth-First Search](https://leetcode.com/tag/breadth-first-search/)
--
-- [depth-first search](https://en.wikipedia.org/wiki/Depth-first_search) 深度优先搜索
-- [LeetCode tag - Depth-First Search](https://leetcode.com/tag/depth-first-search/)
-- 最重要的 图 遍历算法
--
-- [best-first search](https://en.wikipedia.org/wiki/Best-first_search) 最佳优先搜索
--
-- [Dijkstra's algorithm (/ˈdaɪkstrəz/)](https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm)
-- [Bellman–Ford algorithm](https://en.wikipedia.org/wiki/Bellman%E2%80%93Ford_algorithm)
-- [Prim's algorithm](https://en.wikipedia.org/wiki/Prim%27s_algorithm)
 -
 - LeetCode 0069 Sqrt(x)
 - LeetCode 0034 Find First and Last Position of Element in Sorted Array (Medium)
