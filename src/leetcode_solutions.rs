@@ -1,3 +1,5 @@
+#![allow(dead_code)]
+
 mod leetcode_0000_0099;
 mod leetcode_0100_0199;
 mod leetcode_0200_0299;
