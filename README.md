@@ -107,7 +107,7 @@
 -
 - [Huffman coding](https://en.wikipedia.org/wiki/Huffman_coding) (also called `Huffman tree`)
 -
-- [binary search tree](https://en.wikipedia.org/wiki/Binary_search_tree) 二叉搜索树
+- TODO: [binary search tree](https://en.wikipedia.org/wiki/Binary_search_tree) 二叉搜索树
 - [binary_search_tree.rs](./src/data_structures/binary_search_tree.rs)
 - [LeetCode tag - Binary Search Tree](https://leetcode.com/tag/binary-search-tree/)
 -
