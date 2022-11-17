@@ -191,10 +191,9 @@
 
 ### [graph](<https://en.wikipedia.org/wiki/Graph_(abstract_data_type)>)
 
-- directed graph 有向图
-- undirected graph 无向图
-- weighted graph 带权图
-- sparse graph 稀疏图
+- [adjacency list](https://en.wikipedia.org/wiki/Adjacency_list) 邻接表
+- [adjacency matrix](https://en.wikipedia.org/wiki/Adjacency_matrix) 邻接矩阵
+- [incidence matrix](https://en.wikipedia.org/wiki/Incidence_matrix) 关联矩阵
 -
 - [breadth-first search](https://en.wikipedia.org/wiki/Breadth-first_search) 广度优先搜索
 - [LeetCode tag - Breadth-First Search](https://leetcode.com/tag/breadth-first-search/)
@@ -208,6 +207,7 @@
 - [Bellman–Ford algorithm](https://en.wikipedia.org/wiki/Bellman%E2%80%93Ford_algorithm)
 - [Prim's algorithm](https://en.wikipedia.org/wiki/Prim%27s_algorithm)
 -
+- [LeetCode tag - Graph](https://leetcode.com/tag/graph/)
 - [LeetCode 0785 Is Graph Bipartite (Medium)](./src/leetcode_solutions/leetcode_0785_is_graph_bipartite.rs)
 - [LeetCode 0210 Course Schedule II (Medium)](./src/leetcode_solutions/leetcode_0210_course_schedule_ii.rs)
 - [LeetCode 1059 All Paths from Source Lead to Destination (Medium)](./src/leetcode_solutions/leetcode_1059_all_paths_from_source_lead_to_destination.rs)
