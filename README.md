@@ -114,7 +114,7 @@
 - [self-balancing binary search tree](https://en.wikipedia.org/wiki/Self-balancing_binary_search_tree)
 -
 - [AVL tree](https://en.wikipedia.org/wiki/AVL_tree) 平衡二叉树
-- [avl_tree.rs](./src/data_structures/avl_tree.rs)
+- TODO: [avl_tree.rs](./src/data_structures/avl_tree.rs)
 -
 - [red-black tree](https://en.wikipedia.org/wiki/Red%E2%80%93black_tree) 红黑树
   - `Completely Fair Schedular` used in current Linux kernels
