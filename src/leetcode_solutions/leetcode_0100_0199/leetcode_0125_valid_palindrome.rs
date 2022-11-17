@@ -17,7 +17,7 @@ impl Solution {
 }
 
 #[cfg(test)]
-mod leetcode_tests {
+mod tests {
     use super::Solution;
 
     #[test]

@@ -15,7 +15,7 @@ pub fn sum_tail_recursion(sum: i32, nums: &[i32]) -> i32 {
 }
 
 #[cfg(test)]
-mod math_tests {
+mod tests {
     use super::sum_recursion;
 
     #[test]

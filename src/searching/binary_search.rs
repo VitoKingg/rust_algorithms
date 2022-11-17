@@ -70,7 +70,7 @@ pub fn binary_search_recursive<T: Ord>(
 }
 
 #[cfg(test)]
-mod searching_tests {
+mod tests {
     use super::*;
 
     #[test]

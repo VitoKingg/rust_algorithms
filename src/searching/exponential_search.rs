@@ -34,7 +34,7 @@ pub fn exponential_search<T: Ord>(arr: &[T], item: &T) -> Option<usize> {
 }
 
 #[cfg(test)]
-mod searching_tests {
+mod tests {
     use super::*;
 
     #[test]

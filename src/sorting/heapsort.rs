@@ -45,7 +45,7 @@ fn move_down<T: Ord>(arr: &mut [T], mut root: usize) {
 }
 
 #[cfg(test)]
-mod sorting_tests {
+mod tests {
     use super::*;
 
     #[test]

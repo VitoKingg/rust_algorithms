@@ -17,11 +17,11 @@ fn gcd_of_two_numbers(a: usize, b: usize) -> usize {
 }
 
 #[cfg(test)]
-mod math_tests {
+mod tests {
     use super::gcd_of_n_numbers;
 
     #[test]
-    fn gcd_of_n_numbers_test() {
+    fn tesst_gcd_of_n_numbers() {
         assert_eq!(gcd_of_n_numbers(&[1, 2, 3, 4, 5]), 1);
         assert_eq!(gcd_of_n_numbers(&[2, 4, 6, 8, 10]), 2);
         assert_eq!(gcd_of_n_numbers(&[3, 6, 9, 12, 15]), 3);

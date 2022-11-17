@@ -14,7 +14,7 @@ pub fn insertion_sort<T: Ord + Copy>(arr: &mut [T]) {
 }
 
 #[cfg(test)]
-mod sorting_tests {
+mod tests {
     use super::*;
 
     #[test]

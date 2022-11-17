@@ -24,7 +24,7 @@ pub fn counting_sort(arr: &mut [usize]) {
 }
 
 #[cfg(test)]
-mod sorting_tests {
+mod tests {
     use super::*;
 
     #[test]

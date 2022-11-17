@@ -59,7 +59,7 @@ impl<H, T> Bucket<H, T> {
 }
 
 #[cfg(test)]
-mod sorting_tests {
+mod tests {
     use super::*;
 
     #[test]

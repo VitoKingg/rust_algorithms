@@ -8,7 +8,7 @@ pub fn tower_of_hanoi(n: i32, from: i32, to: i32, via: i32, moves: &mut Vec<(i32
 }
 
 #[cfg(test)]
-mod math_tests {
+mod tests {
     use super::tower_of_hanoi;
 
     #[test]

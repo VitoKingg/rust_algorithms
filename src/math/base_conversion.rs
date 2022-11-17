@@ -19,11 +19,11 @@ pub fn base_conversion(mut deci_num: u32, base_num: u32) -> String {
 }
 
 #[cfg(test)]
-mod math_tests {
+mod tests {
     use super::base_conversion;
 
     #[test]
-    fn base_conversion_test() {
+    fn test_base_conversion() {
         assert_eq!(base_conversion(10, 2), String::from("1010"));
         assert_eq!(base_conversion(43, 16), String::from("2B"));
         assert_eq!(base_conversion(121, 8), String::from("171"));

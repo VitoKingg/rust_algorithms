@@ -56,7 +56,7 @@ fn partition<T: Ord>(arr: &mut [T], left: usize, right: usize) -> usize {
 }
 
 #[cfg(test)]
-mod sorting_tests {
+mod tests {
     use super::*;
 
     #[test]

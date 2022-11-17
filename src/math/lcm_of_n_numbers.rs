@@ -19,11 +19,11 @@ fn gcd_of_two_numbers(a: usize, b: usize) -> usize {
 }
 
 #[cfg(test)]
-mod math_tests {
+mod tests {
     use super::lcm_of_n_numbers;
 
     #[test]
-    fn lcm_of_n_numbers_test() {
+    fn test_lcm_of_n_numbers() {
         assert_eq!(lcm_of_n_numbers(&[1, 2, 3, 4, 5]), 60);
         assert_eq!(lcm_of_n_numbers(&[2, 4, 6, 8, 10]), 120);
         assert_eq!(lcm_of_n_numbers(&[3, 6, 9, 12, 15]), 180);

@@ -11,7 +11,7 @@ pub fn linear_search<T: PartialEq>(arr: &[T], item: &T) -> Option<usize> {
 }
 
 #[cfg(test)]
-mod searching_tests {
+mod tests {
     use super::*;
 
     #[test]

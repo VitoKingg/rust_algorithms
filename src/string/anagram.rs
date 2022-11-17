@@ -37,7 +37,7 @@ mod tests {
     use super::anagram;
 
     #[test]
-    fn anagram_test() {
+    fn test_anagram() {
         let sa1 = "coronavirus";
         let sb1 = "carnivorous";
         assert!(anagram(sa1, sb1));

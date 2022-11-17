@@ -17,7 +17,7 @@ pub fn i_cant_believe_it_can_sort<T: Eq + Ord + Clone>(arr: &mut [T]) {
 }
 
 #[cfg(test)]
-mod sorting_tests {
+mod tests {
     use super::*;
 
     #[test]

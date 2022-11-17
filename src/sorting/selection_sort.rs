@@ -16,7 +16,7 @@ pub fn selection_sort<T: Ord>(arr: &mut [T]) {
 }
 
 #[cfg(test)]
-mod sorting_tests {
+mod tests {
     use super::*;
 
     #[test]

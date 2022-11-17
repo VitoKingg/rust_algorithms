@@ -25,7 +25,7 @@ pub fn interpolation_search(arr: &[i32], item: &i32) -> Option<usize> {
 }
 
 #[cfg(test)]
-mod searching_tests {
+mod tests {
     use super::*;
 
     #[test]
