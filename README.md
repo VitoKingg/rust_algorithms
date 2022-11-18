@@ -681,6 +681,18 @@
 -
 - [simplex algorithm](https://en.wikipedia.org/wiki/Simplex_algorithm)
 
+### [cache algorithms](https://en.wikipedia.org/wiki/Cache_replacement_policies)
+
+- [least recently used](https://en.wikipedia.org/wiki/Cache_replacement_policies#LRU) (LRU) 缓存淘汰算法
+- 一种内存管理算法，常用于虚拟页式存储、数据缓存
+- 原理简单概括为：如果数据最近被访问过，那么将来被访问的几率也更高
+-
+- [Pseudo-LRU](https://en.wikipedia.org/wiki/Pseudo-LRU) (PLRU)
+-
+- [least-frequently used](https://en.wikipedia.org/wiki/Least_frequently_used) (LFU)
+
+### [page replacement algorithm](https://en.wikipedia.org/wiki/Page_replacement_algorithm)
+
 ### [cipher](https://en.wikipedia.org/wiki/Cipher) 密码学相关算法
 
 - [Advanced Encryption Standard (AES)](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard)
