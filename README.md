@@ -625,6 +625,7 @@
 ### string 字符串问题
 
 - [LeetCode tag - String](https://leetcode.com/tag/string/)
+- LeetCode 1408 String Matching in an Array (Easy)
 - LeetCode 0242 Valid Anagram (Easy)
 - LeetCode 0205 Isomorphic Strings (Easy)
 - LeetCode 0647 Palindromic Substrings (Medium)
