@@ -33,7 +33,7 @@
 - LeetCode 0225 Implement Stack using Queues (Easy)
 - LeetCode 0232 Implement Queue using Stacks (Easy)
 - LeetCode 0155 Min Stack (Easy)
-- [LeetCode 0020 Valid Parentheses (Easy)](./src/leetcode_solutions/leetcode_0020_valid_parentheses.rs)
+- [LeetCode 0020 Valid Parentheses (Easy)](./src/leetcode_solutions/leetcode_0000_0099/leetcode_0020_valid_parentheses.rs)
 - LeetCode 0739 Daily Temperatures (Medium)
 - LeetCode 0503 Next Greater Element II (Medium)
 
@@ -393,7 +393,7 @@
 - [knapsack problem](https://en.wikipedia.org/wiki/Knapsack_problem) 背包问题
 - LeetCode 0416 Partition Equal Subset Sum (Medium)
 - LeetCode 0279 Perfect Squares (Medium)
-- [LeetCode 0322 Coin Change (Medium)](./src/leetcode_solutions/leetcode_0322_coin_change.rs)
+- [LeetCode 0322 Coin Change (Medium)](./src/leetcode_solutions/leetcode_0300_0399/leetcode_0322_coin_change.rs)
 - LeetCode 0518 Coin Change II
 - LeetCode 0474 Ones and Zeroes (Medium)
 - LeetCode 0879
@@ -612,7 +612,7 @@
 - LeetCode 0169 Majority Element (Easy)
 - LeetCode 0470 Implement Rand10() Using Rand7() (Medium)
 - LeetCode 0202 Happy Number (Easy)
-- [LeetCode 0509 Fibonacci Number](./src//leetcode_solutions/leetcode_0509_fibonacci_number.rs)
+- [LeetCode 0509 Fibonacci Number](./src/leetcode_solutions/leetcode_0500_0599/leetcode_0509_fibonacci_number.rs)
 - [Greatest Common Divisor (GCD, 最大公约数)](./src/math/gcd_of_n_numbers.rs)
 - [Least Common Multiple (LCM, 最小公倍数)](./src/math/lcm_of_n_numbers.rs)
 - 冯诺依曼邻居问题 (离散数学)
@@ -790,7 +790,7 @@
 - LeetCode 0438 Find All Anagrams in a String (Medium)
 - LeetCode 0003 Longest Substring Without Repeating Characters (Medium)
 - LeetCode 0076 Minimum Window Substring (Hard)
-- [LeetCode 0125 Valid Palindrome (Easy)](./src/leetcode_solutions/leetcode_0125_valid_palindrome.rs)
+- [LeetCode 0125 Valid Palindrome (Easy)](./src/leetcode_solutions/leetcode_0100_0199/leetcode_0125_valid_palindrome.rs)
 - LeetCode 0680 Valid Palindrome II (Easy)
 - LeetCode 0647 Palindromic Substrings (Medium)
 - LeetCode 0019 Remove Nth Node From End of List (Medium)
@@ -876,7 +876,7 @@
 - LeetCode 0120 Triangle (Medium)
 - LeetCode 0416 Partition Equal Subset Sum (Medium)
 - LeetCode 0494 Target Sum (Medium)
-- [LeetCode 0322 Coin Change (Medium)](./src/leetcode_solutions/leetcode_0322_coin_change.rs)
+- [LeetCode 0322 Coin Change (Medium)](./src/leetcode_solutions/leetcode_0300_0399/leetcode_0322_coin_change.rs)
 - LeetCode 0377 Combination Sum IV (Medium)
 - LeetCode 0695 Max Area of Island (Medium)
 - LeetCode 0785 Is Graph Bipartite (Medium)
