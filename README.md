@@ -617,7 +617,7 @@
 
 - [LeetCode tag - Bit Manipulation](https://leetcode.com/tag/bit-manipulation/)
 -
-- LeetCode 0461 Hamming Distance (Easy)
+- [LeetCode 0461 Hamming Distance (Easy)](./src/leetcode_solutions/leetcode_0400_0499/leetcode_0461_hamming_distance.rs)
 - LeetCode 0190 Reverse Bits (Easy)
 - LeetCode 0136 Single Number (Easy)
 - LeetCode 0342 Power of Four (Easy)
