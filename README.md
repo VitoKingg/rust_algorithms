@@ -144,6 +144,7 @@
 - [splay tree](https://en.wikipedia.org/wiki/Splay_tree) 伸展树
 -
 - [treap](https://en.wikipedia.org/wiki/Treap)
+- treap.rs
 -
 - [scapegoat tree](https://en.wikipedia.org/wiki/Scapegoat_tree)
 -
@@ -153,9 +154,13 @@
   - nearest neighbor search
   - range search
 -
-- [m-ary tree](https://en.wikipedia.org/wiki/M-ary_tree)
+- [m-ary tree](https://en.wikipedia.org/wiki/M-ary_tree) (also called k-ary tree)
 - [quadtree](https://en.wikipedia.org/wiki/Quadtree) 四叉树
 - [octree](https://en.wikipedia.org/wiki/Octree) 八叉树
+-
+- [trie](https://en.wikipedia.org/wiki/Trie) 字典树、前缀树，应用于打字预测、自动补全、拼写检查等场景
+- trie.rs
+- [LeetCode 0208 Implement Trie (Prefix Tree) (Medium)](./src/leetcode_solutions/leetcode_0200_0299/leetcode_0208_implement_trie.rs)
 -
 - [segment tree](https://en.wikipedia.org/wiki/Segment_tree) 线段树
 - segment_tree.rs
@@ -180,7 +185,6 @@
 - LeetCode 0144 Binary Tree Preorder Traversal (Medium)
 - LeetCode 0099 Recover Binary Search Tree (Hard)
 - LeetCode 0699 Trim a Binary Search Tree (Easy)
-- LeetCode 0208 Implement Trie (Prefix Tree) (Medium)
 - LeetCode 0889 Construct Binary Tree from Preorder and Postorder Traversal (Medium)
 - LeetCode 0106 Construct Binary Tree from Inorder and Postorder Traversal (Medium)
 - LeetCode 0094 Binary Tree Inorder Traversal (Medium)
@@ -783,7 +787,7 @@
 - LeetCode 0703 Kth Largest Element in a Stream (Easy)
 - LeetCode 0347 Top K Frequent Elements (Medium)
 - LeetCode 0373 Find K Pairs with Smallest Sums (Medium)
-- LeetCode 0208 Implement Trie (Prefix Tree) (Medium)
+- [LeetCode 0208 Implement Trie (Prefix Tree) (Medium)](./src/leetcode_solutions/leetcode_0200_0299/leetcode_0208_implement_trie.rs)
 - LeetCode 0648 Replace Words (Medium)
 - LeetCode 0676 Implement Magic Dictionary (Medium)
 - LeetCode 0820 Short Encoding of Words (Medium)
