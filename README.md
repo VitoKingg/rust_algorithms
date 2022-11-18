@@ -281,9 +281,26 @@
 
 ### [Bloom filter](https://en.wikipedia.org/wiki/Bloom_filter) 布隆过滤器
 
+- 可用于检索一个元素是否在一个集合中
+- 优点是空间效率和查询效率都远超一般的数据结构
+- 缺点是有一定的识别误差率且删除较困难
+- 本质上是一个概率性数据结构
+-
+- 应用于 redis
+- 数据库用 Bloom filter 来减少实际存取 disk 的 IO 开销
+- Chromium 浏览器验证大量恶意链接
+- Medium 避免推荐已经推荐过的文章
+-
 - bloom_filter.rs
+- [Rust Algorithm Club - Bloom filter](https://rust-algo.club/collections/bloom_filter/)
 
-### [cuckoo filter](https://en.wikipedia.org/wiki/Cuckoo_filter) 布谷过滤器
+### [cuckoo filter](https://en.wikipedia.org/wiki/Cuckoo_filter) 布谷鸟过滤器
+
+- 是改进过的 Bloom filter
+- 支持动态添加和删除项
+- 查找性能高于 Bloom filter，即使当期接近满载
+- 比其他 Bloom filter 的替代品更容易实现，比如 quotient filter
+- 应用于 redis
 
 ### [quotient filter](https://en.wikipedia.org/wiki/Quotient_filter) 商过滤器
 
