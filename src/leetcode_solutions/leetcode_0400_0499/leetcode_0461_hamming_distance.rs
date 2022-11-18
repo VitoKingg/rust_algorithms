@@ -26,7 +26,6 @@ mod tests {
 
     #[test]
     fn test_leetcode_0461() {
-        Solution::hamming_distance(1, 3);
         assert_eq!(Solution::hamming_distance(1, 2), 2);
         assert_eq!(Solution::hamming_distance2(1, 2), 2);
 
