@@ -333,6 +333,7 @@
 - [LeetCode tag - Dynamic Programming](https://leetcode.com/tag/dynamic-programming/)
 -
 - LeetCode 0688 Knight Probability in Chessboard (Medium)
+- [LeetCode 0072 Edit Distance (Hard)](./src/leetcode_solutions/leetcode_0000_0099/leetcode_0072_edit_distance.rs)
 - LeetCode 0070 Climbing Stairs (Easy)
 - LeetCode 0198 House Robber (Easy)
 - LeetCode 0413 Arithmetic Slices (Medium)
