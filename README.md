@@ -693,6 +693,8 @@
 
 ### [page replacement algorithm](https://en.wikipedia.org/wiki/Page_replacement_algorithm)
 
+### [consistent hashing](https://en.wikipedia.org/wiki/Consistent_hashing) 一致性哈希算法
+
 ### [cipher](https://en.wikipedia.org/wiki/Cipher) 密码学相关算法
 
 - [Advanced Encryption Standard (AES)](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard)
@@ -751,6 +753,22 @@
 ### [MapReduce](https://en.wikipedia.org/wiki/MapReduce)
 
 - MapReduce is a programming model and an associated implementation for processing and generating big data sets with a parallel, distributed algorithm on a cluster.
+
+### [blockchain](https://en.wikipedia.org/wiki/Blockchain) 区块链
+
+- 区块链技术是利用链式数据结构来验证与存储数据、利用分布式节点共识算法来生成和更新数据、利用密码学来保证数据传输和访问安全、利用自动化脚本组成的智能合约来编程和操作数据的一种全新的分布式基础架构与计算范式
+- 简单来说，区块链就是去中心化的分布式账本
+-
+- [Bitcoin: A Peer-to-Peer Electronic Cash System](https://bitcoin.org/bitcoin.pdf) 比特币白皮书
+- [比特币白皮书中文版](https://github.com/xiaolai/bitcoin-whitepaper-chinese-translation)
+- [Bitcoin](https://en.wikipedia.org/wiki/Bitcoin) 比特币
+- [Bitcoin Wiki](https://en.bitcoin.it/wiki/Main_Page)
+- [BitcoinWiki](https://en.bitcoinwiki.org/wiki/Main_Page)
+-
+- [Base58](https://en.bitcoin.it/wiki/Base58Check_encoding)
+- 用于表示 Bitcoin 钱包地址
+-
+- [Merkle tree](https://en.wikipedia.org/wiki/Merkle_tree)
 
 ## 剑指 Offer (专项突击版)
 
