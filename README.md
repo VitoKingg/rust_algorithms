@@ -164,6 +164,14 @@
 
 ### [tree](<https://en.wikipedia.org/wiki/Tree_(data_structure)>)
 
+- [LeetCode tag - Tree](https://leetcode.com/tag/tree/)
+- LeetCode 0572 Subtree of Another Tree (Easy)
+- LeetCode 0404 Sum of Left Leaves (Easy)
+- LeetCode 0513 Find Bottom Left Tree Value (Easy)
+- LeetCode 0538 Convert BST to Greater Tree (Easy)
+- LeetCode 0530 Minimum Absolute Difference in BST (Easy)
+- LeetCode 1110 Delete Nodes and Return Forest (Medium)
+-
 - [binary tree](https://en.wikipedia.org/wiki/Binary_tree) 二叉树
 - traverse
 - LeetCode 0144 Binary Tree Preorder Traversal (Easy)
@@ -183,26 +191,29 @@
 - LeetCode 1008 Construct Binary Search Tree from Preorder Traversal (Medium)
 - LeetCode 0297 Serialize and Deserialize Binary Tree (Hard)
 - others
-- LeetCode 0104
-- LeetCode 0101
-- LeetCode 0226
-- LeetCode 0543
+- LeetCode 0104 Maximum Depth of Binary Tree (Easy)
+- LeetCode 0101 Symmetric Tree (Easy)
+- LeetCode 0226 Invert Binary Tree (Easy)
+- LeetCode 0543 Diameter of Binary Tree (Easy)
 - LeetCode 0257 Binary Tree Paths (Easy)
-- LeetCode 0110
-- LeetCode 0617
+- LeetCode 0110 Balanced Binary Tree (Easy)
+- LeetCode 0617 Merge Two Binary Trees (Easy)
+- LeetCode 0637 Average of Levels in Binary Tree (Easy)
 - LeetCode 0100
 - LeetCode 0112
 - LeetCode 0111
-- LeetCode 0236
+- LeetCode 0236 Lowest Common Ancestor of a Binary Tree (Medium)
 - LeetCode 0222
 - LeetCode 0113
-- LeetCode 0437
+- LeetCode 0437 Path Sum III (Medium)
 - LeetCode 0129
 - LeetCode 0662
 - LeetCode 0199
 - LeetCode 0116
 - LeetCode 0515
 - LeetCode 0124
+- LeetCode 0653 Two Sum IV - Input is a BST (Easy)
+- LeetCode 0897 Increasing Order Search Tree (Easy)
 -
 - [Huffman coding](https://en.wikipedia.org/wiki/Huffman_coding) (also called `Huffman tree`)
 -
@@ -215,7 +226,9 @@
 - LeetCode 0095
 - LeetCode 0173
 - LeetCode 0230
-- LeetCode 0099
+- LeetCode 0099 Recover Binary Search Tree (Hard)
+- LeetCode 0450 Delete Node in a BST (Medium)
+- LeetCode 0235 Lowest Common Ancestor of a Binary Search Tree (Easy)
 -
 - [self-balancing binary search tree](https://en.wikipedia.org/wiki/Self-balancing_binary_search_tree)
 -
@@ -280,7 +293,7 @@
 - LeetCode 0218
 - LeetCode 0850 Rectangle Area II (Hard)
 - LeetCode 1157
-- LeetCode 0699
+- LeetCode 0699 Trim a Binary Search Tree (Easy)
 - LeetCode 0315 Count of Smaller Numbers After Self (Hard)
 - LeetCode 0715 Range Module (Hard)
 - LeetCode 0327 Count of Range Sum (Hard)
@@ -290,37 +303,6 @@
 - LeetCode 1649 Create Sorted Array through Instructions (Hard)
 - LeetCode 2179 Count Good Triplets in an Array (Hard)
 - LeetCode 2213 Longest Substring of One Repeating Character (Hard)
--
-- TODO:
-- [LeetCode tag - Tree](https://leetcode.com/tag/tree/)
-- LeetCode 0104 Maximum Depth of Binary Tree (Easy)
-- LeetCode 0110 Balanced Binary Tree (Easy)
-- LeetCode 0226 Invert Binary Tree (Easy)
-- LeetCode 0543 Diameter of Binary Tree (Easy)
-- LeetCode 0617 Merge Two Binary Trees (Easy)
-- LeetCode 0437 Path Sum III (Medium)
-- LeetCode 0101 Symmetric Tree (Easy)
-- LeetCode 0572 Subtree of Another Tree (Easy)
-- LeetCode 0404 Sum of Left Leaves (Easy)
-- LeetCode 0513 Find Bottom Left Tree Value (Easy)
-- LeetCode 0538 Convert BST to Greater Tree (Easy)
-- LeetCode 0235 Lowest Common Ancestor of a Binary Search Tree (Easy)
-- LeetCode 0530 Minimum Absolute Difference in BST (Easy)
-- LeetCode 1110 Delete Nodes and Return Forest (Medium)
-- LeetCode 0637 Average of Levels in Binary Tree (Easy)
-- LeetCode 0105 Construct Binary Tree from Preorder and Inorder Traversal (Medium)
-- LeetCode 0144 Binary Tree Preorder Traversal (Medium)
-- LeetCode 0099 Recover Binary Search Tree (Hard)
-- LeetCode 0699 Trim a Binary Search Tree (Easy)
-- LeetCode 0889 Construct Binary Tree from Preorder and Postorder Traversal (Medium)
-- LeetCode 0106 Construct Binary Tree from Inorder and Postorder Traversal (Medium)
-- LeetCode 0094 Binary Tree Inorder Traversal (Medium)
-- LeetCode 0145 Binary Tree Postorder Traversal (Medium)
-- LeetCode 0236 Lowest Common Ancestor of a Binary Tree (Medium)
-- LeetCode 0109 Convert Sorted List to Binary Search Tree (Medium)
-- LeetCode 0897 Increasing Order Search Tree (Easy)
-- LeetCode 0653 Two Sum IV - Input is a BST (Easy)
-- LeetCode 0450 Delete Node in a BST (Medium)
 
 ### [graph](<https://en.wikipedia.org/wiki/Graph_(abstract_data_type)>)
 
@@ -1215,4 +1197,4 @@
 - LeetCode 0684 Redundant Connection (Medium)
 - LeetCode 0128 Longest Consecutive Sequence (Medium)
 
-## TODO: 程序员面试金典（第 6 版）
+## [程序员面试金典（第 6 版）](https://leetcode.cn/problem-list/xb9lfcwi/)
