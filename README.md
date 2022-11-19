@@ -30,18 +30,50 @@
   - 在大部分操作系统中，每个运行中的二进制程序都配有一个调用栈(call stack) 或执行栈(execution stack)。借助调用栈可以跟踪属于同一程序的所有函数，记录它们之间的调用关系，并保证在每一调用实例执行完毕之后，可以准确地返回。
   - 基本单位: frame (帧)
 -
-- LeetCode 0225 Implement Stack using Queues (Easy)
-- LeetCode 0232 Implement Queue using Stacks (Easy)
-- LeetCode 0155 Min Stack (Easy)
 - [LeetCode 0020 Valid Parentheses (Easy)](./src/leetcode_solutions/leetcode_0000_0099/leetcode_0020_valid_parentheses.rs)
-- LeetCode 0739 Daily Temperatures (Medium)
+- LeetCode 1047
+- LeetCode 0232 Implement Queue using Stacks (Easy)
+- LeetCode 0225 Implement Stack using Queues (Easy)
+- LeetCode 0155 Min Stack (Easy)
+- LeetCode 1021
+- LeetCode 0682
+- LeetCode 0844
+- LeetCode 1190
+- LeetCode 0394
+- LeetCode 0456
+- LeetCode 0227
+- LeetCode 0150
 - LeetCode 0503 Next Greater Element II (Medium)
+- LeetCode 0071
+- LeetCode 0856
+- LeetCode 0856
+- LeetCode 0907 Sum of Subarray Minimums (Medium)
+- LeetCode 0385
+- LeetCode 1249
+- LeetCode 0636
+- LeetCode 0341
+- LeetCode 0224
+- LeetCode 0726
+-
+- monotonic stack 单调栈
+- LeetCode 0496 Next Greater Element I (Easy)
+- LeetCode 0739 Daily Temperatures (Medium)
+- LeetCode 0402
+- LeetCode 0316
+- LeetCode 1124
+- LeetCode 0042
+- LeetCode 0084
+- LeetCode 0085
+- LeetCode 0321
+- LeetCode 2104 Sum of Subarray Ranges (Medium)
+- LeetCode 1856 Maximum Subarray Min-Product (Medium)
 
 ### [queue](<https://en.wikipedia.org/wiki/Queue_(abstract_data_type)>)
 
 - FIFO: first in, first out
 - [circular buffer](https://en.wikipedia.org/wiki/Circular_buffer) 循环队列
 - 操作系统任务调度
+- LeetCode 0622 Design Circular Queue (Medium)
 
 ### [double-ended queue](https://en.wikipedia.org/wiki/Double-ended_queue)
 
@@ -58,23 +90,47 @@
 
 ### [linked list](https://en.wikipedia.org/wiki/Linked_list)
 
-- singly linked list
-- [doubly linked list](https://en.wikipedia.org/wiki/Doubly_linked_list)
-- multiply linked list
-- circular linked list
-- sentinel node 哨兵节点
--
 - [LeetCode tag - Linked List](https://leetcode.com/tag/linked-list/)
 -
+- singly linked list
 - LeetCode 0206 Reverse Linked List (Easy)
-- LeetCode 0021 Merge Two Sorted Lists (Easy)
-- LeetCode 0024 Swap Nodes in Pairs (Medium)
-- LeetCode 0160 Intersection of Two Linked Lists (Easy)
-- LeetCode 0234 Palindrome Linked List (Easy)
+- LeetCode 0141 Linked List Cycle (Easy)
 - LeetCode 0083 Remove Duplicates from Sorted List (Easy)
-- LeetCode 0328 Odd Even Linked List (Medium)
+- LeetCode 0234 Palindrome Linked List (Easy)
+- LeetCode 0203 Remove Linked List Elements (Easy)
+- LeetCode 0237 Delete Node in a Linked List (Easy)
+- LeetCode 0876 Middle of the Linked List (Easy)
+- LeetCode 0092 Reverse Linked List II (Medium)
+- LeetCode 0143 Reorder List (Medium)
+- LeetCode 0082 Remove Duplicates from Sorted List II (Medium)
 - LeetCode 0019 Remove Nth Node From End of List (Medium)
 - LeetCode 0148 Sort List (Medium)
+- LeetCode 0086 Partition List (Medium)
+- LeetCode 0061 Rotate List (Medium)
+- LeetCode 0142 Linked List Cycle II (Medium)
+- LeetCode 0147 Insertion Sort List (Medium)
+- LeetCode 0138 Copy List with Random Pointer (Medium)
+- LeetCode 0024 Swap Nodes in Pairs (Medium)
+- LeetCode 0328 Odd Even Linked List (Medium)
+- LeetCode 0707 Design Linked List (Medium)
+- LeetCode 0109 Convert Sorted List to Binary Search Tree (Medium)
+- LeetCode 0430 Flatten a Multilevel Doubly Linked List (Medium)
+- LeetCode 0725 Split Linked List in Parts (Medium)
+- LeetCode 0025 Reverse Nodes in k-Group (Hard)
+-
+- [doubly linked list](https://en.wikipedia.org/wiki/Doubly_linked_list)
+- LeetCode 0021 Merge Two Sorted Lists (Easy)
+- LeetCode 0160 Intersection of Two Linked Lists (Easy)
+- LeetCode 0002 Add Two Numbers (Medium)
+- LeetCode 0445 Add Two Numbers II (Medium)
+- LeetCode 1669 Merge In Between Linked Lists (Medium)
+- LeetCode 0023 Merge k Sorted Lists (Hard)
+-
+- multiply linked list
+-
+- circular linked list
+-
+- sentinel node 哨兵节点
 
 ### [hash table](https://en.wikipedia.org/wiki/Hash_table)
 
@@ -100,16 +156,66 @@
 - LeetCode 0149 Max Points on a Line (Hard)
 - LeetCode 0332 Reconstruct Itinerary (Medium)
 - LeetCode 0870 Advantage Shuffle (Medium)
+- LeetCode 0705 Design HashSet (Easy)
+- LeetCode 0706 Design HashMap (Easy)
+- LeetCode 0380 Insert Delete GetRandom O(1) (Medium)
+- LeetCode 0146 LRU Cache (Medium)
+- LeetCode 0460 LFU Cache (Hard)
 
 ### [tree](<https://en.wikipedia.org/wiki/Tree_(data_structure)>)
 
 - [binary tree](https://en.wikipedia.org/wiki/Binary_tree) 二叉树
+- traverse
+- LeetCode 0144 Binary Tree Preorder Traversal (Easy)
+- LeetCode 0094 Binary Tree Inorder Traversal (Easy)
+- LeetCode 0145 Binary Tree Postorder Traversal (Easy)
+- LeetCode 0589 N-ary Tree Preorder Traversal (Easy)
+- LeetCode 0590 N-ary Tree Postorder Traversal (Easy)
+- LeetCode 0102 Binary Tree Level Order Traversal (Medium)
+- LeetCode 0103 Binary Tree Zigzag Level Order Traversal (Medium)
+- LeetCode 0107 Binary Tree Level Order Traversal II (Medium)
+- construct
+- LeetCode 0108 Convert Sorted Array to Binary Search Tree (Easy)
+- LeetCode 0105 Construct Binary Tree from Preorder and Inorder Traversal (Medium)
+- LeetCode 0106 Construct Binary Tree from Inorder and Postorder Traversal (Medium)
+- LeetCode 0114 Flatten Binary Tree to Linked List (Medium)
+- LeetCode 0889 Construct Binary Tree from Preorder and Postorder Traversal (Medium)
+- LeetCode 1008 Construct Binary Search Tree from Preorder Traversal (Medium)
+- LeetCode 0297 Serialize and Deserialize Binary Tree (Hard)
+- others
+- LeetCode 0104
+- LeetCode 0101
+- LeetCode 0226
+- LeetCode 0543
+- LeetCode 0257 Binary Tree Paths (Easy)
+- LeetCode 0110
+- LeetCode 0617
+- LeetCode 0100
+- LeetCode 0112
+- LeetCode 0111
+- LeetCode 0236
+- LeetCode 0222
+- LeetCode 0113
+- LeetCode 0437
+- LeetCode 0129
+- LeetCode 0662
+- LeetCode 0199
+- LeetCode 0116
+- LeetCode 0515
+- LeetCode 0124
 -
 - [Huffman coding](https://en.wikipedia.org/wiki/Huffman_coding) (also called `Huffman tree`)
 -
 - [binary search tree](https://en.wikipedia.org/wiki/Binary_search_tree) 二叉搜索树
 - binary_search_tree.rs
 - [LeetCode tag - Binary Search Tree](https://leetcode.com/tag/binary-search-tree/)
+- LeetCode 0108
+- LeetCode 0098
+- LeetCode 0096
+- LeetCode 0095
+- LeetCode 0173
+- LeetCode 0230
+- LeetCode 0099
 -
 - [self-balancing binary search tree](https://en.wikipedia.org/wiki/Self-balancing_binary_search_tree)
 -
@@ -160,11 +266,32 @@
 -
 - [trie](https://en.wikipedia.org/wiki/Trie) 字典树、前缀树，应用于打字预测、自动补全、拼写检查等场景
 - trie.rs
+- LeetCode 0720
 - [LeetCode 0208 Implement Trie (Prefix Tree) (Medium)](./src/leetcode_solutions/leetcode_0200_0299/leetcode_0208_implement_trie.rs)
+- LeetCode 0692
+- LeetCode 0421
+- LeetCode 0212
 -
 - [segment tree](https://en.wikipedia.org/wiki/Segment_tree) 线段树
 - segment_tree.rs
+- LeetCode 1353
+- LeetCode 0307 Range Sum Query - Mutable (Medium)
+- LeetCode 0493 Reverse Pairs (Hard)
+- LeetCode 0218
+- LeetCode 0850 Rectangle Area II (Hard)
+- LeetCode 1157
+- LeetCode 0699
+- LeetCode 0315 Count of Smaller Numbers After Self (Hard)
+- LeetCode 0715 Range Module (Hard)
+- LeetCode 0327 Count of Range Sum (Hard)
+- LeetCode 0732 My Calendar III (Hard)
+- LeetCode 1622 Fancy Sequence (Hard)
+- LeetCode 1505 Minimum Possible Integer After at Most K Adjacent Swaps On Digits (Hard)
+- LeetCode 1649 Create Sorted Array through Instructions (Hard)
+- LeetCode 2179 Count Good Triplets in an Array (Hard)
+- LeetCode 2213 Longest Substring of One Repeating Character (Hard)
 -
+- TODO:
 - [LeetCode tag - Tree](https://leetcode.com/tag/tree/)
 - LeetCode 0104 Maximum Depth of Binary Tree (Easy)
 - LeetCode 0110 Balanced Binary Tree (Easy)
@@ -200,24 +327,73 @@
 - [adjacency list](https://en.wikipedia.org/wiki/Adjacency_list) 邻接表
 - [adjacency matrix](https://en.wikipedia.org/wiki/Adjacency_matrix) 邻接矩阵
 - [incidence matrix](https://en.wikipedia.org/wiki/Incidence_matrix) 关联矩阵
+- graph.rs
+- [LeetCode tag - Graph](https://leetcode.com/tag/graph/)
+- LeetCode 0733 Flood Fill (Easy)
+- LeetCode 1059 All Paths from Source Lead to Destination (Medium)
+- LeetCode 1135 Connecting Cities with Minimum Cost (Medium)
+- LeetCode 0743 Network Delay Time (Medium)
+- LeetCode 1584 Min Cost to Connect All Points (Medium)
+- LeetCode 0310 Minimum Height Trees (Medium)
+- LeetCode 0490 The Maze (Medium)
+- LeetCode 0133 Clone Graph (Medium)
+- LeetCode 0882 Reachable Nodes in Subdivided Graph (Hard)
+- LeetCode 2203 Minimum Weighted Subgraph With the Required Paths (Hard)
+- LeetCode 1168 Optimize Water Distribution in a Village (Hard)
+- LeetCode 2328 Number of Increasing Paths in a Grid (Hard)
 -
 - [breadth-first search](https://en.wikipedia.org/wiki/Breadth-first_search) 广度优先搜索
 - breadth_first_search.rs
 - [LeetCode tag - Breadth-First Search](https://leetcode.com/tag/breadth-first-search/)
-- LeetCode 0126 Word Ladder II (Hard)
+- LeetCode 0690
+- LeetCode 0279
+- LeetCode 0130 Surrounded Regions (Medium)
+- LeetCode 1319
+- LeetCode 0934 Shortest Bridge (Medium)
+- LeetCode 0785 Is Graph Bipartite (Medium)
+- LeetCode 0994
+- LeetCode 0752 Open the Lock (Medium)
+- LeetCode 1162
+- LeetCode 0529
+- LeetCode 0815
+- LeetCode 1765 Map of Highest Peak (Medium)
+- LeetCode 1091 Shortest Path in Binary Matrix (Medium)
+- LeetCode 1926 Nearest Exit from Entrance in Maze (Medium)
+- LeetCode 2059 Minimum Operations to Convert Number (Medium)
 - LeetCode 0127 Word Ladder (Hard)
+- LeetCode 0126 Word Ladder II (Hard)
+- LeetCode 1293 Shortest Path in a Grid with Obstacles Elimination (Hard)
+- LeetCode 0773 Sliding Puzzle (Hard)
+- LeetCode 0827
+- LeetCode 0847 Shortest Path Visiting All Nodes (Hard)
+- LeetCode 0675 Cut Off Trees for Golf Event (Hard)
+- LeetCode 1368 Minimum Cost to Make at Least One Valid Path in a Grid (Hard)
+- LeetCode 2290 Minimum Obstacle Removal to Reach Corner (Hard)
 -
 - [depth-first search](https://en.wikipedia.org/wiki/Depth-first_search) 深度优先搜索
 - depth_first_search.rs
 - [LeetCode tag - Depth-First Search](https://leetcode.com/tag/depth-first-search/)
+- LeetCode 0394
+- LeetCode 0721
+- LeetCode 0547 Number of Provinces (Medium)
+- LeetCode 0494
+- LeetCode 0695
+- LeetCode 0130 Surrounded Regions (Medium)
+- LeetCode 1631
+- LeetCode 0207
+- LeetCode 0417 Pacific Atlantic Water Flow (Medium)
+- LeetCode 0679
 - [knight's tour problem](https://en.wikipedia.org/wiki/Knight%27s_tour)
 - LeetCode 0688 Knight Probability in Chessboard (Medium)
 -
 - [topological sort](https://en.wikipedia.org/wiki/Topological_sorting) 拓扑排序
 - topological_sort.rs
-- 有向无环图
 - [Rosetta Code - Topological sort](https://rosettacode.org/wiki/Topological_sort)
 - [LeetCode tag - Topological Sort](https://leetcode.com/tag/topological-sort/)
+- LeetCode 0207
+- LeetCode 0210 Course Schedule II (Medium)
+- LeetCode 0329 Longest Increasing Path in a Matrix (Hard)
+- LeetCode 1203
 -
 - [strongly connected components](https://en.wikipedia.org/wiki/Strongly_connected_component) 强连通分量
 - strongly_connected_components.rs
@@ -226,29 +402,19 @@
 - LeetCode 1489 Find Critical and Pseudo-Critical Edges in Minimum Spanning Tree (Hard)
 -
 - [best-first search](https://en.wikipedia.org/wiki/Best-first_search) 最佳优先搜索
--
-- [shortest path problem](https://en.wikipedia.org/wiki/Shortest_path_problem) 最短路径问题
+
+#### [shortest path problem](https://en.wikipedia.org/wiki/Shortest_path_problem) 最短路径问题
+
 - [Dijkstra's algorithm (/ˈdaɪkstrəz/)](https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm)
 - dijkstra.rs
+- LeetCode 0787
+-
 - [Bellman–Ford algorithm](https://en.wikipedia.org/wiki/Bellman%E2%80%93Ford_algorithm)
 - bellman_ford.rs
+-
 - [A\* search algorithm](https://en.wikipedia.org/wiki/A*_search_algorithm)
 -
 - [Prim's algorithm](https://en.wikipedia.org/wiki/Prim%27s_algorithm)
--
-- [LeetCode tag - Graph](https://leetcode.com/tag/graph/)
-- graph.rs
-- LeetCode 0547 Number of Provinces (Medium)
-- LeetCode 0785 Is Graph Bipartite (Medium)
-- LeetCode 0210 Course Schedule II (Medium)
-- LeetCode 1059 All Paths from Source Lead to Destination (Medium)
-- LeetCode 1135 Connecting Cities with Minimum Cost (Medium)
-- LeetCode 0882 Reachable Nodes in Subdivided Graph (Hard)
-- LeetCode 0743 Network Delay Time (Medium)
-- LeetCode 2203 Minimum Weighted Subgraph With the Required Paths (Hard)
-- LeetCode 1584 Min Cost to Connect All Points (Medium)
-- LeetCode 1168 Optimize Water Distribution in a Village (Hard)
-- LeetCode 1489 Find Critical and Pseudo-Critical Edges in Minimum Spanning Tree (Hard)
 
 ### [heap](<https://en.wikipedia.org/wiki/Heap_(data_structure)>)
 
@@ -262,8 +428,21 @@
 - [rank-pairing heap](https://en.wikipedia.org/wiki/Rank-pairing_heap)
 - [2-3 heap](https://en.wikipedia.org/wiki/2%E2%80%933_heap)
 -
-- [LeetCode tag - Heap (Priority Queue)](https://leetcode.com/tag/heap-priority-queue/)
 - heap.rs
+- [LeetCode tag - Heap (Priority Queue)](https://leetcode.com/tag/heap-priority-queue/)
+- LeetCode 1046
+- LeetCode 0703
+- LeetCode 0215
+- LeetCode 0347
+- LeetCode 0692
+- LeetCode 0378
+- LeetCode 0451
+- LeetCode 0743
+- LeetCode 0787
+- LeetCode 0973
+- LeetCode 0239 Sliding Window Maximum (Hard)
+- LeetCode 0295 Find Median from Data Stream
+- LeetCode 0218
 
 ### [skip list](https://en.wikipedia.org/wiki/Skip_list) 跳跃表 跳转表
 
@@ -274,10 +453,25 @@
 - union_find.rs
 - [LeetCode tag - Union Find](https://leetcode.com/tag/union-find/)
 -
-- LeetCode 0130 Surrounded Regions (Medium)
+- LeetCode 0200 Number of Islands (Medium)
+- LeetCode 0721
 - LeetCode 0547 Number of Provinces (Medium)
+- LeetCode 0130 Surrounded Regions (Medium)
+- LeetCode 1631
+- LeetCode 0399 Evaluate Division (Medium)
+- LeetCode 1319
 - LeetCode 0684 Redundant Connection (Medium)
 - LeetCode 0695 Max Area of Island (Medium)
+- LeetCode 0128
+- LeetCode 0765
+- LeetCode 1559 Detect Cycles in 2D Grid (Medium)
+- LeetCode 0959 Regions Cut By Slashes (Medium)
+- LeetCode 1202 Smallest String With Swaps (Medium)
+- LeetCode 0778 Swim in Rising Water (Hard)
+- LeetCode 0803 Bricks Falling When Hit (Hard)
+- LeetCode 0928 Minimize Malware Spread II (Hard)
+- LeetCode 1697 Checking Existence of Edge Length Limited Paths (Hard)
+- LeetCode 1579 Remove Max Number of Edges to Keep Graph Fully Traversable (Hard)
 
 ### [Bloom filter](https://en.wikipedia.org/wiki/Bloom_filter) 布隆过滤器
 
@@ -353,42 +547,37 @@
 -
 - [LeetCode tag - Dynamic Programming](https://leetcode.com/tag/dynamic-programming/)
 -
-- LeetCode 0688 Knight Probability in Chessboard (Medium)
-- [LeetCode 0072 Edit Distance (Hard)](./src/leetcode_solutions/leetcode_0000_0099/leetcode_0072_edit_distance.rs)
 - LeetCode 0070 Climbing Stairs (Easy)
-- LeetCode 0198 House Robber (Easy)
-- LeetCode 0413 Arithmetic Slices (Medium)
-- LeetCode 0064 Minimum Path Sum (Medium)
-- LeetCode 0542 01 Matrix (Medium)
-- LeetCode 0221 Maximal Square (Medium)
-- LeetCode 0091 Decode Ways (Medium)
-- LeetCode 0139 Word Break (Medium)
-- LeetCode 0300 Longest Increasing Subsequence (Medium)
-- LeetCode 1143 Longest Common Subsequence (Medium)
-- LeetCode 0072 Edit Distance (Hard)
-- LeetCode 0650 2 Keys Keyboard (Medium)
-- LeetCode 0010 Regular Expression Matching (Hard)
-- LeetCode 0121 Best Time to Buy and Sell Stock (Easy)
-- LeetCode 0188 Best Time to Buy and Sell Stock IV (Hard)
-- LeetCode 0309 Best Time to Buy and Sell Stock with Cooldown (Medium)
-- LeetCode 0213 House Robber II (Medium)
 - LeetCode 0053 Maximum Subarray (Easy)
-- LeetCode 0343 Integer Break (Medium)
-- LeetCode 0583 Delete Operation for Two Strings (Medium)
-- LeetCode 0646 Maximum Length of Pair Chain (Medium)
-- LeetCode 0376 Wiggle Subsequence (Medium)
-- LeetCode 0714 Best Time to Buy and Sell Stock with Transaction Fee (Medium)
-- LeetCode 0118 Pascal's Triangle (Easy)
-- LeetCode 0741 Cherry Pickup (Hard)
-- LeetCode 1463 Cherry Pickup II (Hard)
-- LeetCode 0435 Non-overlapping Intervals (Medium)
-- LeetCode 0960 Delete Columns to Make Sorted III (Hard)
+- LeetCode 0121 Best Time to Buy and Sell Stock (Easy)
+- LeetCode 0746
+- LeetCode 0337
+- [LeetCode 0322 Coin Change (Medium)](./src/leetcode_solutions/leetcode_0300_0399/leetcode_0322_coin_change.rs)
+- LeetCode 0300 Longest Increasing Subsequence (Medium)
+- LeetCode 0139 Word Break (Medium)
+- LeetCode 0152
+- LeetCode 0338
+- LeetCode 0309 Best Time to Buy and Sell Stock with Cooldown (Medium)
+- LeetCode 0264
+- LeetCode 0279 Perfect Squares (Medium)
+- LeetCode 0005 Longest Palindromic Substring (Medium)
+- LeetCode 1143 Longest Common Subsequence (Medium)
+- LeetCode 0131 Palindrome Partitioning (Medium)
+- LeetCode 0062 Unique Paths (Medium)
+- LeetCode 0064 Minimum Path Sum (Medium)
+- LeetCode 0221 Maximal Square (Medium)
+- LeetCode 0416 Partition Equal Subset Sum (Medium)
+- LeetCode 0718
+- LeetCode 0494 Target Sum (Medium)
+- LeetCode 0032
 - LeetCode 0354 Russian Doll Envelopes (Hard)
-- LeetCode 1691 Maximum Height by Stacking Cuboids (Hard)
-- LeetCode 1626 Best Team With No Conflicts (Medium)
-- LeetCode 0712 Minimum ASCII Delete Sum for Two Strings (Medium)
-- LeetCode 0377 Combination Sum IV (Medium)
-- LeetCode 2218 Maximum Value of K Coins From Piles (Hard)
+- LeetCode 0123
+- LeetCode 0010 Regular Expression Matching (Hard)
+- [LeetCode 0072 Edit Distance (Hard)](./src/leetcode_solutions/leetcode_0000_0099/leetcode_0072_edit_distance.rs)
+- LeetCode 0887
+- LeetCode 0132
+- LeetCode 0044
+- LeetCode 0410
 -
 - [knapsack problem](https://en.wikipedia.org/wiki/Knapsack_problem) 背包问题
 - LeetCode 0416 Partition Equal Subset Sum (Medium)
@@ -401,6 +590,64 @@
 - LeetCode 1049 Last Stone Weight II (Medium)
 -
 - [subset sum problem](https://en.wikipedia.org/wiki/Subset_sum_problem) 子集之和问题
+-
+- other dp
+- LeetCode 0688 Knight Probability in Chessboard (Medium)
+- LeetCode 0198 House Robber (Easy)
+- LeetCode 0413 Arithmetic Slices (Medium)
+- LeetCode 0542 01 Matrix (Medium)
+- LeetCode 0091 Decode Ways (Medium)
+- LeetCode 0650 2 Keys Keyboard (Medium)
+- LeetCode 0188 Best Time to Buy and Sell Stock IV (Hard)
+- LeetCode 0213 House Robber II (Medium)
+- LeetCode 0343 Integer Break (Medium)
+- LeetCode 0583 Delete Operation for Two Strings (Medium)
+- LeetCode 0646 Maximum Length of Pair Chain (Medium)
+- LeetCode 0376 Wiggle Subsequence (Medium)
+- LeetCode 0714 Best Time to Buy and Sell Stock with Transaction Fee (Medium)
+- LeetCode 0118 Pascal's Triangle (Easy)
+- LeetCode 0741 Cherry Pickup (Hard)
+- LeetCode 1463 Cherry Pickup II (Hard)
+- LeetCode 0435 Non-overlapping Intervals (Medium)
+- LeetCode 0960 Delete Columns to Make Sorted III (Hard)
+- LeetCode 1691 Maximum Height by Stacking Cuboids (Hard)
+- LeetCode 1626 Best Team With No Conflicts (Medium)
+- LeetCode 0712 Minimum ASCII Delete Sum for Two Strings (Medium)
+- LeetCode 0673 Number of Longest Increasing Subsequence (Medium)
+- LeetCode 0377 Combination Sum IV (Medium)
+- LeetCode 2218 Maximum Value of K Coins From Piles (Hard)
+- LeetCode 1425 Constrained Subsequence Sum (Hard)
+- LeetCode 1575 Count All Possible Routes (Hard)
+- LeetCode 1444 Number of Ways of Cutting a Pizza (Hard)
+
+### [backtracking](https://en.wikipedia.org/wiki/Backtracking) 回溯算法
+
+- [LeetCode tag - Backtracking](https://leetcode.com/tag/backtracking/)
+- LeetCode 0046 Permutations (Medium)
+- LeetCode 0022
+- LeetCode 0093
+- LeetCode 0078
+- LeetCode 0017
+- LeetCode 0079 Word Search (Medium)
+- LeetCode 0090
+- LeetCode 0039
+- LeetCode 0077 Combinations (Medium)
+- LeetCode 0040 Combination Sum II (Medium)
+- LeetCode 0047 Permutations II (Medium)
+- LeetCode 0473 Matchsticks to Square (Medium)
+- LeetCode 0698 Partition to K Equal Sum Subsets (Medium)
+- LeetCode 1219 Path with Maximum Gold (Medium)
+- LeetCode 2305 Fair Distribution of Cookies (Medium)
+- LeetCode 0294 Flip Game II (Medium)
+- LeetCode 0842
+- LeetCode 0216
+- LeetCode 0089
+- LeetCode 0051 N-Queens (Hard)
+- LeetCode 0052 N-Queens II (Hard)
+- LeetCode 0037 Sudoku Solver (Hard)
+- LeetCode 0126
+- LeetCode 1659
+- LeetCode 1723 Find Minimum Time to Finish All Jobs (Hard)
 
 ### [greedy algorithm](https://en.wikipedia.org/wiki/Greedy_algorithm) 贪心算法
 
@@ -409,6 +656,12 @@
 - traveling salesman problem
 -
 - [LeetCode tag - Greedy](https://leetcode.com/tag/greedy/)
+-
+- LeetCode 0264
+- LeetCode 0946
+- LeetCode 0767
+- LeetCode 0373
+- LeetCode 0313
 -
 - LeetCode 0122 Best Time to Buy and Sell Stock II
 - LeetCode 0135 Candy
@@ -419,60 +672,49 @@
 - LeetCode 0605 Can Place Flowers
 - LeetCode 0665 Non-decreasing Array
 - LeetCode 0763 Partition Labels
+- LeetCode 2132 Stamping the Grid (Hard)
 
-### [two pointers technique](https://leetcode.com/articles/two-pointer-technique/) 双指针
+### [pointer jumping technique](https://en.wikipedia.org/wiki/Pointer_jumping) 双指针与滑动窗口
 
+- [two pointers technique](https://leetcode.com/articles/two-pointer-technique/) 双指针
+- [sliding window technique](https://leetcode.com/discuss/study-guide/1773891/Sliding-Window-Technique-and-Question-Bank) 滑动窗口
+-
 - [LeetCode tag - Two Pointers](https://leetcode.com/tag/two-pointers/)
+- [LeetCode tag - Sliding Window](https://leetcode.com/tag/sliding-window/)
 -
-- LeetCode 0167 Two Sum II - Input array is sorted
-- LeetCode 0088 Merge Sorted Array
-- LeetCode 0142 Linked List Cycle II
-- LeetCode 0076 Minimum Window Substring
-- LeetCode 0633 Sum of Square Numbers
-- LeetCode 0680 Valid Palindrome II
-- LeetCode 0524 Longest Word in Dictionary through Deleting
-- LeetCode 0340 Longest Substring with At Most K Distinct Characters
-
-### [pointer jumping technique](https://en.wikipedia.org/wiki/Pointer_jumping)
-
-### [sliding window technique](https://leetcode.com/discuss/study-guide/1773891/Sliding-Window-Technique-and-Question-Bank) 滑动窗口
-
-- [LeetCode sliding window problems](https://leetcode.com/tag/sliding-window/)
--
-- fixed sized window
-- LeeCode 0030
-- LeeCode 0438
-- LeeCode 0567
-- LeeCode 0643
-- LeeCode 1100
-- LeeCode 1151
-- LeeCode 1176
-- LeeCode 1343
-- LeeCode 1423
-- LeeCode 1876
-- LeeCode 2090
--
-- variable sized window
-- LeeCode 0003
-- LeeCode 0076
-- LeeCode 0159
-- LeeCode 0209
-- LeeCode 0340
-- LeeCode 0424
-- LeeCode 0487
-- LeeCode 0904
-- LeeCode 1004
-- LeeCode 1493
-- LeeCode 1695
-- LeeCode 1852
-- LeeCode 2260
--
-- LeeCode 0930
-- LeeCode 0978
-- LeeCode 0992
-- LeeCode 1234
-- LeeCode 1248
-- LeeCode 1658
+- LeetCode 0387
+- LeetCode 0349
+- LeetCode 0409
+- LeetCode 0217
+- LeetCode 0204
+- LeetCode 0088 Merge Sorted Array (Easy)
+- LeetCode 0283
+- LeetCode 0125
+- LeetCode 0344
+- LeetCode 0027
+- LeetCode 0977
+- LeetCode 0680 Valid Palindrome II (Easy)
+- LeetCode 0003
+- LeetCode 0781
+- LeetCode 0049
+- LeetCode 0018
+- LeetCode 0560
+- LeetCode 0454
+- LeetCode 0011
+- LeetCode 0016
+- LeetCode 0424
+- LeetCode 0713
+- LeetCode 0151 Reverse Words in a String (Medium)
+- LeetCode 0142 Linked List Cycle II (Medium)
+- LeetCode 0167 Two Sum II - Input Array Is Sorted (Medium)
+- LeetCode 0633 Sum of Square Numbers (Medium)
+- LeetCode 0524 Longest Word in Dictionary through Deleting (Medium)
+- LeetCode 0340 Longest Substring with At Most K Distinct Characters (Medium)
+- LeetCode 0076 Minimum Window Substring (Hard)
+- LeetCode 0992
+- LeetCode 0239 Sliding Window Maximum (Hard)
+- LeetCode 1499 Max Value of Equation (Hard)
+- LeetCode 0862 Shortest Subarray with Sum at Least K (Hard)
 
 ### [sorting algorithm](https://en.wikipedia.org/wiki/Sorting_algorithm)
 
@@ -485,6 +727,7 @@
 - LeetCode 0215 Kth Largest Element in an Array
 - LeetCode 0347 Top K Frequent Elements
 - LeetCode 0451 Sort Characters By Frequency
+- LeetCode 0912 Sort an Array (Medium)
 -
 - [bubble sort](https://en.wikipedia.org/wiki/Bubble_sort) 冒泡排序
 - [Rosetta Code - Sorting algorithms/Bubble sort](https://rosettacode.org/wiki/Sorting_algorithms/Bubble_sort)
@@ -571,8 +814,38 @@
 -
 - [binary search](https://en.wikipedia.org/wiki/Binary_search_algorithm) 二分搜索
 - [binary_search.rs](./src/searching/binary_search.rs)
-- [LeetCode tag - Binary Search](https://leetcode.com/tag/binary-search/)
 - 如果要查找的数据量很小，则没必要先排序再二分搜索；如果数据量很大，排序很耗时且内存消耗大，或许使用线性搜索性能更好；实际项目中数据量不大不小，很适合使用二分搜索。
+- [LeetCode tag - Binary Search](https://leetcode.com/tag/binary-search/)
+- LeetCode 0069 Sqrt(x) (Easy)
+- LeetCode 0704
+- LeetCode 0035
+- LeetCode 0349
+- LeetCode 0167
+- LeetCode 0278
+- LeetCode 0300
+- LeetCode 0074
+- LeetCode 0034 Find First and Last Position of Element in Sorted Array (Medium)
+- LeetCode 0081 Search in Rotated Sorted Array II (Medium)
+- LeetCode 0033
+- LeetCode 0454
+- LeetCode 0240
+- LeetCode 0718
+- LeetCode 0050
+- LeetCode 0029
+- LeetCode 0287
+- LeetCode 0209
+- LeetCode 0153
+- LeetCode 0162
+- LeetCode 0378
+- LeetCode 0230
+- LeetCode 0540 Single Element in a Sorted Array (Medium)
+- LeetCode 1870 Minimum Speed to Arrive on Time (Medium)
+- LeetCode 1894 Find the Student that Will Replace the Chalk (Medium)
+- LeetCode 1898 Maximum Number of Removable Characters (Medium)
+- LeetCode 0004 Median of Two Sorted Arrays (Hard)
+- LeetCode 0887
+- LeetCode 0410
+- LeetCode 0154
 -
 - [interpolation search](https://en.wikipedia.org/wiki/Interpolation_search) 插值搜索
 - [interpolation_search.rs](./src/searching/interpolation_search.rs)
@@ -582,40 +855,7 @@
 -
 - [Fibonacci search technique](https://en.wikipedia.org/wiki/Fibonacci_search_technique)
 
-### [backtracking](https://en.wikipedia.org/wiki/Backtracking) 回溯算法
-
-- [LeetCode tag - Backtracking](https://leetcode.com/tag/backtracking/)
-- LeetCode 0037 Sudoku Solver (Hard)
-- LeetCode 0046 Permutations (Medium)
-- LeetCode 0047 Permutations II (Medium)
-- LeetCode 0051 N-Queens (Hard)
-- LeetCode 0052 N-Queens II (Hard)
-- LeetCode 0079 Word Search (Medium)
-
 ### [k-nearest neighbors algorithm](https://en.wikipedia.org/wiki/K-nearest_neighbors_algorithm)
-
-### math 数学问题
-
-- [LeetCode tag - Math](https://leetcode.com/tag/math/)
-- LeetCode 0204 Count Primes (Easy)
-- LeetCode 0504 Base 7 (Easy)
-- LeetCode 0172 Factorial Trailing Zeroes (Medium)
-- LeetCode 0415 Add Strings (Easy)
-- LeetCode 0326 Power of Three (Easy)
-- LeetCode 0384 Shuffle an Array (Medium)
-- LeetCode 0528 Random Pick with Weight (Medium)
-- LeetCode 0382 Linked List Random Node (Medium)
-- LeetCode 0168 Excel Sheet Column Title (Easy)
-- LeetCode 0067 Add Binary (Easy)
-- LeetCode 0238 Product of Array Except Self (Medium)
-- LeetCode 0462 Minimum Moves to Equal Array Elements II (Medium)
-- LeetCode 0169 Majority Element (Easy)
-- LeetCode 0470 Implement Rand10() Using Rand7() (Medium)
-- LeetCode 0202 Happy Number (Easy)
-- [LeetCode 0509 Fibonacci Number](./src/leetcode_solutions/leetcode_0500_0599/leetcode_0509_fibonacci_number.rs)
-- [Greatest Common Divisor (GCD, 最大公约数)](./src/math/gcd_of_n_numbers.rs)
-- [Least Common Multiple (LCM, 最小公倍数)](./src/math/lcm_of_n_numbers.rs)
-- 冯诺依曼邻居问题 (离散数学)
 
 ### [string-matching algorithm](https://en.wikipedia.org/wiki/String-searching_algorithm)
 
@@ -635,21 +875,98 @@
 - LeetCode 0409 Longest Palindrome (Easy)
 - LeetCode 0003 Longest Substring Without Repeating Characters (Medium)
 - LeetCode 0005 Longest Palindromic Substring (Medium)
+- LeetCode 0291 Word Pattern II (Medium)
+- LeetCode 0043 Multiply Strings (Medium)
+- LeetCode 0214 Shortest Palindrome (Hard)
+- LeetCode 0336 Palindrome Pairs (Hard)
+- LeetCode 1044 Longest Duplicate Substring (Hard)
+- LeetCode 1316 Distinct Echo Substrings (Hard)
 
 ### [bit manipulation](https://en.wikipedia.org/wiki/Bit_manipulation) 位运算
 
 - [LeetCode tag - Bit Manipulation](https://leetcode.com/tag/bit-manipulation/)
 -
-- [LeetCode 0461 Hamming Distance (Easy)](./src/leetcode_solutions/leetcode_0400_0499/leetcode_0461_hamming_distance.rs)
-- LeetCode 0190 Reverse Bits (Easy)
 - LeetCode 0136 Single Number (Easy)
-- LeetCode 0342 Power of Four (Easy)
-- LeetCode 0318 Maximum Product of Word Lengths (Medium)
-- LeetCode 0338 Counting Bits (Medium)
+- LeetCode 0191 Number of 1 Bits (Easy)
+- LeetCode 0169
+- LeetCode 0190 Reverse Bits (Easy)
+- LeetCode 0231
+- LeetCode 0389
+- [LeetCode 0461 Hamming Distance (Easy)](./src/leetcode_solutions/leetcode_0400_0499/leetcode_0461_hamming_distance.rs)
+- LeetCode 0405
 - LeetCode 0268 Missing Number (Easy)
-- LeetCode 0693 Binary Number with Alternating Bits (Easy)
+- LeetCode 0342 Power of Four (Easy)
 - LeetCode 0476 Number Complement (Easy)
+- LeetCode 0693 Binary Number with Alternating Bits (Easy)
+- LeetCode 0078
+- LeetCode 0338 Counting Bits (Medium)
+- LeetCode 1318
+- LeetCode 0089
 - LeetCode 0260 Single Number III (Medium)
+- LeetCode 0371
+- LeetCode 0137
+- LeetCode 0421
+- LeetCode 0318 Maximum Product of Word Lengths (Medium)
+
+### math 数学问题
+
+- [LeetCode tag - Math](https://leetcode.com/tag/math/)
+- LeetCode 0204 Count Primes (Easy)
+- LeetCode 0628
+- LeetCode 0976
+- LeetCode 0202 Happy Number (Easy)
+- LeetCode 1232
+- LeetCode 0029
+- LeetCode 0343
+- LeetCode 0166
+- LeetCode 0149
+-
+- LeetCode 0504 Base 7 (Easy)
+- LeetCode 0172 Factorial Trailing Zeroes (Medium)
+- LeetCode 0415 Add Strings (Easy)
+- LeetCode 0326 Power of Three (Easy)
+- LeetCode 0384 Shuffle an Array (Medium)
+- LeetCode 0528 Random Pick with Weight (Medium)
+- LeetCode 0382 Linked List Random Node (Medium)
+- LeetCode 0168 Excel Sheet Column Title (Easy)
+- LeetCode 0067 Add Binary (Easy)
+- LeetCode 0238 Product of Array Except Self (Medium)
+- LeetCode 0462 Minimum Moves to Equal Array Elements II (Medium)
+- LeetCode 0169 Majority Element (Easy)
+- LeetCode 0470 Implement Rand10() Using Rand7() (Medium)
+- [LeetCode 0509 Fibonacci Number](./src/leetcode_solutions/leetcode_0500_0599/leetcode_0509_fibonacci_number.rs)
+- [Greatest Common Divisor (GCD, 最大公约数)](./src/math/gcd_of_n_numbers.rs)
+- [Least Common Multiple (LCM, 最小公倍数)](./src/math/lcm_of_n_numbers.rs)
+- 冯诺依曼邻居问题 (离散数学)
+
+### [Minimax](https://en.wikipedia.org/wiki/Minimax) 极小极大化
+
+- LeetCode 0292
+- LeetCode 0375
+- LeetCode 0486
+- LeetCode 0464
+- LeetCode 0877
+
+### geometry 几何学
+
+- LeetCode 1232
+- LeetCode 1266
+- LeetCode 0892
+- LeetCode 1401
+- LeetCode 0963
+- LeetCode 0587
+- LeetCode 1515
+
+### matrix 矩阵
+
+- LeetCode 0867
+- LeetCode 0832
+- LeetCode 0054
+- LeetCode 0059
+- LeetCode 0073
+- LeetCode 0048
+- LeetCode 1091 Shortest Path in Binary Matrix (Medium)
+- LeetCode 1926 Nearest Exit from Entrance in Maze (Medium)
 
 ### [prefix sum](https://en.wikipedia.org/wiki/Prefix_sum) 前缀和
 
@@ -666,6 +983,10 @@
 - LeetCode 0992
 - LeetCode 1109
 - LeetCode 1248
+- LeetCode 1894 Find the Student that Will Replace the Chalk (Medium)
+- LeetCode 0370 Range Addition (Medium)
+- LeetCode 0862 Shortest Subarray with Sum at Least K (Hard)
+- LeetCode 2132 Stamping the Grid (Hard)
 
 ### [summed-area table](https://en.wikipedia.org/wiki/Summed-area_table) (also called `interal image` 积分图)
 
@@ -894,103 +1215,4 @@
 - LeetCode 0684 Redundant Connection (Medium)
 - LeetCode 0128 Longest Consecutive Sequence (Medium)
 
-## 程序员面试金典（第 6 版）
-
-## TODO: Problems
-
-- LeetCode 0716 Max Stack (Easy)
-- LeetCode 0146 LRU Cache (Medium)
-- LeetCode 0380 Insert Delete GetRandom O(1) (Medium)
-- LeetCode 0432 All O'one Data Structure (Hard)
-- LeetCode 0707 Design Linked List (Medium)
-- LeetCode 0496 Next Greater Element I (Easy)
-- LeetCode 0739 Daily Temperatures (Medium)
-- LeetCode 0907 Sum of Subarray Minimums (Medium)
-- LeetCode 0962 Maximum Width Ramp (Medium)
-- LeetCode 0768 Max Chunks To Make Sorted II (Hard)
-- LeetCode 2104 Sum of Subarray Ranges (Medium)
-- LeetCode 1856 Maximum Subarray Min-Product (Medium)
-- LeetCode 0239 Sliding Window Maximum (Hard)
-- LeetCode 1499 Max Value of Equation (Hard)
-- LeetCode 0862 Shortest Subarray with Sum at Least K (Hard)
-- LeetCode 1425 Constrained Subsequence Sum (Hard)
-- LeetCode 0291 Word Pattern II (Medium)
-- LeetCode 0214 Shortest Palindrome (Hard)
-- LeetCode 0336 Palindrome Pairs (Hard)
-- LeetCode 1044 Longest Duplicate Substring (Hard)
-- LeetCode 1316 Distinct Echo Substrings (Hard)
-- LeetCode 1559 Detect Cycles in 2D Grid (Medium)
-- LeetCode 0399 Evaluate Division (Medium)
-- LeetCode 0959 Regions Cut By Slashes (Medium)
-- LeetCode 0778 Swim in Rising Water (Hard)
-- LeetCode 1202 Smallest String With Swaps (Medium)
-- LeetCode 0803 Bricks Falling When Hit (Hard)
-- LeetCode 0928 Minimize Malware Spread II (Hard)
-- LeetCode 1697 Checking Existence of Edge Length Limited Paths (Hard)
-- LeetCode 1579 Remove Max Number of Edges to Keep Graph Fully Traversable (Hard)
-- LeetCode 0307 Range Sum Query - Mutable (Medium)
-- LeetCode 1649 Create Sorted Array through Instructions (Hard)
-- LeetCode 2179 Count Good Triplets in an Array (Hard)
-- LeetCode 1505 Minimum Possible Integer After at Most K Adjacent Swaps On Digits
-- LeetCode 0308 Range Sum Query 2D - Mutable (Hard)
-- LeetCode 0315 Count of Smaller Numbers After Self (Hard)
-- LeetCode 0327 Count of Range Sum (Hard)
-- LeetCode 0493 Reverse Pairs (Hard)
-- LeetCode 0673 Number of Longest Increasing Subsequence (Medium)
-- LeetCode 1622 Fancy Sequence (Hard)
-- LeetCode 0715 Range Module (Hard)
-- LeetCode 0732 My Calendar III (Hard)
-- LeetCode 2158 Amount of New Area Painted Each Day (Hard)
-- LeetCode 2213 Longest Substring of One Repeating Character (Hard)
-- LeetCode 0850 Rectangle Area II (Hard)
-- LeetCode 0069 Sqrt(x)
-- LeetCode 0034 Find First and Last Position of Element in Sorted Array (Medium)
-- LeetCode 0081 Search in Rotated Sorted Array II
-- LeetCode 0151 Find Minimum in Rotated Sorted Array II
-- LeetCode 0540 Single Element in a Sorted Array
-- LeetCode 0004 Median of Two Sorted Arrays
-- LeetCode 0417 Pacific Atlantic Water Flow (Medium)
-- LeetCode 0046 Permutations (Medium)
-- LeetCode 0077 Combinations (Medium)
-- LeetCode 0079 Word Search (Medium)
-- LeetCode 0051 N-Queens (Hard)
-- LeetCode 0934 Shortest Bridge (Medium)
-- LeetCode 0130 Surrounded Regions (Medium)
-- LeetCode 0257 Binary Tree Paths (Easy)
-- LeetCode 0047 Permutations II (Medium)
-- LeetCode 0040 Combination Sum II (Medium)
-- LeetCode 0037 Sudoku Solver (Hard)
-- LeetCode 0310 Minimum Height Trees (Medium)
-- LeetCode 0733 Flood Fill (Easy)
-- LeetCode 0200 Number of Islands (Medium)
-- LeetCode 1765 Map of Highest Peak (Medium)
-- LeetCode 1197 Minimum Knight Moves (Medium)
-- LeetCode 1091 Shortest Path in Binary Matrix (Medium)
-- LeetCode 1926 Nearest Exit from Entrance in Maze (Medium)
-- LeetCode 1293 Shortest Path in a Grid with Obstacles Elimination (Hard)
-- LeetCode 0752 Open the Lock (Medium)
-- LeetCode 2059 Minimum Operations to Convert Number (Medium)
-- LeetCode 0773 Sliding Puzzle (Hard)
-- LeetCode 0847 Shortest Path Visiting All Nodes (Hard)
-- LeetCode 0675 Cut Off Trees for Golf Event (Hard)
-- LeetCode 1368 Minimum Cost to Make at Least One Valid Path in a Grid (Hard)
-- LeetCode 2290 Minimum Obstacle Removal to Reach Corner (Hard)
-- LeetCode 0490 The Maze (Medium)
-- LeetCode 1219 Path with Maximum Gold (Medium)
-- LeetCode 0473 Matchsticks to Square (Medium)
-- LeetCode 0698 Partition to K Equal Sum Subsets (Medium)
-- LeetCode 1723 Find Minimum Time to Finish All Jobs (Hard)
-- LeetCode 2305 Fair Distribution of Cookies (Medium)
-- LeetCode 0329 Longest Increasing Path in a Matrix (Hard)
-- LeetCode 2328 Number of Increasing Paths in a Grid (Hard)
-- LeetCode 0294 Flip Game II (Medium)
-- LeetCode 1575 Count All Possible Routes (Hard)
-- LeetCode 1444 Number of Ways of Cutting a Pizza (Hard)
-- LeetCode 1870 Minimum Speed to Arrive on Time (Medium)
-- LeetCode 1894 Find the Student that Will Replace the Chalk (Medium)
-- LeetCode 1898 Maximum Number of Removable Characters (Medium)
-- LeetCode 0912 Sort an Array (Medium)
-- LeetCode 0043 Multiply Strings (Medium)
-- LeetCode 0370 Range Addition (Medium)
-- LeetCode 2132 Stamping the Grid (Hard)
-- LeetCode 0191 Number of 1 Bits (Easy)
+## TODO: 程序员面试金典（第 6 版）
