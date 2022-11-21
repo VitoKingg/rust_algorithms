@@ -1108,3 +1108,5 @@
 - LeetCode 0839 Similar String Groups (Hard)
 - LeetCode 0684 Redundant Connection (Medium)
 - LeetCode 0128 Longest Consecutive Sequence (Medium)
+
+### [程序员面试金典（第 6 版）](https://leetcode.cn/problem-list/xb9lfcwi/)
