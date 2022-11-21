@@ -618,7 +618,7 @@
 - LeetCode 0542 01 Matrix <`Medium`> <`dynamic programming`> <`bfs`> <`matrix`>
 - LeetCode 0022 Generate Parentheses <`Medium`> <`dynamic programming`> <`backtracking`>
 - LeetCode 0494 Target Sum <`Medium`> <`dynamic programming`> <`backtracking`>
-- LeetCode 0131 Palindrome Partitioning (Medium) <`dynamic programming`> <`backtracking`>
+- LeetCode 0131 Palindrome Partitioning <`Medium`> <`dynamic programming`> <`backtracking`>
 - LeetCode 0139 Word Break <`Medium`> <`hash table`> <`dynamic programming`> <`trie`>
 - LeetCode 0416 Partition Equal Subset Sum <`Medium`> <`dynamic programming`>
 - [LeetCode 0072 Edit Distance](./src/leetcode_solutions/leetcode_0000_0099/leetcode_0072_edit_distance.rs) <`Hard`> <`dynamic programming`>
@@ -652,8 +652,8 @@
 -
 - LeetCode 0144 Binary Tree Preorder Traversal <`Easy`> <`stack`> <`dfs`> <`binary tree`>
 - LeetCode 0094 Binary Tree Inorder Traversal <`Easy`> <`stack`> <`dfs`> <`binary tree`>
-- LeetCode 0145 Binary Tree Postorder Traversal <`Easy`> <`stack`> <`dfs`> <`binary tree`>
 - LeetCode 0102 Binary Tree Level Order Traversal <`Medium`> <`bfs`> <`binary tree`>
+- LeetCode 0145 Binary Tree Postorder Traversal <`Easy`> <`stack`> <`dfs`> <`binary tree`>
 - LeetCode 0107 Binary Tree Level Order Traversal II <`Medium`> <`bfs`> <`binary tree`>
 - LeetCode 0103 Binary Tree Zigzag Level Order Traversal <`Medium`> <`bfs`> <`binary tree`>
 - LeetCode 0110 Balanced Binary Tree <`Easy`> <`dfs`> <`binary tree`>
@@ -1005,7 +1005,7 @@
 - LeetCode 0438 Find All Anagrams in a String (Medium)
 - LeetCode 0003 Longest Substring Without Repeating Characters (Medium)
 - LeetCode 0076 Minimum Window Substring (Hard)
-- [LeetCode 0125 Valid Palindrome](./src/leetcode_solutions/leetcode_0100_0199/leetcode_0125_valid_palindrome.rs) <`Easy`> <`two pointers`>
+- LeetCode 0125 Valid Palindrome (Easy)
 - LeetCode 0680 Valid Palindrome II (Easy)
 - LeetCode 0647 Palindromic Substrings (Medium)
 - LeetCode 0019 Remove Nth Node From End of List (Medium)
@@ -1050,7 +1050,7 @@
 - LeetCode 0703 Kth Largest Element in a Stream (Easy)
 - LeetCode 0347 Top K Frequent Elements (Medium)
 - LeetCode 0373 Find K Pairs with Smallest Sums (Medium)
-- [LeetCode 0208 Implement Trie (Prefix Tree)](./src/leetcode_solutions/leetcode_0200_0299/leetcode_0208_implement_trie.rs) <`Medium`> <`hash table`> <`trie`>
+- LeetCode 0208 Implement Trie (Prefix Tree) (Medium)
 - LeetCode 0648 Replace Words (Medium)
 - LeetCode 0676 Implement Magic Dictionary (Medium)
 - LeetCode 0820 Short Encoding of Words (Medium)
@@ -1091,7 +1091,7 @@
 - LeetCode 0120 Triangle (Medium)
 - LeetCode 0416 Partition Equal Subset Sum (Medium)
 - LeetCode 0494 Target Sum (Medium)
-- [LeetCode 0322 Coin Change](./src/leetcode_solutions/leetcode_0300_0399/leetcode_0322_coin_change.rs) <`Medium`> <`dynamic programming`> <`bfs`>
+- LeetCode 0322 Coin Change (Medium)
 - LeetCode 0377 Combination Sum IV (Medium)
 - LeetCode 0695 Max Area of Island (Medium)
 - LeetCode 0785 Is Graph Bipartite (Medium)
@@ -1110,3 +1110,120 @@
 - LeetCode 0128 Longest Consecutive Sequence (Medium)
 
 ### [程序员面试金典（第 6 版）](https://leetcode.cn/problem-list/xb9lfcwi/)
+
+### 常用算法面试题
+
+- 做 LeetCode 算法题有助于编程语言的学习和实践，但这并不能增强该编程语言的工程能力，因此做题要适可而止
+- 做题过程中要考虑边界问题，做到全面覆盖，争取一次提交就通过
+-
+- 栈与队列，哈希表，堆（优先队列）
+- LeetCode 0225 Implement Stack using Queues <`Easy`> <`stack`> <`queue`>
+- LeetCode 0232 Implement Queue using Stacks <`Easy`> <`stack`> <`queue`>
+- [LeetCode 0020 Valid Parentheses](./src/leetcode_solutions/leetcode_0000_0099/leetcode_0020_valid_parentheses.rs) <`Easy`> <`stack`>
+- LeetCode 0739 Daily Temperatures <`Medium`> <`stack`> <`monotonic stack`>
+- LeetCode 0001 Two Sum <`Easy`> <`hash table`>
+- LeetCode 0242 Valid Anagram <`Easy`> <`hash table`>
+- LeetCode 0049 Group Anagrams <`Medium`> <`hash table`>
+- LeetCode 0387 First Unique Character in a String <`Easy`> <`hash table`> <`queue`>
+- LeetCode 0146 LRU Cache <`Medium`> <`hash table`> <`linked list`> <`doubly linked list`>
+- LeetCode 0215 Kth Largest Element in an Array <`Medium`> <`divide and conquer`> <`heap (priority queue)`>
+- LeetCode 0023 Merge k Sorted Lists <`Hard`> <`linked list`> <`divide and conquer`> <`heap (priority queue)`> <`merge sort`>
+- LeetCode 0409 Longest Palindrome <`Easy`> <`hash table`> <`greedy`>
+- LeetCode 0594 Longest Harmonious Subsequence <`Easy`> <`hash table`>
+-
+- 双指针与滑动窗口
+- LeetCode 0011 Container With Most Water <`Medium`> <`two pointers`> <`greedy`>
+- LeetCode 0026 Remove Duplicates from Sorted Array <`Easy`> <`two pointers`>
+- [LeetCode 0125 Valid Palindrome](./src/leetcode_solutions/leetcode_0100_0199/leetcode_0125_valid_palindrome.rs) <`Easy`> <`two pointers`>
+- LeetCode 0028 Find the Index of the First Occurrence in a String <`Medium`> <`two pointers`> <`string matching`>
+- LeetCode 0141 Linked List Cycle <`Easy`> <`hash table`> <`linked list`> <`two pointers`>
+- LeetCode 0142 Linked List Cycle II <`Medium`> <`hash table`> <`linked list`> <`two pointers`>
+- LeetCode 0021 Merge Two Sorted Lists <`Easy`> <`linked list`>
+- LeetCode 0287 Find the Duplicate Number <`Medium`> <`two pointers`> <`binary search`> <`bit manipulation`>
+- LeetCode 0003 Longest Substring Without Repeating Characters <`Medium`> <`hash table`> <`sliding window`>
+- LeetCode 0076 Minimum Window Substring <`Hard`> <`hash table`> <`sliding window`>
+- LeetCode 0455 Assign Cookies <`Easy`> <`two pointers`> <`greedy`>
+- LeetCode 0344 Reverse String <`Easy`> <`two pointers`>
+- LeetCode 0015 3 Sum <`Medium`> <`two pointers`>
+-
+- 链表
+- LeetCode 0206 Reverse Linked List <`Easy`> <`linked list`>
+- LeetCode 0203 Remove Linked List Elements <`Easy`> <`linked list`>
+- LeetCode 0234 Palindrome Linked List <`Easy`> <`linked list`> <`two pointers`> <`stack`>
+- LeetCode 0160 Intersection of Two Linked Lists <`Easy`> <`hash table`> <`linked list`> <`two pointers`>
+- LeetCode 0025 Reverse Nodes in k-Group <`Hard`> <`linked list`>
+- LeetCode 0148 Sort List <`Medium`> <`linked list`> <`two pointers`> <`divide and conquer`> <`merge sort`>
+-
+- 十大常用排序算法，时间复杂度，空间复杂度，稳定性
+- [bubble sort](https://en.wikipedia.org/wiki/Bubble_sort) 冒泡排序
+- [bubble_sort.rs](./src/sorting/bubble_sort.rs)
+- [selection sort](https://en.wikipedia.org/wiki/Selection_sort) 选择排序
+- [selection_sort.rs](./src/sorting/selection_sort.rs)
+- [insertion sort](https://en.wikipedia.org/wiki/Insertion_sort) 插入排序
+- [insertion_sort.rs](./src/sorting/insertion_sort.rs)
+- [quicksort](https://en.wikipedia.org/wiki/Quicksort) 快速排序
+- [quicksort.rs](./src/sorting/quicksort.rs)
+- [merge sort](https://en.wikipedia.org/wiki/Merge_sort) 归并排序
+- [merge_sort.rs](./src/sorting/merge_sort.rs)
+-
+- [Shell sort](https://en.wikipedia.org/wiki/Shellsort) 希尔排序原理复杂度
+- [heapsort](https://en.wikipedia.org/wiki/Heapsort) 堆排序原理复杂度
+- [bucket sort](https://en.wikipedia.org/wiki/Bucket_sort) 桶排序原理复杂度
+- [counting sort](https://en.wikipedia.org/wiki/Counting_sort) 计数排序原理复杂度
+- [radix sort](https://en.wikipedia.org/wiki/Radix_sort) 基数排序原理复杂度
+-
+- 动态规划，回溯
+- LeetCode 0121 Best Time to Buy and Sell Stock <`Easy`> <`dynamic programming`>
+- LeetCode 0070 Climbing Stairs <`Easy`> <`math`> <`dynamic programming`>
+- [LeetCode 0072 Edit Distance](./src/leetcode_solutions/leetcode_0000_0099/leetcode_0072_edit_distance.rs) <`Hard`> <`dynamic programming`>
+- [LeetCode 0509 Fibonacci Number](./src/leetcode_solutions/leetcode_0500_0599/leetcode_0509_fibonacci_number.rs) <`Easy`> <`math`> <`dynamic programming`>
+- [LeetCode 0322 Coin Change](./src/leetcode_solutions/leetcode_0300_0399/leetcode_0322_coin_change.rs) <`Medium`> <`dynamic programming`> <`bfs`>
+- LeetCode 0053 Maximum Subarray <`Medium`> <`dynamic programming`> <`divide and conquer`>
+- LeetCode 0300 Longest Increasing Subsequence <`Medium`> <`dynamic programming`> <`binary search`>
+- LeetCode 0647 Palindromic Substrings <`Medium`> <`dynamic programming`>
+- LeetCode 0005 Longest Palindromic Substring <`Medium`> <`dynamic programming`>
+- LeetCode 0198 House Robber <`Medium`> <`dynamic programming`>
+- LeetCode 1143 Longest Common Subsequence <`Medium`> <`dynamic programming`>
+- LeetCode 0062 Unique Paths <`Medium`> <`dynamic programming`> <`math`>
+- LeetCode 0542 01 Matrix <`Medium`> <`dynamic programming`> <`bfs`> <`matrix`>
+- LeetCode 0139 Word Break <`Medium`> <`hash table`> <`dynamic programming`> <`trie`>
+- LeetCode 0046 Permutations <`Medium`> <`backtracking`>
+- LeetCode 0047 Permutations II <`Medium`> <`backtracking`>
+- LeetCode 0077 Combinations <`Medium`> <`backtracking`>
+- LeetCode 0039 Combination Sum <`Medium`> <`backtracking`>
+- LeetCode 0040 Combination Sum II <`Medium`> <`backtracking`>
+- LeetCode 0131 Palindrome Partitioning <`Medium`> <`dynamic programming`> <`backtracking`>
+- LeetCode 0079 Word Search <`Medium`> <`backtracking`> <`matrix`>
+- LeetCode 0127 Word Ladder <`Hard`> <`hash table`> <`bfs`>
+- LeetCode 0126 Word Ladder II <`Hard`> <`hash table`> <`backtracking`> <`bfs`>
+- LeetCode 0037 Sudoku Solver <`Hard`> <`backtracking`> <`matrix`>
+- LeetCode 0051 N-Queens <`Hard`> <`backtracking`>
+- LeetCode 0052 N-Queens II <`Hard`> <`backtracking`>
+-
+- 查找算法，二叉树
+- LeetCode 0069 Sqrt(x) <`Easy`> <`binary search`>
+- LeetCode 0033 Seach in Rotated Sorted Array <`Medium`> <`binary search`>
+- LeetCode 0144 Binary Tree Preorder Traversal <`Easy`> <`stack`> <`dfs`> <`binary tree`>
+- LeetCode 0094 Binary Tree Inorder Traversal <`Easy`> <`stack`> <`dfs`> <`binary tree`>
+- LeetCode 0102 Binary Tree Level Order Traversal <`Medium`> <`bfs`> <`binary tree`>
+- LeetCode 0145 Binary Tree Postorder Traversal <`Easy`> <`stack`> <`dfs`> <`binary tree`>
+- LeetCode 0110 Balanced Binary Tree <`Easy`> <`dfs`> <`binary tree`>
+- LeetCode 0226 Invert Binary Tree <`Easy`> <`dfs`> <`bfs`> <`binary tree`>
+- LeetCode 0236 Lowest Common Ancestor of a Binary Tree <`Medium`> <`dfs`> <`binary tree`>
+-
+- BFS 与 DFS，并查集与线段树
+- LeetCode 0200 Number of Islands <`Medium`> <`dfs`> <`bfs`> <`union find`> <`matrix`>
+- LeetCode 0128 Longest Consecutive Sequence <`Medium`> <`hash table`> <`union find`>
+- LeetCode 0207 Course Schedule <`Medium`> <`dfs`> <`bfs`> <`graph`> <`topological sort`>
+- LeetCode 0547 Number of Provinces <`Medium`> <`dfs`> <`bfs`> <`union find`> <`graph`>
+-
+- 位运算，数学问题
+- LeetCode 0190 Reverse Bits <`Easy`> <`divide and conquer`> <`bit manipulation`>
+- LeetCode 0338 Counting Bits <`Medium`> <`dynamic programming`> <`bit manipulation`>
+- LeetCode 0415 Add Strings <`Easy`> <`math`>
+-
+- 原理问题
+- Bloom filter 原理
+- cuckoo filter 原理
+- red-black tree 原理
+- B tree, B+ tree 原理
