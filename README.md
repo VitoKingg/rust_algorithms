@@ -720,7 +720,7 @@
 ### LeetCode Problems Part II
 
 - LeetCode 0665 Non-decreasing Array <`Medium`>
-- LeetCode 0225 Implement Stack using Queues <`Easy`> <`stack`> <`queue`>
+- [LeetCode 0225 Implement Stack using Queues](./src/leetcode_solutions/leetcode_0200_0299/leetcode_0225_implement_stack_using_queues.rs) <`Easy`> <`stack`> <`queue`>
 - LeetCode 0232 Implement Queue using Stacks <`Easy`> <`stack`> <`queue`>
 - LeetCode 1047 Remove All Adjacent Duplicates In String <`Easy`> <`stack`>
 - LeetCode 0346 Moving Average from Data Stream <`Easy`> <`queue`>
@@ -1019,7 +1019,7 @@
 - 做题过程中要考虑边界问题，做到全面覆盖，争取一次提交就通过
 -
 - 栈与队列，哈希表，堆（优先队列）
-- LeetCode 0225 Implement Stack using Queues <`Easy`> <`stack`> <`queue`>
+- [LeetCode 0225 Implement Stack using Queues](./src/leetcode_solutions/leetcode_0200_0299/leetcode_0225_implement_stack_using_queues.rs) <`Easy`> <`stack`> <`queue`>
 - LeetCode 0232 Implement Queue using Stacks <`Easy`> <`stack`> <`queue`>
 - [LeetCode 0020 Valid Parentheses](./src/leetcode_solutions/leetcode_0000_0099/leetcode_0020_valid_parentheses.rs) <`Easy`> <`stack`>
 - LeetCode 0739 Daily Temperatures <`Medium`> <`stack`> <`monotonic stack`>
