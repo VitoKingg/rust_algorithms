@@ -3,28 +3,24 @@ struct Solution;
 
 impl Solution {
     pub fn coin_change(coins: Vec<i32>, amount: i32) -> i32 {
-        // make a vector of amount+1 size, count in 0.
-        let n = (amount + 1) as usize;
-        let mut dp = vec![-1; n];
+        let amount = amount as usize;
+        let mut dp = vec![amount + 1; amount + 1];
         dp[0] = 0;
 
         for i in 1..=amount {
             for &c in &coins {
+                let c = c as usize;
                 if c <= i {
-                    let i = i as usize;
-                    let j = i - c as usize;
-                    if dp[j] != -1 {
-                        if dp[i] == -1 {
-                            dp[i] = dp[j] + 1;
-                        } else {
-                            dp[i] = i32::min(dp[i], dp[j] + 1);
-                        }
-                    }
+                    dp[i] = dp[i].min(dp[i - c] + 1);
                 }
             }
         }
 
-        dp[amount as usize]
+        if dp[amount] > amount {
+            -1
+        } else {
+            dp[amount] as i32
+        }
     }
 
     /// Arguments:
