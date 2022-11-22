@@ -1055,6 +1055,8 @@
 - LeetCode 0160 Intersection of Two Linked Lists <`Easy`> <`hash table`> <`linked list`> <`two pointers`>
 - LeetCode 0025 Reverse Nodes in k-Group <`Hard`> <`linked list`>
 - LeetCode 0148 Sort List <`Medium`> <`linked list`> <`two pointers`> <`divide and conquer`> <`merge sort`>
+- LeetCode 0002 Add Two Numbers <`Medium`> <`linked list`> <`math`>
+- LeetCode 0445 Add Two Numbers II <`Medium`> <`linked list`> <`math`> <`stack`>
 -
 - 十大常用排序算法，时间复杂度，空间复杂度，稳定性
 - [bubble sort](https://en.wikipedia.org/wiki/Bubble_sort) 冒泡排序
