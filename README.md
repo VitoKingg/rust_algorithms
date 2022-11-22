@@ -721,7 +721,7 @@
 
 - LeetCode 0665 Non-decreasing Array <`Medium`>
 - [LeetCode 0225 Implement Stack using Queues](./src/leetcode_solutions/leetcode_0200_0299/leetcode_0225_implement_stack_using_queues.rs) <`Easy`> <`stack`> <`queue`>
-- LeetCode 0232 Implement Queue using Stacks <`Easy`> <`stack`> <`queue`>
+- [LeetCode 0232 Implement Queue using Stacks](./src/leetcode_solutions/leetcode_0200_0299/leetcode_0232_implement_queue_using_stacks.rs)) <`Easy`> <`stack`> <`queue`>
 - LeetCode 1047 Remove All Adjacent Duplicates In String <`Easy`> <`stack`>
 - LeetCode 0346 Moving Average from Data Stream <`Easy`> <`queue`>
 - LeetCode 0735 Asteroid Collision <`Medium`> <`stack`>
@@ -1020,7 +1020,7 @@
 -
 - 栈与队列，哈希表，堆（优先队列）
 - [LeetCode 0225 Implement Stack using Queues](./src/leetcode_solutions/leetcode_0200_0299/leetcode_0225_implement_stack_using_queues.rs) <`Easy`> <`stack`> <`queue`>
-- LeetCode 0232 Implement Queue using Stacks <`Easy`> <`stack`> <`queue`>
+- [LeetCode 0232 Implement Queue using Stacks](./src/leetcode_solutions/leetcode_0200_0299/leetcode_0232_implement_queue_using_stacks.rs)) <`Easy`> <`stack`> <`queue`>
 - [LeetCode 0020 Valid Parentheses](./src/leetcode_solutions/leetcode_0000_0099/leetcode_0020_valid_parentheses.rs) <`Easy`> <`stack`>
 - LeetCode 0739 Daily Temperatures <`Medium`> <`stack`> <`monotonic stack`>
 - LeetCode 0001 Two Sum <`Easy`> <`hash table`>
