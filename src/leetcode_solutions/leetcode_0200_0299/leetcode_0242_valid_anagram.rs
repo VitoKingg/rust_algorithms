@@ -19,14 +19,7 @@ impl Solution {
 
         let mut record: HashMap<char, i32> = HashMap::new();
         for ch in s.chars() {
-            match record.get_mut(&ch) {
-                Some(v) => {
-                    *v += 1;
-                }
-                None => {
-                    record.insert(ch, 1);
-                }
-            }
+            record.entry(ch).and_modify(|v| *v += 1).or_insert(1);
         }
 
         for ch in t.chars() {
