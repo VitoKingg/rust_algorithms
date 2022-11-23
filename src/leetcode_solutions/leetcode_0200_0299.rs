@@ -1,3 +1,4 @@
 mod leetcode_0208_implement_trie;
 mod leetcode_0225_implement_stack_using_queues;
 mod leetcode_0232_implement_queue_using_stacks;
+mod leetcode_0242_valid_anagram;
