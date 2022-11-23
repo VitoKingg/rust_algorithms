@@ -20,6 +20,7 @@
   - 基本单位: frame (帧)
 -
 - monotonic stack 单调栈
+- 常见问题模型：next greater element
 - [LeetCode tag - monotonic stack](https://leetcode.com/tag/monotonic-stack/)
 
 ### [queue](<https://en.wikipedia.org/wiki/Queue_(abstract_data_type)>)
@@ -530,7 +531,7 @@
 - LeetCode 0394 Decode String <`Medium`> <`stack`>
 - LeetCode 0155 Min Stack <`Medium`> <`stack`>
 - LeetCode 1249 Minimum Remove to Make Valid Parentheses <`Medium`> <`stack`>
-- LeetCode 0739 Daily Temperatures <`Medium`> <`stack`> <`monotonic stack`>
+- [LeetCode 0739 Daily Temperatures](./src/leetcode_solutions/leetcode_0700_0799/leetcode_0739_daily_temperatures.rs) <`Medium`> <`stack`> <`monotonic stack`>
 - LeetCode 0084 Largest Rectangle in Histogram <`Hard`> <`stack`> <`monotonic stack`>
 -
 - LeetCode 0026 Remove Duplicates from Sorted Array <`Easy`> <`two pointers`>
@@ -1022,7 +1023,7 @@
 - [LeetCode 0225 Implement Stack using Queues](./src/leetcode_solutions/leetcode_0200_0299/leetcode_0225_implement_stack_using_queues.rs) <`Easy`> <`stack`> <`queue`>
 - [LeetCode 0232 Implement Queue using Stacks](./src/leetcode_solutions/leetcode_0200_0299/leetcode_0232_implement_queue_using_stacks.rs)) <`Easy`> <`stack`> <`queue`>
 - [LeetCode 0020 Valid Parentheses](./src/leetcode_solutions/leetcode_0000_0099/leetcode_0020_valid_parentheses.rs) <`Easy`> <`stack`>
-- LeetCode 0739 Daily Temperatures <`Medium`> <`stack`> <`monotonic stack`>
+- [LeetCode 0739 Daily Temperatures](./src/leetcode_solutions/leetcode_0700_0799/leetcode_0739_daily_temperatures.rs) <`Medium`> <`stack`> <`monotonic stack`>
 - LeetCode 0001 Two Sum <`Easy`> <`hash table`>
 - LeetCode 0242 Valid Anagram <`Easy`> <`hash table`>
 - LeetCode 0049 Group Anagrams <`Medium`> <`hash table`>
