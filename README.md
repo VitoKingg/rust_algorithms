@@ -567,7 +567,7 @@
 - [LeetCode 0001 Two Sum](./src/leetcode_solutions/leetcode_0000_0099/leetcode_0001_two_sum.rs) <`Easy`> <`hash table`>
 - LeetCode 0217 Contains Duplicate <`Easy`> <`hash table`>
 - [LeetCode 0242 Valid Anagram](./src/leetcode_solutions/leetcode_0200_0299/leetcode_0242_valid_anagram.rs) <`Easy`> <`hash table`>
-- LeetCode 0049 Group Anagrams <`Medium`> <`hash table`>
+- [LeetCode 0049 Group Anagrams](./src/leetcode_solutions/leetcode_0000_0099/leetcode_0049_group_anagrams.rs) <`Medium`> <`hash table`>
 - LeetCode 0387 First Unique Character in a String <`Easy`> <`hash table`> <`queue`>
 -
 - LeetCode 0146 LRU Cache <`Medium`> <`hash table`> <`linked list`> <`doubly linked list`>
@@ -1026,7 +1026,7 @@
 - [LeetCode 0739 Daily Temperatures](./src/leetcode_solutions/leetcode_0700_0799/leetcode_0739_daily_temperatures.rs) <`Medium`> <`stack`> <`monotonic stack`>
 - [LeetCode 0001 Two Sum](./src/leetcode_solutions/leetcode_0000_0099/leetcode_0001_two_sum.rs) <`Easy`> <`hash table`>
 - [LeetCode 0242 Valid Anagram](./src/leetcode_solutions/leetcode_0200_0299/leetcode_0242_valid_anagram.rs) <`Easy`> <`hash table`>
-- LeetCode 0049 Group Anagrams <`Medium`> <`hash table`>
+- [LeetCode 0049 Group Anagrams](./src/leetcode_solutions/leetcode_0000_0099/leetcode_0049_group_anagrams.rs) <`Medium`> <`hash table`>
 - LeetCode 0387 First Unique Character in a String <`Easy`> <`hash table`> <`queue`>
 - LeetCode 0146 LRU Cache <`Medium`> <`hash table`> <`linked list`> <`doubly linked list`>
 - LeetCode 0215 Kth Largest Element in an Array <`Medium`> <`divide and conquer`> <`heap (priority queue)`>
