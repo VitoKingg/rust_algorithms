@@ -1,2 +1,3 @@
+mod leetcode_0001_two_sum;
 mod leetcode_0020_valid_parentheses;
 mod leetcode_0072_edit_distance;

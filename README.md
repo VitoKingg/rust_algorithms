@@ -564,7 +564,7 @@
 - LeetCode 0138 Copy List with Random Pointer <`Medium`> <`hash table`> <`linked list`>
 - LeetCode 0167 Two Sum II - Input Array Is Sorted <`Medium`> <`two pointers`> <`binary search`>
 -
-- LeetCode 0001 Two Sum <`Easy`> <`hash table`>
+- [LeetCode 0001 Two Sum](./src/leetcode_solutions/leetcode_0000_0099/leetcode_0001_two_sum.rs) <`Easy`> <`hash table`>
 - LeetCode 0217 Contains Duplicate <`Easy`> <`hash table`>
 - LeetCode 0242 Valid Anagram <`Easy`> <`hash table`>
 - LeetCode 0049 Group Anagrams <`Medium`> <`hash table`>
@@ -1024,7 +1024,7 @@
 - [LeetCode 0232 Implement Queue using Stacks](./src/leetcode_solutions/leetcode_0200_0299/leetcode_0232_implement_queue_using_stacks.rs)) <`Easy`> <`stack`> <`queue`>
 - [LeetCode 0020 Valid Parentheses](./src/leetcode_solutions/leetcode_0000_0099/leetcode_0020_valid_parentheses.rs) <`Easy`> <`stack`>
 - [LeetCode 0739 Daily Temperatures](./src/leetcode_solutions/leetcode_0700_0799/leetcode_0739_daily_temperatures.rs) <`Medium`> <`stack`> <`monotonic stack`>
-- LeetCode 0001 Two Sum <`Easy`> <`hash table`>
+- [LeetCode 0001 Two Sum](./src/leetcode_solutions/leetcode_0000_0099/leetcode_0001_two_sum.rs) <`Easy`> <`hash table`>
 - LeetCode 0242 Valid Anagram <`Easy`> <`hash table`>
 - LeetCode 0049 Group Anagrams <`Medium`> <`hash table`>
 - LeetCode 0387 First Unique Character in a String <`Easy`> <`hash table`> <`queue`>
