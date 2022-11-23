@@ -1,4 +1,3 @@
-/// [LeetCode 0020 Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)
 struct Solution;
 
 impl Solution {
@@ -17,9 +16,7 @@ impl Solution {
                             return false;
                         }
                     }
-                    None => {
-                        return false;
-                    }
+                    None => return false,
                 },
                 _ => {}
             }
