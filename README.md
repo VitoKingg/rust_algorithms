@@ -550,7 +550,7 @@
 - LeetCode 0876 Middle of the Linked List <`Easy`> <`linked list`> <`two pointers`>
 - LeetCode 0234 Palindrome Linked List <`Easy`> <`linked list`> <`two pointers`> <`stack`>
 - LeetCode 0019 Remove Nth Node From End of List <`Medium`> <`linked list`> <`two pointers`>
-- LeetCode 0028 Find the Index of the First Occurrence in a String <`Medium`> <`two pointers`> <`string matching`>
+- [LeetCode 0028 Find the Index of the First Occurrence in a String](./src/leetcode_solutions/leetcode_0000_0099/leetcode_0028_find_the_index_of_the_first_occurrence_in_a_string.rs) <`Medium`> <`two pointers`> <`string matching`>
 - LeetCode 0143 Reorder List <`Medium`> <`linked list`> <`two pointers`> <`stack`>
 - LeetCode 0141 Linked List Cycle <`Easy`> <`hash table`> <`linked list`> <`two pointers`>
 - LeetCode 0142 Linked List Cycle II <`Medium`> <`hash table`> <`linked list`> <`two pointers`>
@@ -1035,7 +1035,7 @@
 - 双指针与滑动窗口
 - [LeetCode 0011 Container With Most Water](./src/leetcode_solutions/leetcode_0000_0099/leetcode_0011_container_with_most_water.rs) <`Medium`> <`two pointers`> <`greedy`>
 - [LeetCode 0125 Valid Palindrome](./src/leetcode_solutions/leetcode_0100_0199/leetcode_0125_valid_palindrome.rs) <`Easy`> <`two pointers`>
-- LeetCode 0028 Find the Index of the First Occurrence in a String <`Medium`> <`two pointers`> <`string matching`>
+- [LeetCode 0028 Find the Index of the First Occurrence in a String](./src/leetcode_solutions/leetcode_0000_0099/leetcode_0028_find_the_index_of_the_first_occurrence_in_a_string.rs) <`Medium`> <`two pointers`> <`string matching`>
 - LeetCode 0141 Linked List Cycle <`Easy`> <`hash table`> <`linked list`> <`two pointers`>
 - LeetCode 0142 Linked List Cycle II <`Medium`> <`hash table`> <`linked list`> <`two pointers`>
 - LeetCode 0021 Merge Two Sorted Lists <`Easy`> <`linked list`>
