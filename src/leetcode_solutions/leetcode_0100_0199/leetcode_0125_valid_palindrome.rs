@@ -1,11 +1,10 @@
-/// [LeetCode 0125 Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)
 struct Solution;
 
 impl Solution {
     pub fn is_palindrome(s: String) -> bool {
         let s: Vec<char> = s
             .chars()
-            .filter(|c| c.is_alphanumeric())
+            .filter(|c| c.is_ascii_alphanumeric())
             .map(|c| c.to_ascii_lowercase())
             .collect();
 
