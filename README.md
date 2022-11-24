@@ -570,7 +570,7 @@
 - [LeetCode 0049 Group Anagrams](./src/leetcode_solutions/leetcode_0000_0099/leetcode_0049_group_anagrams.rs) <`Medium`> <`hash table`>
 - [LeetCode 0387 First Unique Character in a String](./src/leetcode_solutions/leetcode_0300_0399/leetcode_0387_first_unique_character_in_a_string.rs) <`Easy`> <`hash table`> <`queue`>
 -
-- LeetCode 0146 LRU Cache <`Medium`> <`hash table`> <`linked list`> <`doubly linked list`>
+- [LeetCode 0146 LRU Cache](./src/leetcode_solutions/leetcode_0100_0199/leetcode_0146_lru_cache.rs) <`Medium`> <`hash table`> <`linked list`> <`doubly linked list`>
 - LeetCode 0287 Find the Duplicate Number <`Medium`> <`two pointers`> <`binary search`> <`bit manipulation`>
 -
 - LeetCode 0023 Merge k Sorted Lists <`Hard`> <`linked list`> <`divide and conquer`> <`heap (priority queue)`> <`merge sort`>
@@ -1028,7 +1028,6 @@
 - [LeetCode 0242 Valid Anagram](./src/leetcode_solutions/leetcode_0200_0299/leetcode_0242_valid_anagram.rs) <`Easy`> <`hash table`>
 - [LeetCode 0049 Group Anagrams](./src/leetcode_solutions/leetcode_0000_0099/leetcode_0049_group_anagrams.rs) <`Medium`> <`hash table`>
 - [LeetCode 0387 First Unique Character in a String](./src/leetcode_solutions/leetcode_0300_0399/leetcode_0387_first_unique_character_in_a_string.rs) <`Easy`> <`hash table`> <`queue`>
-- LeetCode 0146 LRU Cache <`Medium`> <`hash table`> <`linked list`> <`doubly linked list`>
 - LeetCode 0215 Kth Largest Element in an Array <`Medium`> <`divide and conquer`> <`heap (priority queue)`>
 - LeetCode 0023 Merge k Sorted Lists <`Hard`> <`linked list`> <`divide and conquer`> <`heap (priority queue)`> <`merge sort`>
 - LeetCode 0409 Longest Palindrome <`Easy`> <`hash table`> <`greedy`>
@@ -1058,6 +1057,7 @@
 - LeetCode 0148 Sort List <`Medium`> <`linked list`> <`two pointers`> <`divide and conquer`> <`merge sort`>
 - LeetCode 0002 Add Two Numbers <`Medium`> <`linked list`> <`math`>
 - LeetCode 0445 Add Two Numbers II <`Medium`> <`linked list`> <`math`> <`stack`>
+- [LeetCode 0146 LRU Cache](./src/leetcode_solutions/leetcode_0100_0199/leetcode_0146_lru_cache.rs) <`Medium`> <`hash table`> <`linked list`> <`doubly linked list`>
 -
 - 十大常用排序算法，时间复杂度，空间复杂度，稳定性
 - [bubble sort](https://en.wikipedia.org/wiki/Bubble_sort) 冒泡排序
