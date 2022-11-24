@@ -778,7 +778,7 @@
 - LeetCode 0448 Find All Numbers Disappeared in an Array (Easy) <`hash table`>
 - LeetCode 0763 Partition Labels <`Medium`> <`hash table`> <`two pointers`> <`greedy`>
 - [LeetCode 0409 Longest Palindrome](./src/leetcode_solutions/leetcode_0400_0499/leetcode_0409_longest_palindrome.rs) <`Easy`> <`hash table`> <`greedy`>
-- LeetCode 0594 Longest Harmonious Subsequence <`Easy`> <`hash table`>
+- [LeetCode 0594 Longest Harmonious Subsequence](./src/leetcode_solutions/leetcode_0500_0599/leetcode_0594_longest_harmonious_subsequence.rs) <`Easy`> <`hash table`>
 - LeetCode 0953 Verifying an Alien Dictionary <`Easy`> <`hash table`>
 - LeetCode 1122 Relative Sort Array <`Easy`> <`hash table`>
 - LeetCode 0705 Design HashSet <`Easy`> <`hash table`> <`linked list`>
@@ -1031,7 +1031,7 @@
 - TODO:[LeetCode 0215 Kth Largest Element in an Array](./src/leetcode_solutions/leetcode_0200_0299/leetcode_0215_kth_largest_element_in_an_array.rs) <`Medium`> <`divide and conquer`> <`heap (priority queue)`>
 - TODO:[LeetCode 0023 Merge k Sorted Lists](./src/leetcode_solutions/leetcode_0000_0099/leetcode_0023_merge_k_sorted_lists.rs) <`Hard`> <`linked list`> <`divide and conquer`> <`heap (priority queue)`> <`merge sort`>
 - [LeetCode 0409 Longest Palindrome](./src/leetcode_solutions/leetcode_0400_0499/leetcode_0409_longest_palindrome.rs) <`Easy`> <`hash table`> <`greedy`>
-- LeetCode 0594 Longest Harmonious Subsequence <`Easy`> <`hash table`>
+- [LeetCode 0594 Longest Harmonious Subsequence](./src/leetcode_solutions/leetcode_0500_0599/leetcode_0594_longest_harmonious_subsequence.rs) <`Easy`> <`hash table`>
 -
 - 双指针与滑动窗口
 - LeetCode 0011 Container With Most Water <`Medium`> <`two pointers`> <`greedy`>
