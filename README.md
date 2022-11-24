@@ -573,7 +573,7 @@
 - [LeetCode 0146 LRU Cache](./src/leetcode_solutions/leetcode_0100_0199/leetcode_0146_lru_cache.rs) <`Medium`> <`hash table`> <`linked list`> <`doubly linked list`>
 - LeetCode 0287 Find the Duplicate Number <`Medium`> <`two pointers`> <`binary search`> <`bit manipulation`>
 -
-[LeetCode 0023 Merge k Sorted Lists](./src/leetcode_solutions/leetcode_0000_0099/leetcode_0023_merge_k_sorted_lists.rs) <`Hard`> <`linked list`> <`divide and conquer`> <`heap (priority queue)`> <`merge sort`>
+- [LeetCode 0023 Merge k Sorted Lists](./src/leetcode_solutions/leetcode_0000_0099/leetcode_0023_merge_k_sorted_lists.rs) <`Hard`> <`linked list`> <`divide and conquer`> <`heap (priority queue)`> <`merge sort`>
 - LeetCode 0003 Longest Substring Without Repeating Characters <`Medium`> <`hash table`> <`sliding window`>
 - LeetCode 0713 Subarray Product Less Than K <`Medium`> <`sliding window`>
 - LeetCode 0340 Longest Substring with At Most K Distinct Characters <`Medium`> <`hash table`> <`sliding window`>
@@ -777,7 +777,7 @@
 - LeetCode 0205 Isomorphic Strings <`Easy`> <`hash table`>
 - LeetCode 0448 Find All Numbers Disappeared in an Array (Easy) <`hash table`>
 - LeetCode 0763 Partition Labels <`Medium`> <`hash table`> <`two pointers`> <`greedy`>
-- LeetCode 0409 Longest Palindrome <`Easy`> <`hash table`> <`greedy`>
+- [LeetCode 0409 Longest Palindrome](./src/leetcode_solutions/leetcode_0400_0499/leetcode_0409_longest_palindrome.rs) <`Easy`> <`hash table`> <`greedy`>
 - LeetCode 0594 Longest Harmonious Subsequence <`Easy`> <`hash table`>
 - LeetCode 0953 Verifying an Alien Dictionary <`Easy`> <`hash table`>
 - LeetCode 1122 Relative Sort Array <`Easy`> <`hash table`>
@@ -1030,7 +1030,7 @@
 - [LeetCode 0387 First Unique Character in a String](./src/leetcode_solutions/leetcode_0300_0399/leetcode_0387_first_unique_character_in_a_string.rs) <`Easy`> <`hash table`> <`queue`>
 - TODO:[LeetCode 0215 Kth Largest Element in an Array](./src/leetcode_solutions/leetcode_0200_0299/leetcode_0215_kth_largest_element_in_an_array.rs) <`Medium`> <`divide and conquer`> <`heap (priority queue)`>
 - TODO:[LeetCode 0023 Merge k Sorted Lists](./src/leetcode_solutions/leetcode_0000_0099/leetcode_0023_merge_k_sorted_lists.rs) <`Hard`> <`linked list`> <`divide and conquer`> <`heap (priority queue)`> <`merge sort`>
-- LeetCode 0409 Longest Palindrome <`Easy`> <`hash table`> <`greedy`>
+- [LeetCode 0409 Longest Palindrome](./src/leetcode_solutions/leetcode_0400_0499/leetcode_0409_longest_palindrome.rs) <`Easy`> <`hash table`> <`greedy`>
 - LeetCode 0594 Longest Harmonious Subsequence <`Easy`> <`hash table`>
 -
 - 双指针与滑动窗口
