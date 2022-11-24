@@ -585,7 +585,7 @@
 - LeetCode 0455 Assign Cookies <`Easy`> <`two pointers`> <`greedy`>
 - LeetCode 0680 Valid Palindrome II <`Easy`> <`two pointers`> <`greedy`>
 - LeetCode 0202 Happy Number <`Easy`> <`hash table`> <`math`> <`two pointers`>
-- LeetCode 0011 Container With Most Water <`Medium`> <`two pointers`> <`greedy`>
+- [LeetCode 0011 Container With Most Water](./src/leetcode_solutions/leetcode_0000_0099/leetcode_0011_container_with_most_water.rs) <`Medium`> <`two pointers`> <`greedy`>
 - LeetCode 0295 Find Median from Data Stream <`Hard`> <`two pointers`> <`heap (priority queue)`>
 - [LeetCode 0215 Kth Largest Element in an Array](./src/leetcode_solutions/leetcode_0200_0299/leetcode_0215_kth_largest_element_in_an_array.rs) <`Medium`> <`divide and conquer`> <`heap (priority queue)`>
 - LeetCode 0347 Top K Frequent Elements <`Medium`> <`hash table`> <`divide and conquer`> <`heap (priority queue)`>
@@ -1034,7 +1034,7 @@
 - [LeetCode 0594 Longest Harmonious Subsequence](./src/leetcode_solutions/leetcode_0500_0599/leetcode_0594_longest_harmonious_subsequence.rs) <`Easy`> <`hash table`>
 -
 - 双指针与滑动窗口
-- LeetCode 0011 Container With Most Water <`Medium`> <`two pointers`> <`greedy`>
+- [LeetCode 0011 Container With Most Water](./src/leetcode_solutions/leetcode_0000_0099/leetcode_0011_container_with_most_water.rs) <`Medium`> <`two pointers`> <`greedy`>
 - LeetCode 0026 Remove Duplicates from Sorted Array <`Easy`> <`two pointers`>
 - [LeetCode 0125 Valid Palindrome](./src/leetcode_solutions/leetcode_0100_0199/leetcode_0125_valid_palindrome.rs) <`Easy`> <`two pointers`>
 - LeetCode 0028 Find the Index of the First Occurrence in a String <`Medium`> <`two pointers`> <`string matching`>
