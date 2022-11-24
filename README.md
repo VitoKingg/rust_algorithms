@@ -568,7 +568,7 @@
 - LeetCode 0217 Contains Duplicate <`Easy`> <`hash table`>
 - [LeetCode 0242 Valid Anagram](./src/leetcode_solutions/leetcode_0200_0299/leetcode_0242_valid_anagram.rs) <`Easy`> <`hash table`>
 - [LeetCode 0049 Group Anagrams](./src/leetcode_solutions/leetcode_0000_0099/leetcode_0049_group_anagrams.rs) <`Medium`> <`hash table`>
-- LeetCode 0387 First Unique Character in a String <`Easy`> <`hash table`> <`queue`>
+- [LeetCode 0387 First Unique Character in a String](./src/leetcode_solutions/leetcode_0300_0399/leetcode_0387_first_unique_character_in_a_string.rs) <`Easy`> <`hash table`> <`queue`>
 -
 - LeetCode 0146 LRU Cache <`Medium`> <`hash table`> <`linked list`> <`doubly linked list`>
 - LeetCode 0287 Find the Duplicate Number <`Medium`> <`two pointers`> <`binary search`> <`bit manipulation`>
@@ -1027,7 +1027,7 @@
 - [LeetCode 0001 Two Sum](./src/leetcode_solutions/leetcode_0000_0099/leetcode_0001_two_sum.rs) <`Easy`> <`hash table`>
 - [LeetCode 0242 Valid Anagram](./src/leetcode_solutions/leetcode_0200_0299/leetcode_0242_valid_anagram.rs) <`Easy`> <`hash table`>
 - [LeetCode 0049 Group Anagrams](./src/leetcode_solutions/leetcode_0000_0099/leetcode_0049_group_anagrams.rs) <`Medium`> <`hash table`>
-- LeetCode 0387 First Unique Character in a String <`Easy`> <`hash table`> <`queue`>
+- [LeetCode 0387 First Unique Character in a String](./src/leetcode_solutions/leetcode_0300_0399/leetcode_0387_first_unique_character_in_a_string.rs) <`Easy`> <`hash table`> <`queue`>
 - LeetCode 0146 LRU Cache <`Medium`> <`hash table`> <`linked list`> <`doubly linked list`>
 - LeetCode 0215 Kth Largest Element in an Array <`Medium`> <`divide and conquer`> <`heap (priority queue)`>
 - LeetCode 0023 Merge k Sorted Lists <`Hard`> <`linked list`> <`divide and conquer`> <`heap (priority queue)`> <`merge sort`>
