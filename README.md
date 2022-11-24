@@ -534,7 +534,6 @@
 - [LeetCode 0739 Daily Temperatures](./src/leetcode_solutions/leetcode_0700_0799/leetcode_0739_daily_temperatures.rs) <`Medium`> <`stack`> <`monotonic stack`>
 - LeetCode 0084 Largest Rectangle in Histogram <`Hard`> <`stack`> <`monotonic stack`>
 -
-- LeetCode 0026 Remove Duplicates from Sorted Array <`Easy`> <`two pointers`>
 - LeetCode 0088 Merge Sorted Array <`Easy`> <`two pointers`>
 - [LeetCode 0125 Valid Palindrome](./src/leetcode_solutions/leetcode_0100_0199/leetcode_0125_valid_palindrome.rs) <`Easy`> <`two pointers`>
 - LeetCode 0283 Move Zeroes <`Easy`> <`two pointers`>
@@ -1035,7 +1034,6 @@
 -
 - 双指针与滑动窗口
 - [LeetCode 0011 Container With Most Water](./src/leetcode_solutions/leetcode_0000_0099/leetcode_0011_container_with_most_water.rs) <`Medium`> <`two pointers`> <`greedy`>
-- LeetCode 0026 Remove Duplicates from Sorted Array <`Easy`> <`two pointers`>
 - [LeetCode 0125 Valid Palindrome](./src/leetcode_solutions/leetcode_0100_0199/leetcode_0125_valid_palindrome.rs) <`Easy`> <`two pointers`>
 - LeetCode 0028 Find the Index of the First Occurrence in a String <`Medium`> <`two pointers`> <`string matching`>
 - LeetCode 0141 Linked List Cycle <`Easy`> <`hash table`> <`linked list`> <`two pointers`>
