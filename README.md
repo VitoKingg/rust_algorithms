@@ -1039,7 +1039,6 @@
 - [LeetCode 0455 Assign Cookies](./src/leetcode_solutions/leetcode_0400_0499/leetcode_0455_assign_cookies.rs) <`Easy`> <`two pointers`> <`greedy`>
 - [LeetCode 0344 Reverse String](./src/leetcode_solutions/leetcode_0300_0399/leetcode_0344_reverse_string.rs) <`Easy`> <`two pointers`>
 - [LeetCode 0015 3Sum](./src/leetcode_solutions/leetcode_0000_0099/leetcode_0015_3sum.rs) <`Medium`> <`two pointers`>
-- [LeetCode 0287 Find the Duplicate Number](./src/leetcode_solutions/leetcode_0200_0299/leetcode_0287_find_the_duplicate_number.rs) <`Medium`> <`two pointers`> <`binary search`> <`bit manipulation`>
 - LeetCode 0003 Longest Substring Without Repeating Characters <`Medium`> <`hash table`> <`sliding window`>
 - LeetCode 0076 Minimum Window Substring <`Hard`> <`hash table`> <`sliding window`>
 -
