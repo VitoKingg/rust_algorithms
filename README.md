@@ -762,7 +762,7 @@
 - LeetCode 0992 Subarrays with K Different Integers <`Hard`> <`hash table`> <`sliding window`>
 - LeetCode 0424 Longest Repeating Character Replacement <`Medium`> <`hash table`> <`sliding window`>
 - LeetCode 1044 Longest Duplicate Substring <`Hard`> <`binary search`> <`sliding window`>
-- LeetCode 0344 Reverse String <`Easy`> <`two pointers`>
+- [LeetCode 0344 Reverse String](./src/leetcode_solutions/leetcode_0300_0399/leetcode_0344_reverse_string.rs) <`Easy`> <`two pointers`>
 - LeetCode 0696 Count Binary Substrings <`Easy`> <`two pointers`>
 - LeetCode 0016 3Sum Closest <`Medium`> <`two pointers`>
 - LeetCode 0795 Number of Subarrays with Bounded Maximum <`Medium`> <`two pointers`>
@@ -1037,7 +1037,7 @@
 - [LeetCode 0125 Valid Palindrome](./src/leetcode_solutions/leetcode_0100_0199/leetcode_0125_valid_palindrome.rs) <`Easy`> <`two pointers`>
 - [LeetCode 0028 Find the Index of the First Occurrence in a String](./src/leetcode_solutions/leetcode_0000_0099/leetcode_0028_find_the_index_of_the_first_occurrence_in_a_string.rs) <`Medium`> <`two pointers`> <`string matching`>
 - [LeetCode 0455 Assign Cookies](./src/leetcode_solutions/leetcode_0400_0499/leetcode_0455_assign_cookies.rs) <`Easy`> <`two pointers`> <`greedy`>
-- LeetCode 0344 Reverse String <`Easy`> <`two pointers`>
+- [LeetCode 0344 Reverse String](./src/leetcode_solutions/leetcode_0300_0399/leetcode_0344_reverse_string.rs) <`Easy`> <`two pointers`>
 - LeetCode 0015 3 Sum <`Medium`> <`two pointers`>
 - LeetCode 0287 Find the Duplicate Number <`Medium`> <`two pointers`> <`binary search`> <`bit manipulation`>
 - LeetCode 0003 Longest Substring Without Repeating Characters <`Medium`> <`hash table`> <`sliding window`>
