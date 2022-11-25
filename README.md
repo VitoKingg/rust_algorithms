@@ -573,7 +573,7 @@
 - [LeetCode 0287 Find the Duplicate Number](./src/leetcode_solutions/leetcode_0200_0299/leetcode_0287_find_the_duplicate_number.rs) <`Medium`> <`two pointers`> <`binary search`> <`bit manipulation`>
 -
 - [LeetCode 0023 Merge k Sorted Lists](./src/leetcode_solutions/leetcode_0000_0099/leetcode_0023_merge_k_sorted_lists.rs) <`Hard`> <`linked list`> <`divide and conquer`> <`heap (priority queue)`> <`merge sort`>
-- LeetCode 0003 Longest Substring Without Repeating Characters <`Medium`> <`hash table`> <`sliding window`>
+- [LeetCode 0003 Longest Substring Without Repeating Characters](./src/leetcode_solutions/leetcode_0000_0099/leetcode_0003_longest_substring_without_repeating_characters.rs) <`Medium`> <`hash table`> <`sliding window`>
 - LeetCode 0713 Subarray Product Less Than K <`Medium`> <`sliding window`>
 - LeetCode 0340 Longest Substring with At Most K Distinct Characters <`Medium`> <`hash table`> <`sliding window`>
 - LeetCode 0438 Find All Anagrams in a String <`Medium`> <`hash table`> <`sliding window`>
@@ -1039,7 +1039,7 @@
 - [LeetCode 0455 Assign Cookies](./src/leetcode_solutions/leetcode_0400_0499/leetcode_0455_assign_cookies.rs) <`Easy`> <`two pointers`> <`greedy`>
 - [LeetCode 0344 Reverse String](./src/leetcode_solutions/leetcode_0300_0399/leetcode_0344_reverse_string.rs) <`Easy`> <`two pointers`>
 - [LeetCode 0015 3Sum](./src/leetcode_solutions/leetcode_0000_0099/leetcode_0015_3sum.rs) <`Medium`> <`two pointers`>
-- LeetCode 0003 Longest Substring Without Repeating Characters <`Medium`> <`hash table`> <`sliding window`>
+- [LeetCode 0003 Longest Substring Without Repeating Characters](./src/leetcode_solutions/leetcode_0000_0099/leetcode_0003_longest_substring_without_repeating_characters.rs) <`Medium`> <`hash table`> <`sliding window`>
 - LeetCode 0076 Minimum Window Substring <`Hard`> <`hash table`> <`sliding window`>
 -
 - 链表
