@@ -570,7 +570,7 @@
 - [LeetCode 0387 First Unique Character in a String](./src/leetcode_solutions/leetcode_0300_0399/leetcode_0387_first_unique_character_in_a_string.rs) <`Easy`> <`hash table`> <`queue`>
 -
 - [LeetCode 0146 LRU Cache](./src/leetcode_solutions/leetcode_0100_0199/leetcode_0146_lru_cache.rs) <`Medium`> <`hash table`> <`linked list`> <`doubly linked list`>
-- LeetCode 0287 Find the Duplicate Number <`Medium`> <`two pointers`> <`binary search`> <`bit manipulation`>
+- [LeetCode 0287 Find the Duplicate Number](./src/leetcode_solutions/leetcode_0200_0299/leetcode_0287_find_the_duplicate_number.rs) <`Medium`> <`two pointers`> <`binary search`> <`bit manipulation`>
 -
 - [LeetCode 0023 Merge k Sorted Lists](./src/leetcode_solutions/leetcode_0000_0099/leetcode_0023_merge_k_sorted_lists.rs) <`Hard`> <`linked list`> <`divide and conquer`> <`heap (priority queue)`> <`merge sort`>
 - LeetCode 0003 Longest Substring Without Repeating Characters <`Medium`> <`hash table`> <`sliding window`>
@@ -1039,7 +1039,7 @@
 - [LeetCode 0455 Assign Cookies](./src/leetcode_solutions/leetcode_0400_0499/leetcode_0455_assign_cookies.rs) <`Easy`> <`two pointers`> <`greedy`>
 - [LeetCode 0344 Reverse String](./src/leetcode_solutions/leetcode_0300_0399/leetcode_0344_reverse_string.rs) <`Easy`> <`two pointers`>
 - [LeetCode 0015 3Sum](./src/leetcode_solutions/leetcode_0000_0099/leetcode_0015_3sum.rs) <`Medium`> <`two pointers`>
-- LeetCode 0287 Find the Duplicate Number <`Medium`> <`two pointers`> <`binary search`> <`bit manipulation`>
+- [LeetCode 0287 Find the Duplicate Number](./src/leetcode_solutions/leetcode_0200_0299/leetcode_0287_find_the_duplicate_number.rs) <`Medium`> <`two pointers`> <`binary search`> <`bit manipulation`>
 - LeetCode 0003 Longest Substring Without Repeating Characters <`Medium`> <`hash table`> <`sliding window`>
 - LeetCode 0076 Minimum Window Substring <`Hard`> <`hash table`> <`sliding window`>
 -
