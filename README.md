@@ -577,7 +577,7 @@
 - LeetCode 0713 Subarray Product Less Than K <`Medium`> <`sliding window`>
 - LeetCode 0340 Longest Substring with At Most K Distinct Characters <`Medium`> <`hash table`> <`sliding window`>
 - LeetCode 0438 Find All Anagrams in a String <`Medium`> <`hash table`> <`sliding window`>
-- LeetCode 0076 Minimum Window Substring <`Hard`> <`hash table`> <`sliding window`>
+- [LeetCode 0076 Minimum Window Substring](./src/leetcode_solutions/leetcode_0000_0099/leetcode_0076_minimum_window_substring.rs) <`Hard`> <`hash table`> <`sliding window`>
 - LeetCode 0239 Sliding Window Maximum <`Hard`> <`queue`> <`sliding window`> <`heap (priority queue)`> <`monotonic stack`>
 - LeetCode 0567 Permutation in String <`Medium`> <`hash table`> <`two pointers`> <`sliding window`>
 -
@@ -1040,7 +1040,7 @@
 - [LeetCode 0344 Reverse String](./src/leetcode_solutions/leetcode_0300_0399/leetcode_0344_reverse_string.rs) <`Easy`> <`two pointers`>
 - [LeetCode 0015 3Sum](./src/leetcode_solutions/leetcode_0000_0099/leetcode_0015_3sum.rs) <`Medium`> <`two pointers`>
 - [LeetCode 0003 Longest Substring Without Repeating Characters](./src/leetcode_solutions/leetcode_0000_0099/leetcode_0003_longest_substring_without_repeating_characters.rs) <`Medium`> <`hash table`> <`sliding window`>
-- LeetCode 0076 Minimum Window Substring <`Hard`> <`hash table`> <`sliding window`>
+- TODO:[LeetCode 0076 Minimum Window Substring](./src/leetcode_solutions/leetcode_0000_0099/leetcode_0076_minimum_window_substring.rs) <`Hard`> <`hash table`> <`sliding window`>
 -
 - 链表
 - LeetCode 0206 Reverse Linked List <`Easy`> <`linked list`>
