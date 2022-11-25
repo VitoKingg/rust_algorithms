@@ -539,7 +539,7 @@
 - LeetCode 0283 Move Zeroes <`Easy`> <`two pointers`>
 - LeetCode 0844 Backspace String Compare <`Easy`> <`two pointers`> <`stack`>
 - LeetCode 0189 Rotate Array <`Medium`> <`math`> <`two pointers`>
-- LeetCode 0015 3 Sum <`Medium`> <`two pointers`>
+- [LeetCode 0015 3Sum](./src/leetcode_solutions/leetcode_0000_0099/leetcode_0015_3sum.rs) <`Medium`> <`two pointers`>
 - LeetCode 0075 Sort Colors <`Medium`> <`two pointers`>
 - [LeetCode 0021 Merge Two Sorted Lists](./src/leetcode_solutions/leetcode_0000_0099/leetcode_0021_merge_two_sorted_lists.rs) <`Easy`> <`linked list`>
 - LeetCode 0206 Reverse Linked List <`Easy`> <`linked list`>
@@ -1038,7 +1038,7 @@
 - [LeetCode 0028 Find the Index of the First Occurrence in a String](./src/leetcode_solutions/leetcode_0000_0099/leetcode_0028_find_the_index_of_the_first_occurrence_in_a_string.rs) <`Medium`> <`two pointers`> <`string matching`>
 - [LeetCode 0455 Assign Cookies](./src/leetcode_solutions/leetcode_0400_0499/leetcode_0455_assign_cookies.rs) <`Easy`> <`two pointers`> <`greedy`>
 - [LeetCode 0344 Reverse String](./src/leetcode_solutions/leetcode_0300_0399/leetcode_0344_reverse_string.rs) <`Easy`> <`two pointers`>
-- LeetCode 0015 3 Sum <`Medium`> <`two pointers`>
+- [LeetCode 0015 3Sum](./src/leetcode_solutions/leetcode_0000_0099/leetcode_0015_3sum.rs) <`Medium`> <`two pointers`>
 - LeetCode 0287 Find the Duplicate Number <`Medium`> <`two pointers`> <`binary search`> <`bit manipulation`>
 - LeetCode 0003 Longest Substring Without Repeating Characters <`Medium`> <`hash table`> <`sliding window`>
 - LeetCode 0076 Minimum Window Substring <`Hard`> <`hash table`> <`sliding window`>
@@ -1049,8 +1049,8 @@
 - LeetCode 0234 Palindrome Linked List <`Easy`> <`linked list`> <`two pointers`> <`stack`>
 - [LeetCode 0021 Merge Two Sorted Lists](./src/leetcode_solutions/leetcode_0000_0099/leetcode_0021_merge_two_sorted_lists.rs) <`Easy`> <`linked list`>
 - LeetCode 0160 Intersection of Two Linked Lists <`Easy`> <`hash table`> <`linked list`> <`two pointers`>
-- LeetCode 0141 Linked List Cycle <`Easy`> <`hash table`> <`linked list`> <`two pointers`> (no Rust solution)
-- LeetCode 0142 Linked List Cycle II <`Medium`> <`hash table`> <`linked list`> <`two pointers`> (no Rust solution)
+- (no Rust solution) LeetCode 0141 Linked List Cycle <`Easy`> <`hash table`> <`linked list`> <`two pointers`>
+- (no Rust solution) LeetCode 0142 Linked List Cycle II <`Medium`> <`hash table`> <`linked list`> <`two pointers`>
 - LeetCode 0025 Reverse Nodes in k-Group <`Hard`> <`linked list`>
 - LeetCode 0148 Sort List <`Medium`> <`linked list`> <`two pointers`> <`divide and conquer`> <`merge sort`>
 - LeetCode 0002 Add Two Numbers <`Medium`> <`linked list`> <`math`>
