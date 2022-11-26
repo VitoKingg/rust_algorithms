@@ -746,7 +746,7 @@
 - LeetCode 0024 Swap Nodes in Pairs <`Medium`> <`linked list`>
 - LeetCode 0725 Split Linked List in Parts <`Medium`> <`linked list`>
 - LeetCode 0382 Linked List Random Node <`Medium`> <`linked list`> <`math`>
-- LeetCode 0025 Reverse Nodes in k-Group <`Hard`> <`linked list`>
+- [LeetCode 0025 Reverse Nodes in k-Group](./src/leetcode_solutions/leetcode_0000_0099/leetcode_0025_reverse_nodes_in_k_group.rs) <`Hard`> <`linked list`>
 - LeetCode 0622 Design Circular Queue <`Medium`> <`linked list`> <`queue`>
 - LeetCode 0641 Design Circular Deque <`Medium`> <`linked list`> <`queue`>
 - LeetCode 0832 Flipping an Image <`Easy`> <`two pointers`> <`matrix`>
@@ -1047,10 +1047,10 @@
 - [LeetCode 0203 Remove Linked List Elements](./src/leetcode_solutions/leetcode_0200_0299/leetcode_0203_remove_linked_list.rs) <`Easy`> <`linked list`>
 - [LeetCode 0234 Palindrome Linked List](./src/leetcode_solutions/leetcode_0200_0299/leetcode_0234_palindrome_linked_list.rs) <`Easy`> <`linked list`> <`two pointers`> <`stack`>
 - [LeetCode 0021 Merge Two Sorted Lists](./src/leetcode_solutions/leetcode_0000_0099/leetcode_0021_merge_two_sorted_lists.rs) <`Easy`> <`linked list`>
-- LeetCode 0160 Intersection of Two Linked Lists <`Easy`> <`hash table`> <`linked list`> <`two pointers`>
+- (no Rust solution) LeetCode 0160 Intersection of Two Linked Lists <`Easy`> <`hash table`> <`linked list`> <`two pointers`>
 - (no Rust solution) LeetCode 0141 Linked List Cycle <`Easy`> <`hash table`> <`linked list`> <`two pointers`>
 - (no Rust solution) LeetCode 0142 Linked List Cycle II <`Medium`> <`hash table`> <`linked list`> <`two pointers`>
-- LeetCode 0025 Reverse Nodes in k-Group <`Hard`> <`linked list`>
+- [LeetCode 0025 Reverse Nodes in k-Group](./src/leetcode_solutions/leetcode_0000_0099/leetcode_0025_reverse_nodes_in_k_group.rs) <`Hard`> <`linked list`>
 - LeetCode 0148 Sort List <`Medium`> <`linked list`> <`two pointers`> <`divide and conquer`> <`merge sort`>
 - LeetCode 0002 Add Two Numbers <`Medium`> <`linked list`> <`math`>
 - LeetCode 0445 Add Two Numbers II <`Medium`> <`linked list`> <`math`> <`stack`>
