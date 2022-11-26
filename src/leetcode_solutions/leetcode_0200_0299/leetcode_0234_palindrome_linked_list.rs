@@ -11,9 +11,9 @@ impl Solution {
         let mut head_copy = head;
         let mut list: Vec<i32> = vec![];
 
-        while let Some(ref node) = head_copy {
+        while let Some(node) = head_copy {
             list.push(node.val);
-            head_copy = head_copy.unwrap().next;
+            head_copy = node.next;
         }
 
         // for (i, &v) in list.iter().rev().enumerate() {
