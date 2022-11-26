@@ -542,7 +542,7 @@
 - [LeetCode 0015 3Sum](./src/leetcode_solutions/leetcode_0000_0099/leetcode_0015_3sum.rs) <`Medium`> <`two pointers`>
 - LeetCode 0075 Sort Colors <`Medium`> <`two pointers`>
 - [LeetCode 0021 Merge Two Sorted Lists](./src/leetcode_solutions/leetcode_0000_0099/leetcode_0021_merge_two_sorted_lists.rs) <`Easy`> <`linked list`>
-- LeetCode 0206 Reverse Linked List <`Easy`> <`linked list`>
+- [LeetCode 0206 Reverse Linked List](./src/leetcode_solutions/leetcode_0200_0299/leetcode_0206_reverse_linked_list.rs) <`Easy`> <`linked list`>
 - LeetCode 0092 Reverse Linked List II <`Medium`> <`linked list`>
 - LeetCode 0203 Remove Linked List Elements <`Easy`> <`linked list`>
 - LeetCode 0237 Delete Node in a Linked List <`Easy`> <`linked list`>
@@ -1043,7 +1043,7 @@
 - TODO:[LeetCode 0076 Minimum Window Substring](./src/leetcode_solutions/leetcode_0000_0099/leetcode_0076_minimum_window_substring.rs) <`Hard`> <`hash table`> <`sliding window`>
 -
 - 链表
-- LeetCode 0206 Reverse Linked List <`Easy`> <`linked list`>
+- [LeetCode 0206 Reverse Linked List](./src/leetcode_solutions/leetcode_0200_0299/leetcode_0206_reverse_linked_list.rs) <`Easy`> <`linked list`>
 - LeetCode 0203 Remove Linked List Elements <`Easy`> <`linked list`>
 - LeetCode 0234 Palindrome Linked List <`Easy`> <`linked list`> <`two pointers`> <`stack`>
 - [LeetCode 0021 Merge Two Sorted Lists](./src/leetcode_solutions/leetcode_0000_0099/leetcode_0021_merge_two_sorted_lists.rs) <`Easy`> <`linked list`>
