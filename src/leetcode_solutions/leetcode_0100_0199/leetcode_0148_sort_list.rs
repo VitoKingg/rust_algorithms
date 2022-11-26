@@ -4,11 +4,42 @@ struct ListNode {
     next: Option<Box<ListNode>>,
 }
 
+impl ListNode {
+    #[inline]
+    fn new(val: i32) -> Self {
+        ListNode { val, next: None }
+    }
+}
+
 struct Solution;
 
 impl Solution {
     pub fn sort_list(head: Option<Box<ListNode>>) -> Option<Box<ListNode>> {
-        head
+        let mut curr = head;
+        let mut list: Vec<i32> = vec![];
+
+        while let Some(node) = curr {
+            list.push(node.val);
+            curr = node.next;
+        }
+
+        list.sort_unstable_by(|a, b| b.cmp(a));
+
+        let mut another_head: Option<Box<ListNode>> = None;
+        let mut another_curr = &mut another_head;
+        while let Some(val) = list.pop() {
+            let new_node = Some(Box::new(ListNode::new(val)));
+
+            if let Some(node) = another_curr {
+                node.next = new_node;
+                another_curr = &mut node.next;
+            } else {
+                another_head = new_node;
+                another_curr = &mut another_head;
+            }
+        }
+
+        another_head
     }
 }
 
