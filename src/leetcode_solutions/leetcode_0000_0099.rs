@@ -1,4 +1,5 @@
 mod leetcode_0001_two_sum;
+mod leetcode_0002_add_two_numbers;
 mod leetcode_0003_longest_substring_without_repeating_characters;
 mod leetcode_0011_container_with_most_water;
 mod leetcode_0015_3sum;

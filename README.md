@@ -556,7 +556,7 @@
 - LeetCode 0142 Linked List Cycle II <`Medium`> <`hash table`> <`linked list`> <`two pointers`> (no Rust solution)
 - LeetCode 0114 Flatten Binary Tree to Linked List <`Medium`> <`linked list`> <`stack`> <`dfs`> <`binary tree`>
 - LeetCode 0430 Flatten a Multilevel Doubly Linked List <`Medium`> <`linked list`> <`doubly linked list`> <`dfs`>
-- LeetCode 0002 Add Two Numbers <`Medium`> <`linked list`> <`math`>
+- [LeetCode 0002 Add Two Numbers](./src/leetcode_solutions/leetcode_0000_0099/leetcode_0002_add_two_numbers.rs) <`Medium`> <`linked list`> <`math`>
 - LeetCode 0445 Add Two Numbers II <`Medium`> <`linked list`> <`math`> <`stack`>
 - [LeetCode 0148 Sort List](./src/leetcode_solutions/leetcode_0100_0199/leetcode_0148_sort_list.rs) <`Medium`> <`linked list`> <`two pointers`> <`divide and conquer`> <`merge sort`>
 - LeetCode 0160 Intersection of Two Linked Lists <`Easy`> <`hash table`> <`linked list`> <`two pointers`>
@@ -1052,7 +1052,7 @@
 - (no Rust solution) LeetCode 0142 Linked List Cycle II <`Medium`> <`hash table`> <`linked list`> <`two pointers`>
 - TODO:[LeetCode 0025 Reverse Nodes in k-Group](./src/leetcode_solutions/leetcode_0000_0099/leetcode_0025_reverse_nodes_in_k_group.rs) <`Hard`> <`linked list`>
 - [LeetCode 0148 Sort List](./src/leetcode_solutions/leetcode_0100_0199/leetcode_0148_sort_list.rs) <`Medium`> <`linked list`> <`two pointers`> <`divide and conquer`> <`merge sort`>
-- LeetCode 0002 Add Two Numbers <`Medium`> <`linked list`> <`math`>
+- [LeetCode 0002 Add Two Numbers](./src/leetcode_solutions/leetcode_0000_0099/leetcode_0002_add_two_numbers.rs) <`Medium`> <`linked list`> <`math`>
 - LeetCode 0445 Add Two Numbers II <`Medium`> <`linked list`> <`math`> <`stack`>
 - TODO:[LeetCode 0146 LRU Cache](./src/leetcode_solutions/leetcode_0100_0199/leetcode_0146_lru_cache.rs) <`Medium`> <`hash table`> <`linked list`> <`doubly linked list`>
 - 实现单链表 [linked_list.rs](./src/data_structures/linked_list.rs)
