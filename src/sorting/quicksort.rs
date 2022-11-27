@@ -1,58 +1,88 @@
+#![allow(dead_code)]
+
 /// T(n) = O(n * log(n))
-pub fn quicksort<T: Ord + std::fmt::Debug>(arr: &mut [T]) {
-    let arr_len = arr.len();
-    if arr_len <= 1 {
-        return;
-    }
+/// S(n) = O(log n) : Hoare partition scheme
+/// S(n) = O(n) : Lomuto partition scheme
+pub fn quicksort<T: Ord + Copy>(arr: &mut [T]) {
+    let len = arr.len();
 
-    _quicksort(arr, 0, arr_len - 1);
+    if len > 1 {
+        quicksort_helper(arr, 0, len - 1);
+    }
 }
 
-fn _quicksort<T: Ord + std::fmt::Debug>(arr: &mut [T], left: usize, right: usize) {
-    if left < right {
-        let part = partition(arr, left, right);
+fn quicksort_helper<T: Ord + Copy>(arr: &mut [T], low: usize, high: usize) {
+    if low < high {
+        let p = partition_hoare(arr, low, high);
+        // let p = partition_lomuto(arr, low, high);
 
-        // boundary check: `part <= 1` leads to `part-1 <= 0`
-        if part > 1 {
-            _quicksort(arr, left, part - 1);
+        if p > 1 {
+            quicksort_helper(arr, low, p - 1);
         }
-        _quicksort(arr, part + 1, right);
+        quicksort_helper(arr, p + 1, high);
     }
 }
 
-fn partition<T: Ord>(arr: &mut [T], left: usize, right: usize) -> usize {
+// Hoare partition scheme
+fn partition_hoare<T: Ord + Copy>(arr: &mut [T], low: usize, high: usize) -> usize {
     // pivot can be:
     //  [
     //    the first element,
     //    the last element,
     //    the middle element,
     //    a random element,
-    //    the median of three
+    //    the median of three,
     //  ]
-    let pivot = left;
-    // i: left marker
-    let mut i = left;
-    // j: right marker
-    let mut j = right;
+    let pivot = arr[low];
+    let mut i = low;
+    let mut j = high;
 
     loop {
-        while i <= j && arr[i] <= arr[pivot] {
+        // move the left index to the left
+        // while the element at the left index is less than the pivot
+        while arr[i] < pivot {
             i += 1;
         }
 
-        while i <= j && arr[j] >= arr[pivot] {
+        // move the right index to the left
+        // while the element at the right index is greater than the pivot
+        while arr[j] > pivot {
             j -= 1;
         }
 
-        if i > j {
-            break;
-        } else {
+        // if the indices crossed, return
+        if i >= j {
+            return j;
+        }
+
+        // swap the elements at the left and right indices
+        arr.swap(i, j);
+    }
+}
+
+// Lomuto partition scheme
+fn partition_lomuto<T: Ord + Copy>(arr: &mut [T], low: usize, high: usize) -> usize {
+    // pivot can be:
+    //  [
+    //    the first element,
+    //    the last element,
+    //    the middle element,
+    //    a random element,
+    //    the median of three,
+    //  ]
+    let pivot = arr[high];
+    let mut i = low;
+
+    for j in low..high {
+        if arr[j] < pivot {
             arr.swap(i, j);
+            i += 1;
         }
     }
 
-    arr.swap(pivot, j);
-    j
+    arr.swap(i, high);
+
+    i
 }
 
 #[cfg(test)]
