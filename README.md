@@ -1058,17 +1058,14 @@
 - 实现单链表 [linked_list.rs](./src/data_structures/linked_list.rs)
 -
 - 十大常用排序算法，时间复杂度，空间复杂度，稳定性
-- [bubble sort](https://en.wikipedia.org/wiki/Bubble_sort) 冒泡排序
-- [bubble_sort.rs](./src/sorting/bubble_sort.rs)
-- [selection sort](https://en.wikipedia.org/wiki/Selection_sort) 选择排序
-- [selection_sort.rs](./src/sorting/selection_sort.rs)
-- [insertion sort](https://en.wikipedia.org/wiki/Insertion_sort) 插入排序
-- [insertion_sort.rs](./src/sorting/insertion_sort.rs)
 - [quicksort](https://en.wikipedia.org/wiki/Quicksort) 快速排序
 - [quicksort.rs](./src/sorting/quicksort.rs)
 - [merge sort](https://en.wikipedia.org/wiki/Merge_sort) 归并排序
 - [merge_sort.rs](./src/sorting/merge_sort.rs)
 -
+- [bubble sort](https://en.wikipedia.org/wiki/Bubble_sort) 冒泡排序原理复杂度
+- [selection sort](https://en.wikipedia.org/wiki/Selection_sort) 选择排序原理复杂度
+- [insertion sort](https://en.wikipedia.org/wiki/Insertion_sort) 插入排序原理复杂度
 - [Shell sort](https://en.wikipedia.org/wiki/Shellsort) 希尔排序原理复杂度
 - [heapsort](https://en.wikipedia.org/wiki/Heapsort) 堆排序原理复杂度
 - [bucket sort](https://en.wikipedia.org/wiki/Bucket_sort) 桶排序原理复杂度
