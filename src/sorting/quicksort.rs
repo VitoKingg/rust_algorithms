@@ -80,8 +80,11 @@ fn partition_lomuto<T: Ord + Copy>(arr: &mut [T], low: usize, high: usize) -> us
         }
     }
 
+    // move the pivot element to the correct pivot position
+    // (between the smaller and larger elements)
     arr.swap(i, high);
 
+    // return the pivot index
     i
 }
 
