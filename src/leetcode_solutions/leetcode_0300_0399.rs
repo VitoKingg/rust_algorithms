@@ -1,3 +1,4 @@
+mod leetcode_0300_longest_increasing_subsequence;
 mod leetcode_0322_coin_change;
 mod leetcode_0344_reverse_string;
 mod leetcode_0387_first_unique_character_in_a_string;
