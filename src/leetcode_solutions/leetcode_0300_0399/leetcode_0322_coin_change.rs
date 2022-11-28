@@ -1,4 +1,3 @@
-/// [LeetCode 0322 Coin Change](https://leetcode.com/problems/coin-change/)
 struct Solution;
 
 impl Solution {
@@ -61,20 +60,17 @@ mod tests {
     fn test_leetcode_0322() {
         let coins = vec![1, 2, 5];
         let amount = 11;
-        let result = 3;
-        assert_eq!(Solution::coin_change(coins, amount), result);
+        assert_eq!(Solution::coin_change(coins, amount), 3);
         assert_eq!(Solution::coin_change_rust_way(&[1, 2, 5], 11), Some(3));
 
         let coins = vec![2];
         let amount = 3;
-        let result = -1;
-        assert_eq!(Solution::coin_change(coins, amount), result);
+        assert_eq!(Solution::coin_change(coins, amount), -1);
         assert_eq!(Solution::coin_change_rust_way(&[2], 3), None);
 
         let coins = vec![1];
         let amount = 0;
-        let result = 0;
-        assert_eq!(Solution::coin_change(coins, amount), result);
+        assert_eq!(Solution::coin_change(coins, amount), 0);
         assert_eq!(Solution::coin_change_rust_way(&[1], 0), Some(0));
     }
 }
