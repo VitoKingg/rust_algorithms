@@ -1123,7 +1123,7 @@
 - LeetCode 0415 Add Strings <`Easy`> <`math`>
 -
 - 原理问题
-- Bloom filter 原理
-- cuckoo filter 原理
-- red-black tree 原理
+- red-black tree 红黑树原理
+- Bloom filter 布隆过滤器原理
+- cuckoo filter 布谷鸟过滤器原理
 - B tree, B+ tree 原理
