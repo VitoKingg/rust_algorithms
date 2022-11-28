@@ -606,7 +606,7 @@
 - LeetCode 0120 Triangle <`Medium`> <`dynamic programming`>
 - LeetCode 0152 Maximum Product Subarray <`Medium`> <`dynamic programming`>
 - LeetCode 1143 Longest Common Subsequence <`Medium`> <`dynamic programming`>
-- LeetCode 0053 Maximum Subarray <`Medium`> <`dynamic programming`> <`divide and conquer`>
+- [LeetCode 0053 Maximum Subarray](./src/leetcode_solutions/leetcode_0000_0099/leetcode_0053_maximum_subarray.rs) <`Medium`> <`dynamic programming`> <`divide and conquer`>
 - LeetCode 0062 Unique Paths <`Medium`> <`dynamic programming`> <`math`>
 - LeetCode 0063 Unique Paths II <`Medium`> <`dynamic programming`> <`matrix`>
 - LeetCode 0980 Unique Paths III <`Hard`> <`backtracking`> <`bit manipulation`> <`matrix`>
@@ -1078,7 +1078,7 @@
 - [LeetCode 0509 Fibonacci Number](./src/leetcode_solutions/leetcode_0500_0599/leetcode_0509_fibonacci_number.rs) <`Easy`> <`math`> <`dynamic programming`>
 - [LeetCode 0322 Coin Change](./src/leetcode_solutions/leetcode_0300_0399/leetcode_0322_coin_change.rs) <`Medium`> <`dynamic programming`> <`bfs`>
 - TODO:[LeetCode 0072 Edit Distance](./src/leetcode_solutions/leetcode_0000_0099/leetcode_0072_edit_distance.rs) <`Hard`> <`dynamic programming`>
-- LeetCode 0053 Maximum Subarray <`Medium`> <`dynamic programming`> <`divide and conquer`>
+- [LeetCode 0053 Maximum Subarray](./src/leetcode_solutions/leetcode_0000_0099/leetcode_0053_maximum_subarray.rs) <`Medium`> <`dynamic programming`> <`divide and conquer`>
 - LeetCode 0300 Longest Increasing Subsequence <`Medium`> <`dynamic programming`> <`binary search`>
 - LeetCode 0647 Palindromic Substrings <`Medium`> <`dynamic programming`>
 - LeetCode 0005 Longest Palindromic Substring <`Medium`> <`dynamic programming`>
