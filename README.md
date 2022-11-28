@@ -590,7 +590,7 @@
 - LeetCode 0347 Top K Frequent Elements <`Medium`> <`hash table`> <`divide and conquer`> <`heap (priority queue)`>
 - LeetCode 0050 Pow(x, n) <`Medium`> <`math`>
 -
-- LeetCode 0121 Best Time to Buy and Sell Stock <`Easy`> <`dynamic programming`>
+- [LeetCode 0121 Best Time to Buy and Sell Stock](./src/leetcode_solutions/leetcode_0100_0199/leetcode_0121_best_time_to_buy_and_sell_stock.rs) <`Easy`> <`dynamic programming`>
 - LeetCode 0070 Climbing Stairs <`Easy`> <`math`> <`dynamic programming`>
 - LeetCode 0118 Pascal's Triangle <`Easy`> <`dynamic programming`>
 - [LeetCode 0509 Fibonacci Number](./src/leetcode_solutions/leetcode_0500_0599/leetcode_0509_fibonacci_number.rs) <`Easy`> <`math`> <`dynamic programming`>
@@ -1073,7 +1073,7 @@
 - [radix sort](https://en.wikipedia.org/wiki/Radix_sort) 基数排序原理复杂度
 -
 - 动态规划，回溯
-- LeetCode 0121 Best Time to Buy and Sell Stock <`Easy`> <`dynamic programming`>
+- [LeetCode 0121 Best Time to Buy and Sell Stock](./src/leetcode_solutions/leetcode_0100_0199/leetcode_0121_best_time_to_buy_and_sell_stock.rs) <`Easy`> <`dynamic programming`>
 - LeetCode 0070 Climbing Stairs <`Easy`> <`math`> <`dynamic programming`>
 - [LeetCode 0072 Edit Distance](./src/leetcode_solutions/leetcode_0000_0099/leetcode_0072_edit_distance.rs) <`Hard`> <`dynamic programming`>
 - [LeetCode 0509 Fibonacci Number](./src/leetcode_solutions/leetcode_0500_0599/leetcode_0509_fibonacci_number.rs) <`Easy`> <`math`> <`dynamic programming`>
