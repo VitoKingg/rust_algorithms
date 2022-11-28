@@ -597,7 +597,7 @@
 - LeetCode 0746 Min Cost Climbing Stairs <`Easy`> <`dynamic programming`>
 - [LeetCode 0322 Coin Change](./src/leetcode_solutions/leetcode_0300_0399/leetcode_0322_coin_change.rs) <`Medium`> <`dynamic programming`> <`bfs`>
 - [LeetCode 0300 Longest Increasing Subsequence](./src/leetcode_solutions/leetcode_0300_0399/leetcode_0300_longest_increasing_subsequence.rs) <`Medium`> <`dynamic programming`> <`binary search`>
-- LeetCode 0647 Palindromic Substrings <`Medium`> <`dynamic programming`>
+- [LeetCode 0647 Palindromic Substrings](./src/leetcode_solutions/leetcode_0600_0699/leetcode_0647_palindromic_substrings.rs) <`Medium`> <`dynamic programming`>
 - LeetCode 0005 Longest Palindromic Substring <`Medium`> <`dynamic programming`>
 - LeetCode 0198 House Robber <`Medium`> <`dynamic programming`>
 - LeetCode 0213 House Robber II <`Medium`> <`dynamic programming`>
@@ -1080,7 +1080,7 @@
 - TODO:[LeetCode 0072 Edit Distance](./src/leetcode_solutions/leetcode_0000_0099/leetcode_0072_edit_distance.rs) <`Hard`> <`dynamic programming`>
 - [LeetCode 0053 Maximum Subarray](./src/leetcode_solutions/leetcode_0000_0099/leetcode_0053_maximum_subarray.rs) <`Medium`> <`dynamic programming`> <`divide and conquer`>
 - [LeetCode 0300 Longest Increasing Subsequence](./src/leetcode_solutions/leetcode_0300_0399/leetcode_0300_longest_increasing_subsequence.rs) <`Medium`> <`dynamic programming`> <`binary search`>
-- LeetCode 0647 Palindromic Substrings <`Medium`> <`dynamic programming`>
+- TODO:[LeetCode 0647 Palindromic Substrings](./src/leetcode_solutions/leetcode_0600_0699/leetcode_0647_palindromic_substrings.rs) <`Medium`> <`dynamic programming`>
 - LeetCode 0005 Longest Palindromic Substring <`Medium`> <`dynamic programming`>
 - LeetCode 0198 House Robber <`Medium`> <`dynamic programming`>
 - LeetCode 1143 Longest Common Subsequence <`Medium`> <`dynamic programming`>
