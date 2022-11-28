@@ -1,8 +1,6 @@
 /// [edit distance](https://en.wikipedia.org/wiki/Edit_distance)
-/// [LeetCode 0072 Edit Distance](https://leetcode.com/problems/edit-distance/)
 struct Solution;
 
-// TODO: to be optimized
 impl Solution {
     // T(n) = O(m * n)
     // S(n) = O(m * n)
