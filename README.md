@@ -591,7 +591,7 @@
 - LeetCode 0050 Pow(x, n) <`Medium`> <`math`>
 -
 - [LeetCode 0121 Best Time to Buy and Sell Stock](./src/leetcode_solutions/leetcode_0100_0199/leetcode_0121_best_time_to_buy_and_sell_stock.rs) <`Easy`> <`dynamic programming`>
-- LeetCode 0070 Climbing Stairs <`Easy`> <`math`> <`dynamic programming`>
+- [LeetCode 0070 Climbing Stairs](./src/leetcode_solutions/leetcode_0000_0099/leetcode_0070_climbing_stairs.rs) <`Easy`> <`math`> <`dynamic programming`>
 - LeetCode 0118 Pascal's Triangle <`Easy`> <`dynamic programming`>
 - [LeetCode 0509 Fibonacci Number](./src/leetcode_solutions/leetcode_0500_0599/leetcode_0509_fibonacci_number.rs) <`Easy`> <`math`> <`dynamic programming`>
 - LeetCode 0746 Min Cost Climbing Stairs <`Easy`> <`dynamic programming`>
@@ -1074,7 +1074,7 @@
 -
 - 动态规划，回溯
 - [LeetCode 0121 Best Time to Buy and Sell Stock](./src/leetcode_solutions/leetcode_0100_0199/leetcode_0121_best_time_to_buy_and_sell_stock.rs) <`Easy`> <`dynamic programming`>
-- LeetCode 0070 Climbing Stairs <`Easy`> <`math`> <`dynamic programming`>
+- [LeetCode 0070 Climbing Stairs](./src/leetcode_solutions/leetcode_0000_0099/leetcode_0070_climbing_stairs.rs) <`Easy`> <`math`> <`dynamic programming`>
 - [LeetCode 0072 Edit Distance](./src/leetcode_solutions/leetcode_0000_0099/leetcode_0072_edit_distance.rs) <`Hard`> <`dynamic programming`>
 - [LeetCode 0509 Fibonacci Number](./src/leetcode_solutions/leetcode_0500_0599/leetcode_0509_fibonacci_number.rs) <`Easy`> <`math`> <`dynamic programming`>
 - [LeetCode 0322 Coin Change](./src/leetcode_solutions/leetcode_0300_0399/leetcode_0322_coin_change.rs) <`Medium`> <`dynamic programming`> <`bfs`>
