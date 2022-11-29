@@ -599,7 +599,7 @@
 - [LeetCode 0300 Longest Increasing Subsequence](./src/leetcode_solutions/leetcode_0300_0399/leetcode_0300_longest_increasing_subsequence.rs) <`Medium`> <`dynamic programming`> <`binary search`>
 - [LeetCode 0647 Palindromic Substrings](./src/leetcode_solutions/leetcode_0600_0699/leetcode_0647_palindromic_substrings.rs) <`Medium`> <`dynamic programming`>
 - [LeetCode 0005 Longest Palindromic Substring](./src/leetcode_solutions/leetcode_0000_0099/leetcode_0005_longest_palindromic_substring.rs) <`Medium`> <`dynamic programming`>
-- LeetCode 0198 House Robber <`Medium`> <`dynamic programming`>
+- [LeetCode 0198 House Robber](./src/leetcode_solutions/leetcode_0100_0199/leetcode_0198_house_robber.rs) <`Medium`> <`dynamic programming`>
 - LeetCode 0213 House Robber II <`Medium`> <`dynamic programming`>
 - LeetCode 0337 House Robber III <`Medium`> <`dynamic programming`> <`dfs`> <`binary tree`>
 - LeetCode 0091 Decode Ways <`Medium`> <`dynamic programming`>
@@ -1082,17 +1082,17 @@
 - [LeetCode 0300 Longest Increasing Subsequence](./src/leetcode_solutions/leetcode_0300_0399/leetcode_0300_longest_increasing_subsequence.rs) <`Medium`> <`dynamic programming`> <`binary search`>
 - TODO:[LeetCode 0647 Palindromic Substrings](./src/leetcode_solutions/leetcode_0600_0699/leetcode_0647_palindromic_substrings.rs) <`Medium`> <`dynamic programming`>
 - [LeetCode 0005 Longest Palindromic Substring](./src/leetcode_solutions/leetcode_0000_0099/leetcode_0005_longest_palindromic_substring.rs) <`Medium`> <`dynamic programming`>
-- LeetCode 0198 House Robber <`Medium`> <`dynamic programming`>
+- [LeetCode 0198 House Robber](./src/leetcode_solutions/leetcode_0100_0199/leetcode_0198_house_robber.rs) <`Medium`> <`dynamic programming`>
 - LeetCode 1143 Longest Common Subsequence <`Medium`> <`dynamic programming`>
 - LeetCode 0062 Unique Paths <`Medium`> <`dynamic programming`> <`math`>
 - LeetCode 0542 01 Matrix <`Medium`> <`dynamic programming`> <`bfs`> <`matrix`>
-- LeetCode 0139 Word Break <`Medium`> <`hash table`> <`dynamic programming`> <`trie`>
 - LeetCode 0046 Permutations <`Medium`> <`backtracking`>
 - LeetCode 0047 Permutations II <`Medium`> <`backtracking`>
 - LeetCode 0077 Combinations <`Medium`> <`backtracking`>
 - LeetCode 0039 Combination Sum <`Medium`> <`backtracking`>
 - LeetCode 0040 Combination Sum II <`Medium`> <`backtracking`>
 - LeetCode 0131 Palindrome Partitioning <`Medium`> <`dynamic programming`> <`backtracking`>
+- LeetCode 0139 Word Break <`Medium`> <`hash table`> <`dynamic programming`> <`trie`>
 - LeetCode 0079 Word Search <`Medium`> <`backtracking`> <`matrix`>
 - LeetCode 0127 Word Ladder <`Hard`> <`hash table`> <`bfs`>
 - LeetCode 0126 Word Ladder II <`Hard`> <`hash table`> <`backtracking`> <`bfs`>
