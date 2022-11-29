@@ -607,7 +607,7 @@
 - LeetCode 0152 Maximum Product Subarray <`Medium`> <`dynamic programming`>
 - [LeetCode 1143 Longest Common Subsequence](./src/leetcode_solutions/leetcode_1100_1199/leetcode_1143_longest_common_subsequence.rs) <`Medium`> <`dynamic programming`>
 - [LeetCode 0053 Maximum Subarray](./src/leetcode_solutions/leetcode_0000_0099/leetcode_0053_maximum_subarray.rs) <`Medium`> <`dynamic programming`> <`divide and conquer`>
-- LeetCode 0062 Unique Paths <`Medium`> <`dynamic programming`> <`math`>
+- [LeetCode 0062 Unique Paths](./src/leetcode_solutions/leetcode_0000_0099/leetcode_0062_unique_paths.rs) <`Medium`> <`dynamic programming`> <`math`>
 - LeetCode 0063 Unique Paths II <`Medium`> <`dynamic programming`> <`matrix`>
 - LeetCode 0980 Unique Paths III <`Hard`> <`backtracking`> <`bit manipulation`> <`matrix`>
 - LeetCode 0010 Regular Expression Matching <`Hard`> <`dynamic programming`>
@@ -1084,7 +1084,7 @@
 - [LeetCode 0005 Longest Palindromic Substring](./src/leetcode_solutions/leetcode_0000_0099/leetcode_0005_longest_palindromic_substring.rs) <`Medium`> <`dynamic programming`>
 - [LeetCode 0198 House Robber](./src/leetcode_solutions/leetcode_0100_0199/leetcode_0198_house_robber.rs) <`Medium`> <`dynamic programming`>
 - [LeetCode 1143 Longest Common Subsequence](./src/leetcode_solutions/leetcode_1100_1199/leetcode_1143_longest_common_subsequence.rs) <`Medium`> <`dynamic programming`>
-- LeetCode 0062 Unique Paths <`Medium`> <`dynamic programming`> <`math`>
+- [LeetCode 0062 Unique Paths](./src/leetcode_solutions/leetcode_0000_0099/leetcode_0062_unique_paths.rs) <`Medium`> <`dynamic programming`> <`math`>
 - LeetCode 0542 01 Matrix <`Medium`> <`dynamic programming`> <`bfs`> <`matrix`>
 - LeetCode 0046 Permutations <`Medium`> <`backtracking`>
 - LeetCode 0047 Permutations II <`Medium`> <`backtracking`>
