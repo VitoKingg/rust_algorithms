@@ -620,7 +620,7 @@
 - LeetCode 0542 01 Matrix <`Medium`> <`dynamic programming`> <`bfs`> <`matrix`>
 - LeetCode 0022 Generate Parentheses <`Medium`> <`dynamic programming`> <`backtracking`>
 - LeetCode 0494 Target Sum <`Medium`> <`dynamic programming`> <`backtracking`>
-- LeetCode 0131 Palindrome Partitioning <`Medium`> <`dynamic programming`> <`backtracking`>
+- [LeetCode 0131 Palindrome Partitioning](./src/leetcode_solutions/leetcode_0100_0199/leetcode_0131_palindrome_partitioning.rs) <`Medium`> <`dynamic programming`> <`backtracking`> <`dfs`>
 - LeetCode 0139 Word Break <`Medium`> <`hash table`> <`dynamic programming`> <`trie`>
 - LeetCode 0416 Partition Equal Subset Sum <`Medium`> <`dynamic programming`>
 - [LeetCode 0072 Edit Distance](./src/leetcode_solutions/leetcode_0000_0099/leetcode_0072_edit_distance.rs) <`Hard`> <`dynamic programming`>
@@ -1085,13 +1085,13 @@
 - [LeetCode 0198 House Robber](./src/leetcode_solutions/leetcode_0100_0199/leetcode_0198_house_robber.rs) <`Medium`> <`dynamic programming`>
 - [LeetCode 1143 Longest Common Subsequence](./src/leetcode_solutions/leetcode_1100_1199/leetcode_1143_longest_common_subsequence.rs) <`Medium`> <`dynamic programming`>
 - [LeetCode 0062 Unique Paths](./src/leetcode_solutions/leetcode_0000_0099/leetcode_0062_unique_paths.rs) <`Medium`> <`dynamic programming`> <`math`>
-- LeetCode 0542 01 Matrix <`Medium`> <`dynamic programming`> <`bfs`> <`matrix`>
 - LeetCode 0046 Permutations <`Medium`> <`backtracking`>
 - LeetCode 0047 Permutations II <`Medium`> <`backtracking`>
 - LeetCode 0077 Combinations <`Medium`> <`backtracking`>
 - LeetCode 0039 Combination Sum <`Medium`> <`backtracking`>
 - LeetCode 0040 Combination Sum II <`Medium`> <`backtracking`>
-- LeetCode 0131 Palindrome Partitioning <`Medium`> <`dynamic programming`> <`backtracking`>
+- [LeetCode 0131 Palindrome Partitioning](./src/leetcode_solutions/leetcode_0100_0199/leetcode_0131_palindrome_partitioning.rs) <`Medium`> <`dynamic programming`> <`backtracking`> <`dfs`>
+- LeetCode 0542 01 Matrix <`Medium`> <`dynamic programming`> <`bfs`> <`matrix`>
 - LeetCode 0139 Word Break <`Medium`> <`hash table`> <`dynamic programming`> <`trie`>
 - LeetCode 0079 Word Search <`Medium`> <`backtracking`> <`matrix`>
 - LeetCode 0127 Word Ladder <`Hard`> <`hash table`> <`bfs`>
