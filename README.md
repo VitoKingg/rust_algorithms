@@ -628,7 +628,7 @@
 - LeetCode 0124 Binary Tree Maximum Path Sum <`Hard`> <`dynamic programming`> <`dfs`> <`binary tree`>
 - LeetCode 0042 Trapping Rain Water <`Hard`> <`two pointers`> <`dynamic programming`> <`stack`> <`monotonic stack`>
 - LeetCode 0085 Maximal Rectangle <`Hard`> <`dynamic programming`> <`stack`> <`monotonic stack`> <`matrix`>
-- LeetCode 0046 Permutations <`Medium`> <`backtracking`>
+- [LeetCode 0046 Permutations](./src/leetcode_solutions/leetcode_0000_0099/leetcode_0046_permutations.rs) <`Medium`> <`backtracking`>
 - LeetCode 0047 Permutations II <`Medium`> <`backtracking`>
 - LeetCode 0077 Combinations <`Medium`> <`backtracking`>
 - LeetCode 0078 Subsets <`Medium`> <`backtracking`> <`bit manipulation`>
@@ -1085,7 +1085,7 @@
 - [LeetCode 0198 House Robber](./src/leetcode_solutions/leetcode_0100_0199/leetcode_0198_house_robber.rs) <`Medium`> <`dynamic programming`>
 - [LeetCode 1143 Longest Common Subsequence](./src/leetcode_solutions/leetcode_1100_1199/leetcode_1143_longest_common_subsequence.rs) <`Medium`> <`dynamic programming`>
 - [LeetCode 0062 Unique Paths](./src/leetcode_solutions/leetcode_0000_0099/leetcode_0062_unique_paths.rs) <`Medium`> <`dynamic programming`> <`math`>
-- LeetCode 0046 Permutations <`Medium`> <`backtracking`>
+- [LeetCode 0046 Permutations](./src/leetcode_solutions/leetcode_0000_0099/leetcode_0046_permutations.rs) <`Medium`> <`backtracking`>
 - LeetCode 0047 Permutations II <`Medium`> <`backtracking`>
 - LeetCode 0077 Combinations <`Medium`> <`backtracking`>
 - LeetCode 0039 Combination Sum <`Medium`> <`backtracking`>
@@ -1111,11 +1111,11 @@
 - LeetCode 0226 Invert Binary Tree <`Easy`> <`dfs`> <`bfs`> <`binary tree`>
 - LeetCode 0236 Lowest Common Ancestor of a Binary Tree <`Medium`> <`dfs`> <`binary tree`>
 -
-- BFS 与 DFS，并查集与线段树
+- 并查集与线段树
 - LeetCode 0200 Number of Islands <`Medium`> <`dfs`> <`bfs`> <`union find`> <`matrix`>
 - LeetCode 0128 Longest Consecutive Sequence <`Medium`> <`hash table`> <`union find`>
-- LeetCode 0207 Course Schedule <`Medium`> <`dfs`> <`bfs`> <`graph`> <`topological sort`>
 - LeetCode 0547 Number of Provinces <`Medium`> <`dfs`> <`bfs`> <`union find`> <`graph`>
+- LeetCode 0207 Course Schedule <`Medium`> <`dfs`> <`bfs`> <`graph`> <`topological sort`>
 -
 - 位运算，数学问题
 - LeetCode 0190 Reverse Bits <`Easy`> <`divide and conquer`> <`bit manipulation`>
