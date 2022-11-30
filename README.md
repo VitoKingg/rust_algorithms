@@ -630,7 +630,7 @@
 - LeetCode 0085 Maximal Rectangle <`Hard`> <`dynamic programming`> <`stack`> <`monotonic stack`> <`matrix`>
 - [LeetCode 0046 Permutations](./src/leetcode_solutions/leetcode_0000_0099/leetcode_0046_permutations.rs) <`Medium`> <`backtracking`>
 - LeetCode 0047 Permutations II <`Medium`> <`backtracking`>
-- LeetCode 0077 Combinations <`Medium`> <`backtracking`>
+- [LeetCode 0077 Combinations](./src/leetcode_solutions/leetcode_0000_0099/leetcode_0077_combinations.rs) <`Medium`> <`backtracking`>
 - LeetCode 0078 Subsets <`Medium`> <`backtracking`> <`bit manipulation`>
 - LeetCode 0017 Letter Combinations of a Phone Number <`Medium`> <`hash table`> <`backtracking`>
 - LeetCode 0169 Majority Element <`Easy`> <`hash table`> <`divide and conquer`>
@@ -1087,7 +1087,7 @@
 - [LeetCode 0062 Unique Paths](./src/leetcode_solutions/leetcode_0000_0099/leetcode_0062_unique_paths.rs) <`Medium`> <`dynamic programming`> <`math`>
 - [LeetCode 0046 Permutations](./src/leetcode_solutions/leetcode_0000_0099/leetcode_0046_permutations.rs) <`Medium`> <`backtracking`>
 - LeetCode 0047 Permutations II <`Medium`> <`backtracking`>
-- LeetCode 0077 Combinations <`Medium`> <`backtracking`>
+- [LeetCode 0077 Combinations](./src/leetcode_solutions/leetcode_0000_0099/leetcode_0077_combinations.rs) <`Medium`> <`backtracking`>
 - LeetCode 0039 Combination Sum <`Medium`> <`backtracking`>
 - LeetCode 0040 Combination Sum II <`Medium`> <`backtracking`>
 - [LeetCode 0131 Palindrome Partitioning](./src/leetcode_solutions/leetcode_0100_0199/leetcode_0131_palindrome_partitioning.rs) <`Medium`> <`dynamic programming`> <`backtracking`> <`dfs`>
