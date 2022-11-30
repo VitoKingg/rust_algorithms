@@ -621,7 +621,7 @@
 - LeetCode 0022 Generate Parentheses <`Medium`> <`dynamic programming`> <`backtracking`>
 - LeetCode 0494 Target Sum <`Medium`> <`dynamic programming`> <`backtracking`>
 - [LeetCode 0131 Palindrome Partitioning](./src/leetcode_solutions/leetcode_0100_0199/leetcode_0131_palindrome_partitioning.rs) <`Medium`> <`dynamic programming`> <`backtracking`> <`dfs`>
-- LeetCode 0139 Word Break <`Medium`> <`hash table`> <`dynamic programming`> <`trie`>
+- [LeetCode 0139 Word Break](./src/leetcode_solutions/leetcode_0100_0199/leetcode_0139_word_break.rs) <`Medium`> <`hash table`> <`dynamic programming`> <`trie`>
 - LeetCode 0140 Word Break II <`Hard`> <`hash table`> <`dynamic programming`> <`backtracking`> <`trie`>
 - LeetCode 0416 Partition Equal Subset Sum <`Medium`> <`dynamic programming`>
 - [LeetCode 0072 Edit Distance](./src/leetcode_solutions/leetcode_0000_0099/leetcode_0072_edit_distance.rs) <`Hard`> <`dynamic programming`>
@@ -1093,7 +1093,7 @@
 - LeetCode 0040 Combination Sum II <`Medium`> <`backtracking`>
 - [LeetCode 0131 Palindrome Partitioning](./src/leetcode_solutions/leetcode_0100_0199/leetcode_0131_palindrome_partitioning.rs) <`Medium`> <`dynamic programming`> <`backtracking`> <`dfs`>
 - [LeetCode 0542 01 Matrix](./src/leetcode_solutions/leetcode_0500_0599/leetcoe_0542_01_matrix.rs) <`Medium`> <`dynamic programming`> <`bfs`> <`matrix`>
-- LeetCode 0139 Word Break <`Medium`> <`hash table`> <`dynamic programming`> <`trie`>
+- [LeetCode 0139 Word Break](./src/leetcode_solutions/leetcode_0100_0199/leetcode_0139_word_break.rs) <`Medium`> <`hash table`> <`dynamic programming`> <`trie`>
 - LeetCode 0079 Word Search <`Medium`> <`backtracking`> <`matrix`>
 - LeetCode 0127 Word Ladder <`Hard`> <`hash table`> <`bfs`>
 - LeetCode 0126 Word Ladder II <`Hard`> <`hash table`> <`backtracking`> <`bfs`>
