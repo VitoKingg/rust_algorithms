@@ -635,7 +635,7 @@
 - LeetCode 0078 Subsets <`Medium`> <`backtracking`> <`bit manipulation`>
 - LeetCode 0017 Letter Combinations of a Phone Number <`Medium`> <`hash table`> <`backtracking`>
 - LeetCode 0169 Majority Element <`Easy`> <`hash table`> <`divide and conquer`>
-- LeetCode 0079 Word Search <`Medium`> <`backtracking`> <`matrix`>
+- [LeetCode 0079 Word Search](./src/leetcode_solutions/leetcode_0000_0099/leetcode_0079_word_search.rs) <`Medium`> <`backtracking`> <`matrix`>
 - LeetCode 0212 Word Search II <`Hard`> <`backtracking`> <`trie`> <`matrix`>
 - LeetCode 0127 Word Ladder <`Hard`> <`hash table`> <`bfs`>
 - LeetCode 0126 Word Ladder II <`Hard`> <`hash table`> <`backtracking`> <`bfs`>
@@ -1094,7 +1094,7 @@
 - [LeetCode 0131 Palindrome Partitioning](./src/leetcode_solutions/leetcode_0100_0199/leetcode_0131_palindrome_partitioning.rs) <`Medium`> <`dynamic programming`> <`backtracking`> <`dfs`>
 - [LeetCode 0542 01 Matrix](./src/leetcode_solutions/leetcode_0500_0599/leetcoe_0542_01_matrix.rs) <`Medium`> <`dynamic programming`> <`bfs`> <`matrix`>
 - [LeetCode 0139 Word Break](./src/leetcode_solutions/leetcode_0100_0199/leetcode_0139_word_break.rs) <`Medium`> <`hash table`> <`dynamic programming`> <`trie`>
-- LeetCode 0079 Word Search <`Medium`> <`backtracking`> <`matrix`>
+- TODO:[LeetCode 0079 Word Search](./src/leetcode_solutions/leetcode_0000_0099/leetcode_0079_word_search.rs) <`Medium`> <`backtracking`> <`matrix`>
 - LeetCode 0127 Word Ladder <`Hard`> <`hash table`> <`bfs`>
 - LeetCode 0126 Word Ladder II <`Hard`> <`hash table`> <`backtracking`> <`bfs`>
 - LeetCode 0037 Sudoku Solver <`Hard`> <`backtracking`> <`matrix`>
