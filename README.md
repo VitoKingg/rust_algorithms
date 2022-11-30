@@ -792,7 +792,7 @@
 - LeetCode 0583 Delete Operation for Two Strings <`Medium`> <`dynamic programming`>
 - LeetCode 0518 Coin Change II <`Medium`> <`dynamic programming`>
 - LeetCode 0221 Maximal Square <`Medium`> <`dynamic programming`> <`matrix`>
-- LeetCode 0039 Combination Sum <`Medium`> <`backtracking`>
+- [LeetCode 0039 Combination Sum](./src/leetcode_solutions/leetcode_0000_0099/leetcode_0039_combination_sum.rs) <`Medium`> <`backtracking`>
 - LeetCode 0040 Combination Sum II <`Medium`> <`backtracking`>
 - LeetCode 0216 Combination Sum III <`Medium`> <`backtracking`>
 - LeetCode 0377 Combination Sum IV <`Medium`> <`dynamic programming`>
@@ -1088,7 +1088,7 @@
 - [LeetCode 0046 Permutations](./src/leetcode_solutions/leetcode_0000_0099/leetcode_0046_permutations.rs) <`Medium`> <`backtracking`>
 - LeetCode 0047 Permutations II <`Medium`> <`backtracking`>
 - [LeetCode 0077 Combinations](./src/leetcode_solutions/leetcode_0000_0099/leetcode_0077_combinations.rs) <`Medium`> <`backtracking`>
-- LeetCode 0039 Combination Sum <`Medium`> <`backtracking`>
+- [LeetCode 0039 Combination Sum](./src/leetcode_solutions/leetcode_0000_0099/leetcode_0039_combination_sum.rs) <`Medium`> <`backtracking`>
 - LeetCode 0040 Combination Sum II <`Medium`> <`backtracking`>
 - [LeetCode 0131 Palindrome Partitioning](./src/leetcode_solutions/leetcode_0100_0199/leetcode_0131_palindrome_partitioning.rs) <`Medium`> <`dynamic programming`> <`backtracking`> <`dfs`>
 - LeetCode 0542 01 Matrix <`Medium`> <`dynamic programming`> <`bfs`> <`matrix`>
