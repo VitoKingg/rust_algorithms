@@ -675,7 +675,7 @@
 - LeetCode 0297 Serialize and Deserialize Binary Tree <`Hard`> <`dfs`> <`bfs`> <`binary tree`>
 - LeetCode 0173 Binary Search Tree Iterator <`Medium`> <`stack`> <`binary search tree`> <`binary tree`>
 -
-- LeetCode 0128 Longest Consecutive Sequence <`Medium`> <`hash table`> <`union find`>
+- [LeetCode 0128 Longest Consecutive Sequence](./src/leetcode_solutions/leetcode_0100_0199/leetcode_0128_longest_consecutive_sequence.rs) <`Medium`> <`hash table`> <`union find`>
 - LeetCode 0207 Course Schedule <`Medium`> <`dfs`> <`bfs`> <`graph`> <`topological sort`>
 - LeetCode 0210 Course Schedule II <`Medium`> <`dfs`> <`bfs`> <`graph`> <`topological sort`>
 - LeetCode 1135 Connecting Cities with Minimum Cost <`Medium`> <`union find`> <`graph`> <`heap (priority queue)`> <`minimum spanning tree`>
@@ -1108,8 +1108,8 @@
 - LeetCode 0236 Lowest Common Ancestor of a Binary Tree <`Medium`> <`dfs`> <`binary tree`>
 -
 - 并查集与线段树
+- [LeetCode 0128 Longest Consecutive Sequence](./src/leetcode_solutions/leetcode_0100_0199/leetcode_0128_longest_consecutive_sequence.rs) <`Medium`> <`hash table`> <`union find`>
 - LeetCode 0200 Number of Islands <`Medium`> <`dfs`> <`bfs`> <`union find`> <`matrix`>
-- LeetCode 0128 Longest Consecutive Sequence <`Medium`> <`hash table`> <`union find`>
 - LeetCode 0547 Number of Provinces <`Medium`> <`dfs`> <`bfs`> <`union find`> <`graph`>
 - LeetCode 0207 Course Schedule <`Medium`> <`dfs`> <`bfs`> <`graph`> <`topological sort`>
 -

@@ -1,5 +1,6 @@
 mod leetcode_0121_best_time_to_buy_and_sell_stock;
 mod leetcode_0125_valid_palindrome;
+mod leetcode_0128_longest_consecutive_sequence;
 mod leetcode_0131_palindrome_partitioning;
 mod leetcode_0139_word_break;
 mod leetcode_0146_lru_cache;
