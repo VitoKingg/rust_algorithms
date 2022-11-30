@@ -622,6 +622,7 @@
 - LeetCode 0494 Target Sum <`Medium`> <`dynamic programming`> <`backtracking`>
 - [LeetCode 0131 Palindrome Partitioning](./src/leetcode_solutions/leetcode_0100_0199/leetcode_0131_palindrome_partitioning.rs) <`Medium`> <`dynamic programming`> <`backtracking`> <`dfs`>
 - LeetCode 0139 Word Break <`Medium`> <`hash table`> <`dynamic programming`> <`trie`>
+- LeetCode 0140 Word Break II <`Hard`> <`hash table`> <`dynamic programming`> <`backtracking`> <`trie`>
 - LeetCode 0416 Partition Equal Subset Sum <`Medium`> <`dynamic programming`>
 - [LeetCode 0072 Edit Distance](./src/leetcode_solutions/leetcode_0000_0099/leetcode_0072_edit_distance.rs) <`Hard`> <`dynamic programming`>
 - LeetCode 0044 Wildcard Matching <`Hard`> <`dynamic programming`> <`greedy`>
