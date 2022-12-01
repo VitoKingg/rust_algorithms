@@ -21,3 +21,4 @@ mod leetcode_0072_edit_distance;
 mod leetcode_0076_minimum_window_substring;
 mod leetcode_0077_combinations;
 mod leetcode_0079_word_search;
+mod leetcode_0094_binary_tree_inorder_traversal;
