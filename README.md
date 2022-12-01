@@ -653,10 +653,10 @@
 - LeetCode 0004 Median of Two Sorted Arrays <`Hard`> <`binary search`> <`divide and conquer`>
 - LeetCode 0378 Kth Smallest Element in a Sorted Matrix <`Medium`> <`binary search`> <`heap (priority queue)`> <`matrix`>
 -
-- LeetCode 0144 Binary Tree Preorder Traversal <`Easy`> <`stack`> <`dfs`> <`binary tree`>
+- [LeetCode 0144 Binary Tree Preorder Traversal](./src/leetcode_solutions/leetcode_0100_0199/leetcode_0144_binary_tree_preorder_traversal.rs) <`Easy`> <`stack`> <`dfs`> <`binary tree`>
 - LeetCode 0094 Binary Tree Inorder Traversal <`Easy`> <`stack`> <`dfs`> <`binary tree`>
-- LeetCode 0102 Binary Tree Level Order Traversal <`Medium`> <`bfs`> <`binary tree`>
 - LeetCode 0145 Binary Tree Postorder Traversal <`Easy`> <`stack`> <`dfs`> <`binary tree`>
+- LeetCode 0102 Binary Tree Level Order Traversal <`Medium`> <`bfs`> <`binary tree`>
 - LeetCode 0107 Binary Tree Level Order Traversal II <`Medium`> <`bfs`> <`binary tree`>
 - LeetCode 0103 Binary Tree Zigzag Level Order Traversal <`Medium`> <`bfs`> <`binary tree`>
 - LeetCode 0110 Balanced Binary Tree <`Easy`> <`dfs`> <`binary tree`>
@@ -1094,12 +1094,11 @@
 - TODO:[LeetCode 0547 Number of Provinces](./src/leetcode_solutions/leetcode_0500_0599/leetcode_0547_number_of_provinces.rs) <`Medium`> <`dfs`> <`bfs`> <`union find`> <`graph`>
 - TODO:[LeetCode 0207 Course Schedule](./src/leetcode_solutions/leetcode_0200_0299/leetcode_0207_course_schedule.rs) <`Medium`> <`dfs`> <`bfs`> <`graph`> <`topological sort`>
 -
-- 二分搜索算法，二叉树，二叉搜索树
-- [LeetCode 0033 Seach in Rotated Sorted Array](./src/leetcode_solutions/leetcode_0000_0099/leetcode_0033_search_in_rotated_sorted_array.rs) <`Medium`> <`binary search`>
-- LeetCode 0144 Binary Tree Preorder Traversal <`Easy`> <`stack`> <`dfs`> <`binary tree`>
+- 二叉树
+- [LeetCode 0144 Binary Tree Preorder Traversal](./src/leetcode_solutions/leetcode_0100_0199/leetcode_0144_binary_tree_preorder_traversal.rs) <`Easy`> <`stack`> <`dfs`> <`binary tree`>
 - LeetCode 0094 Binary Tree Inorder Traversal <`Easy`> <`stack`> <`dfs`> <`binary tree`>
-- LeetCode 0102 Binary Tree Level Order Traversal <`Medium`> <`bfs`> <`binary tree`>
 - LeetCode 0145 Binary Tree Postorder Traversal <`Easy`> <`stack`> <`dfs`> <`binary tree`>
+- LeetCode 0102 Binary Tree Level Order Traversal <`Medium`> <`bfs`> <`binary tree`>
 - LeetCode 0110 Balanced Binary Tree <`Easy`> <`dfs`> <`binary tree`>
 - LeetCode 0226 Invert Binary Tree <`Easy`> <`dfs`> <`bfs`> <`binary tree`>
 - LeetCode 0236 Lowest Common Ancestor of a Binary Tree <`Medium`> <`dfs`> <`binary tree`>
