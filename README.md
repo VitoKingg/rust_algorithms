@@ -646,7 +646,7 @@
 -
 - [LeetCode 0069 Sqrt(x)](./src/leetcode_solutions/leetcode_0000_0099/leetcode_0069_sqrt.rs) <`Easy`> <`binary search`>
 - LeetCode 0268 Missing Number <`Easy`> <`hash table`> <`math`> <`binary search`> <`bit manipulation`>
-- LeetCode 0033 Seach in Rotated Sorted Array <`Medium`> <`binary search`>
+- [LeetCode 0033 Seach in Rotated Sorted Array](./src/leetcode_solutions/leetcode_0000_0099/leetcode_0033_search_in_rotated_sorted_array.rs) <`Medium`> <`binary search`>
 - LeetCode 0540 Single Element in a Sorted Array <`Medium`> <`binary search`>
 - LeetCode 0034 Find First and Last Position of Element in Sorted Array <`Medium`> <`binary search`>
 - LeetCode 0240 Search a 2D Matrix II <`Medium`> <`binary search`> <`divide and conquer`> <`matrix`>
@@ -1094,8 +1094,8 @@
 - TODO:[LeetCode 0547 Number of Provinces](./src/leetcode_solutions/leetcode_0500_0599/leetcode_0547_number_of_provinces.rs) <`Medium`> <`dfs`> <`bfs`> <`union find`> <`graph`>
 - TODO:[LeetCode 0207 Course Schedule](./src/leetcode_solutions/leetcode_0200_0299/leetcode_0207_course_schedule.rs) <`Medium`> <`dfs`> <`bfs`> <`graph`> <`topological sort`>
 -
-- 查找算法，二叉树
-- LeetCode 0033 Seach in Rotated Sorted Array <`Medium`> <`binary search`>
+- 二分搜索算法，二叉树，二叉搜索树
+- [LeetCode 0033 Seach in Rotated Sorted Array](./src/leetcode_solutions/leetcode_0000_0099/leetcode_0033_search_in_rotated_sorted_array.rs) <`Medium`> <`binary search`>
 - LeetCode 0144 Binary Tree Preorder Traversal <`Easy`> <`stack`> <`dfs`> <`binary tree`>
 - LeetCode 0094 Binary Tree Inorder Traversal <`Easy`> <`stack`> <`dfs`> <`binary tree`>
 - LeetCode 0102 Binary Tree Level Order Traversal <`Medium`> <`bfs`> <`binary tree`>

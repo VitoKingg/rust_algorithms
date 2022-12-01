@@ -9,6 +9,7 @@ mod leetcode_0021_merge_two_sorted_lists;
 mod leetcode_0023_merge_k_sorted_lists;
 mod leetcode_0025_reverse_nodes_in_k_group;
 mod leetcode_0028_find_the_index_of_the_first_occurrence_in_a_string;
+mod leetcode_0033_search_in_rotated_sorted_array;
 mod leetcode_0039_combination_sum;
 mod leetcode_0046_permutations;
 mod leetcode_0049_group_anagrams;
