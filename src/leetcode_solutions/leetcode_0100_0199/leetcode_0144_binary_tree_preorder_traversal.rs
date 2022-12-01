@@ -82,4 +82,35 @@ mod tests {
         let result = vec![1];
         assert_eq!(Solution::preorder_traversal(root), result);
     }
+
+    #[test]
+    fn test_leetcode_0144_v2() {
+        let root: Option<Rc<RefCell<TreeNode>>> = Some(Rc::new(RefCell::new(TreeNode {
+            val: 1,
+            left: None,
+            right: Some(Rc::new(RefCell::new(TreeNode {
+                val: 2,
+                left: Some(Rc::new(RefCell::new(TreeNode {
+                    val: 3,
+                    left: None,
+                    right: None,
+                }))),
+                right: None,
+            }))),
+        })));
+        let result = vec![1, 2, 3];
+        assert_eq!(Solution::preorder_traversal_v2(root), result);
+
+        let root: Option<Rc<RefCell<TreeNode>>> = None;
+        let result = vec![];
+        assert_eq!(Solution::preorder_traversal_v2(root), result);
+
+        let root: Option<Rc<RefCell<TreeNode>>> = Some(Rc::new(RefCell::new(TreeNode {
+            val: 1,
+            left: None,
+            right: None,
+        })));
+        let result = vec![1];
+        assert_eq!(Solution::preorder_traversal_v2(root), result);
+    }
 }
