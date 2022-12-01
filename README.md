@@ -682,7 +682,7 @@
 - LeetCode 0130 Surrounded Regions <`Medium`> <`dfs`> <`bfs`> <`union find`> <`matrix`>
 - LeetCode 0200 Number of Islands <`Medium`> <`dfs`> <`bfs`> <`union find`> <`matrix`>
 - LeetCode 0695 Max Area of Island <`Medium`> <`dfs`> <`bfs`> <`union find`> <`matrix`>
-- LeetCode 0547 Number of Provinces <`Medium`> <`dfs`> <`bfs`> <`union find`> <`graph`>
+- [LeetCode 0547 Number of Provinces](./src/leetcode_solutions/leetcode_0500_0599/leetcode_0547_number_of_provinces.rs) <`Medium`> <`dfs`> <`bfs`> <`union find`> <`graph`>
 - LeetCode 0399 Evaluate Division <`Medium`> <`dfs`> <`bfs`> <`union find`> <`graph`>
 - LeetCode 0684 Redundant Connection <`Medium`> <`dfs`> <`bfs`> <`union find`> <`graph`>
 - LeetCode 0329 Longest Increasing Path in a Matrix <`Hard`> <`dynamic programming`> <`dfs`> <`bfs`> <`graph`> <`topological sort`> <`matrix`>
@@ -1096,7 +1096,7 @@
 - [LeetCode 0542 01 Matrix](./src/leetcode_solutions/leetcode_0500_0599/leetcoe_0542_01_matrix.rs) <`Medium`> <`dynamic programming`> <`bfs`> <`matrix`>
 - [LeetCode 0139 Word Break](./src/leetcode_solutions/leetcode_0100_0199/leetcode_0139_word_break.rs) <`Medium`> <`hash table`> <`dynamic programming`> <`trie`>
 - TODO:[LeetCode 0079 Word Search](./src/leetcode_solutions/leetcode_0000_0099/leetcode_0079_word_search.rs) <`Medium`> <`backtracking`> <`matrix`>
-- LeetCode 0547 Number of Provinces <`Medium`> <`dfs`> <`bfs`> <`union find`> <`graph`>
+- TODO:[LeetCode 0547 Number of Provinces](./src/leetcode_solutions/leetcode_0500_0599/leetcode_0547_number_of_provinces.rs) <`Medium`> <`dfs`> <`bfs`> <`union find`> <`graph`>
 - LeetCode 0207 Course Schedule <`Medium`> <`dfs`> <`bfs`> <`graph`> <`topological sort`>
 -
 - 查找算法，二叉树
