@@ -1,4 +1,5 @@
 mod leetcode_0409_longest_palindrome;
+mod leetcode_0415_add_strings;
 mod leetcode_0445_add_two_numbers_ii;
 mod leetcode_0455_assign_cookies;
 mod leetcode_0461_hamming_distance;

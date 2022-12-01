@@ -993,7 +993,7 @@
 - LeetCode 0059 Spiral Matrix II <`Medium`> <`matrix`>
 - LeetCode 0462 Minimum Moves to Equal Array Elements II <`Medium`> <`math`>
 - LeetCode 0168 Excel Sheet Column Title <`Easy`> <`math`>
-- LeetCode 0415 Add Strings <`Easy`> <`math`>
+- [LeetCode 0415 Add Strings](./src/leetcode_solutions/leetcode_0400_0499/leetcode_0415_add_strings.rs) <`Easy`> <`math`>
 - LeetCode 0504 Base 7 <`Easy`> <`math`>
 - LeetCode 0628 Maximum Product of Three Numbers <`Easy`> <`math`>
 - LeetCode 0384 Shuffle an Array <`Medium`> <`math`>
@@ -1116,7 +1116,7 @@
 - 位运算，数学问题
 - [LeetCode 0190 Reverse Bits](./src/leetcode_solutions/leetcode_0100_0199/leetcode_0190_reverse_bits.rs) <`Easy`> <`divide and conquer`> <`bit manipulation`>
 - LeetCode 0338 Counting Bits <`Medium`> <`dynamic programming`> <`bit manipulation`>
-- LeetCode 0415 Add Strings <`Easy`> <`math`>
+- [LeetCode 0415 Add Strings](./src/leetcode_solutions/leetcode_0400_0499/leetcode_0415_add_strings.rs) <`Easy`> <`math`>
 -
 - 原理问题
 - red-black tree 红黑树原理
