@@ -4,6 +4,7 @@ mod leetcode_0128_longest_consecutive_sequence;
 mod leetcode_0131_palindrome_partitioning;
 mod leetcode_0139_word_break;
 mod leetcode_0144_binary_tree_preorder_traversal;
+mod leetcode_0145_binary_tree_postorder_traversal;
 mod leetcode_0146_lru_cache;
 mod leetcode_0148_sort_list;
 mod leetcode_0190_reverse_bits;
