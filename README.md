@@ -1032,6 +1032,7 @@
 - TODO:[LeetCode 0023 Merge k Sorted Lists](./src/leetcode_solutions/leetcode_0000_0099/leetcode_0023_merge_k_sorted_lists.rs) <`Hard`> <`linked list`> <`divide and conquer`> <`heap (priority queue)`> <`merge sort`>
 - [LeetCode 0409 Longest Palindrome](./src/leetcode_solutions/leetcode_0400_0499/leetcode_0409_longest_palindrome.rs) <`Easy`> <`hash table`> <`greedy`>
 - [LeetCode 0594 Longest Harmonious Subsequence](./src/leetcode_solutions/leetcode_0500_0599/leetcode_0594_longest_harmonious_subsequence.rs) <`Easy`> <`hash table`>
+- [LeetCode 0128 Longest Consecutive Sequence](./src/leetcode_solutions/leetcode_0100_0199/leetcode_0128_longest_consecutive_sequence.rs) <`Medium`> <`hash table`> <`union find`>
 -
 - 双指针与滑动窗口
 - [LeetCode 0011 Container With Most Water](./src/leetcode_solutions/leetcode_0000_0099/leetcode_0011_container_with_most_water.rs) <`Medium`> <`two pointers`> <`greedy`>
@@ -1073,7 +1074,7 @@
 - [counting sort](https://en.wikipedia.org/wiki/Counting_sort) 计数排序原理复杂度
 - [radix sort](https://en.wikipedia.org/wiki/Radix_sort) 基数排序原理复杂度
 -
-- 动态规划，回溯
+- 动态规划 回溯 DFS BFS
 - [LeetCode 0121 Best Time to Buy and Sell Stock](./src/leetcode_solutions/leetcode_0100_0199/leetcode_0121_best_time_to_buy_and_sell_stock.rs) <`Easy`> <`dynamic programming`>
 - [LeetCode 0070 Climbing Stairs](./src/leetcode_solutions/leetcode_0000_0099/leetcode_0070_climbing_stairs.rs) <`Easy`> <`math`> <`dynamic programming`>
 - [LeetCode 0509 Fibonacci Number](./src/leetcode_solutions/leetcode_0500_0599/leetcode_0509_fibonacci_number.rs) <`Easy`> <`math`> <`dynamic programming`>
@@ -1095,6 +1096,8 @@
 - [LeetCode 0542 01 Matrix](./src/leetcode_solutions/leetcode_0500_0599/leetcoe_0542_01_matrix.rs) <`Medium`> <`dynamic programming`> <`bfs`> <`matrix`>
 - [LeetCode 0139 Word Break](./src/leetcode_solutions/leetcode_0100_0199/leetcode_0139_word_break.rs) <`Medium`> <`hash table`> <`dynamic programming`> <`trie`>
 - TODO:[LeetCode 0079 Word Search](./src/leetcode_solutions/leetcode_0000_0099/leetcode_0079_word_search.rs) <`Medium`> <`backtracking`> <`matrix`>
+- LeetCode 0547 Number of Provinces <`Medium`> <`dfs`> <`bfs`> <`union find`> <`graph`>
+- LeetCode 0207 Course Schedule <`Medium`> <`dfs`> <`bfs`> <`graph`> <`topological sort`>
 -
 - 查找算法，二叉树
 - LeetCode 0069 Sqrt(x) <`Easy`> <`binary search`>
@@ -1106,12 +1109,6 @@
 - LeetCode 0110 Balanced Binary Tree <`Easy`> <`dfs`> <`binary tree`>
 - LeetCode 0226 Invert Binary Tree <`Easy`> <`dfs`> <`bfs`> <`binary tree`>
 - LeetCode 0236 Lowest Common Ancestor of a Binary Tree <`Medium`> <`dfs`> <`binary tree`>
--
-- 并查集与线段树
-- [LeetCode 0128 Longest Consecutive Sequence](./src/leetcode_solutions/leetcode_0100_0199/leetcode_0128_longest_consecutive_sequence.rs) <`Medium`> <`hash table`> <`union find`>
-- LeetCode 0200 Number of Islands <`Medium`> <`dfs`> <`bfs`> <`union find`> <`matrix`>
-- LeetCode 0547 Number of Provinces <`Medium`> <`dfs`> <`bfs`> <`union find`> <`graph`>
-- LeetCode 0207 Course Schedule <`Medium`> <`dfs`> <`bfs`> <`graph`> <`topological sort`>
 -
 - 位运算，数学问题
 - [LeetCode 0190 Reverse Bits](./src/leetcode_solutions/leetcode_0100_0199/leetcode_0190_reverse_bits.rs) <`Easy`> <`divide and conquer`> <`bit manipulation`>
