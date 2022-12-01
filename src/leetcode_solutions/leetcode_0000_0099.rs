@@ -14,6 +14,7 @@ mod leetcode_0046_permutations;
 mod leetcode_0049_group_anagrams;
 mod leetcode_0053_maximum_subarray;
 mod leetcode_0062_unique_paths;
+mod leetcode_0069_sqrt;
 mod leetcode_0070_climbing_stairs;
 mod leetcode_0072_edit_distance;
 mod leetcode_0076_minimum_window_substring;

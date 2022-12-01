@@ -644,7 +644,7 @@
 - LeetCode 0051 N-Queens <`Hard`> <`backtracking`>
 - LeetCode 0052 N-Queens II <`Hard`> <`backtracking`>
 -
-- LeetCode 0069 Sqrt(x) <`Easy`> <`binary search`>
+- [LeetCode 0069 Sqrt(x)](./src/leetcode_solutions/leetcode_0000_0099/leetcode_0069_sqrt.rs) <`Easy`> <`binary search`>
 - LeetCode 0268 Missing Number <`Easy`> <`hash table`> <`math`> <`binary search`> <`bit manipulation`>
 - LeetCode 0033 Seach in Rotated Sorted Array <`Medium`> <`binary search`>
 - LeetCode 0540 Single Element in a Sorted Array <`Medium`> <`binary search`>
@@ -1095,7 +1095,6 @@
 - TODO:[LeetCode 0207 Course Schedule](./src/leetcode_solutions/leetcode_0200_0299/leetcode_0207_course_schedule.rs) <`Medium`> <`dfs`> <`bfs`> <`graph`> <`topological sort`>
 -
 - 查找算法，二叉树
-- LeetCode 0069 Sqrt(x) <`Easy`> <`binary search`>
 - LeetCode 0033 Seach in Rotated Sorted Array <`Medium`> <`binary search`>
 - LeetCode 0144 Binary Tree Preorder Traversal <`Easy`> <`stack`> <`dfs`> <`binary tree`>
 - LeetCode 0094 Binary Tree Inorder Traversal <`Easy`> <`stack`> <`dfs`> <`binary tree`>
