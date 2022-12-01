@@ -676,7 +676,7 @@
 - LeetCode 0173 Binary Search Tree Iterator <`Medium`> <`stack`> <`binary search tree`> <`binary tree`>
 -
 - [LeetCode 0128 Longest Consecutive Sequence](./src/leetcode_solutions/leetcode_0100_0199/leetcode_0128_longest_consecutive_sequence.rs) <`Medium`> <`hash table`> <`union find`>
-- LeetCode 0207 Course Schedule <`Medium`> <`dfs`> <`bfs`> <`graph`> <`topological sort`>
+- [LeetCode 0207 Course Schedule](./src/leetcode_solutions/leetcode_0200_0299/leetcode_0207_course_schedule.rs) <`Medium`> <`dfs`> <`bfs`> <`graph`> <`topological sort`>
 - LeetCode 0210 Course Schedule II <`Medium`> <`dfs`> <`bfs`> <`graph`> <`topological sort`>
 - LeetCode 1135 Connecting Cities with Minimum Cost <`Medium`> <`union find`> <`graph`> <`heap (priority queue)`> <`minimum spanning tree`>
 - LeetCode 0130 Surrounded Regions <`Medium`> <`dfs`> <`bfs`> <`union find`> <`matrix`>
@@ -1097,7 +1097,7 @@
 - [LeetCode 0139 Word Break](./src/leetcode_solutions/leetcode_0100_0199/leetcode_0139_word_break.rs) <`Medium`> <`hash table`> <`dynamic programming`> <`trie`>
 - TODO:[LeetCode 0079 Word Search](./src/leetcode_solutions/leetcode_0000_0099/leetcode_0079_word_search.rs) <`Medium`> <`backtracking`> <`matrix`>
 - TODO:[LeetCode 0547 Number of Provinces](./src/leetcode_solutions/leetcode_0500_0599/leetcode_0547_number_of_provinces.rs) <`Medium`> <`dfs`> <`bfs`> <`union find`> <`graph`>
-- LeetCode 0207 Course Schedule <`Medium`> <`dfs`> <`bfs`> <`graph`> <`topological sort`>
+- TODO:[LeetCode 0207 Course Schedule](./src/leetcode_solutions/leetcode_0200_0299/leetcode_0207_course_schedule.rs) <`Medium`> <`dfs`> <`bfs`> <`graph`> <`topological sort`>
 -
 - 查找算法，二叉树
 - LeetCode 0069 Sqrt(x) <`Easy`> <`binary search`>
