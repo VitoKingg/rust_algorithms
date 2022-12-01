@@ -708,7 +708,7 @@
 - LeetCode 0137 Single Number II <`Medium`> <`bit manipulation`>
 - LeetCode 0260 Single Number III <`Medium`> <`bit manipulation`>
 - LeetCode 0318 Maximum Product of Word Lengths <`Medium`> <`bit manipulation`>
-- LeetCode 0338 Counting Bits <`Medium`> <`dynamic programming`> <`bit manipulation`>
+- [LeetCode 0338 Counting Bits](./src/leetcode_solutions/leetcode_0300_0399/leetcode_0338_counting_bits.rs) <`Easy`> <`dynamic programming`> <`bit manipulation`>
 -
 - LeetCode 0303 Range Sum Query - Immutable <`Easy`> <`prefix sum`>
 - LeetCode 0560 Subarray Sum Equals K <`Medium`> <`hash table`> <`prefix sum`>
@@ -1115,7 +1115,7 @@
 -
 - 位运算，数学问题
 - [LeetCode 0190 Reverse Bits](./src/leetcode_solutions/leetcode_0100_0199/leetcode_0190_reverse_bits.rs) <`Easy`> <`divide and conquer`> <`bit manipulation`>
-- LeetCode 0338 Counting Bits <`Medium`> <`dynamic programming`> <`bit manipulation`>
+- [LeetCode 0338 Counting Bits](./src/leetcode_solutions/leetcode_0300_0399/leetcode_0338_counting_bits.rs) <`Easy`> <`dynamic programming`> <`bit manipulation`>
 - [LeetCode 0415 Add Strings](./src/leetcode_solutions/leetcode_0400_0499/leetcode_0415_add_strings.rs) <`Easy`> <`math`>
 -
 - 原理问题
