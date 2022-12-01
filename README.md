@@ -703,7 +703,7 @@
 - LeetCode 0067 Add Binary <`Easy`> <`math`> <`bit manipulation`>
 - LeetCode 0136 Single Number <`Easy`> <`bit manipulation`>
 - LeetCode 0231 Power of Two <`Easy`> <`math`> <`bit manipulation`>
-- LeetCode 0190 Reverse Bits <`Easy`> <`divide and conquer`> <`bit manipulation`>
+- [LeetCode 0190 Reverse Bits](./src/leetcode_solutions/leetcode_0100_0199/leetcode_0190_reverse_bits.rs) <`Easy`> <`divide and conquer`> <`bit manipulation`>
 - LeetCode 0191 Number of 1 Bits <`Easy`> <`divide and conquer`> <`bit manipulation`>
 - LeetCode 0137 Single Number II <`Medium`> <`bit manipulation`>
 - LeetCode 0260 Single Number III <`Medium`> <`bit manipulation`>
@@ -1114,7 +1114,7 @@
 - LeetCode 0207 Course Schedule <`Medium`> <`dfs`> <`bfs`> <`graph`> <`topological sort`>
 -
 - 位运算，数学问题
-- LeetCode 0190 Reverse Bits <`Easy`> <`divide and conquer`> <`bit manipulation`>
+- [LeetCode 0190 Reverse Bits](./src/leetcode_solutions/leetcode_0100_0199/leetcode_0190_reverse_bits.rs) <`Easy`> <`divide and conquer`> <`bit manipulation`>
 - LeetCode 0338 Counting Bits <`Medium`> <`dynamic programming`> <`bit manipulation`>
 - LeetCode 0415 Add Strings <`Easy`> <`math`>
 -

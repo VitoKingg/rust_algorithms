@@ -5,4 +5,5 @@ mod leetcode_0131_palindrome_partitioning;
 mod leetcode_0139_word_break;
 mod leetcode_0146_lru_cache;
 mod leetcode_0148_sort_list;
+mod leetcode_0190_reverse_bits;
 mod leetcode_0198_house_robber;
