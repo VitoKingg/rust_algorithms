@@ -1,4 +1,5 @@
 mod leetcode_0102_binary_tree_level_order_traversal;
+mod leetcode_0110_balanced_binary_tree;
 mod leetcode_0121_best_time_to_buy_and_sell_stock;
 mod leetcode_0125_valid_palindrome;
 mod leetcode_0128_longest_consecutive_sequence;
