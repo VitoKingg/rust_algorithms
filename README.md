@@ -660,7 +660,7 @@
 - LeetCode 0107 Binary Tree Level Order Traversal II <`Medium`> <`bfs`> <`binary tree`>
 - LeetCode 0103 Binary Tree Zigzag Level Order Traversal <`Medium`> <`bfs`> <`binary tree`>
 - [LeetCode 0110 Balanced Binary Tree](./src/leetcode_solutions/leetcode_0100_0199/leetcode_0110_balanced_binary_tree.rs) <`Easy`> <`dfs`> <`binary tree`>
-- LeetCode 0226 Invert Binary Tree <`Easy`> <`dfs`> <`bfs`> <`binary tree`>
+- [LeetCode 0226 Invert Binary Tree](./src/leetcode_solutions/leetcode_0200_0299/leetcode_0226_invert_binary_tree.rs) <`Easy`> <`dfs`> <`bfs`> <`binary tree`>
 - LeetCode 0617 Merge Two Binary Trees <`Easy`> <`dfs`> <`bfs`> <`binary tree`>
 - LeetCode 0104 Maximum Depth of Binary Tree <`Easy`> <`dfs`> <`bfs`> <`binary tree`>
 - LeetCode 0111 Minimum Depth of Binary Tree <`Easy`> <`dfs`> <`bfs`> <`binary tree`>
@@ -1100,7 +1100,7 @@
 - [LeetCode 0094 Binary Tree Inorder Traversal](./src/leetcode_solutions/leetcode_0000_0099/leetcode_0094_binary_tree_inorder_traversal.rs) <`Easy`> <`stack`> <`dfs`> <`binary tree`>
 - [LeetCode 0102 Binary Tree Level Order Traversal](./src/leetcode_solutions/leetcode_0100_0199/leetcode_0102_binary_tree_level_order_traversal.rs) <`Medium`> <`bfs`> <`binary tree`>
 - [LeetCode 0110 Balanced Binary Tree](./src/leetcode_solutions/leetcode_0100_0199/leetcode_0110_balanced_binary_tree.rs) <`Easy`> <`dfs`> <`binary tree`>
-- LeetCode 0226 Invert Binary Tree <`Easy`> <`dfs`> <`bfs`> <`binary tree`>
+- [LeetCode 0226 Invert Binary Tree](./src/leetcode_solutions/leetcode_0200_0299/leetcode_0226_invert_binary_tree.rs) <`Easy`> <`dfs`> <`bfs`> <`binary tree`>
 - LeetCode 0236 Lowest Common Ancestor of a Binary Tree <`Medium`> <`dfs`> <`binary tree`>
 -
 - 位运算，数学问题
