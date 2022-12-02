@@ -7,5 +7,6 @@ mod leetcode_0225_implement_stack_using_queues;
 mod leetcode_0226_invert_binary_tree;
 mod leetcode_0232_implement_queue_using_stacks;
 mod leetcode_0234_palindrome_linked_list;
+mod leetcode_0236_lowest_common_ancestor_of_a_binary_tree;
 mod leetcode_0242_valid_anagram;
 mod leetcode_0287_find_the_duplicate_number;

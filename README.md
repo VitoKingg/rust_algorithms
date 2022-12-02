@@ -665,7 +665,7 @@
 - LeetCode 0104 Maximum Depth of Binary Tree <`Easy`> <`dfs`> <`bfs`> <`binary tree`>
 - LeetCode 0111 Minimum Depth of Binary Tree <`Easy`> <`dfs`> <`bfs`> <`binary tree`>
 - LeetCode 0108 Convert Sorted Array to Binary Search Tree <`Easy`> <`divide and conquer`> <`binary search tree`> <`binary tree`>
-- LeetCode 0236 Lowest Common Ancestor of a Binary Tree <`Medium`> <`dfs`> <`binary tree`>
+- [LeetCode 0236 Lowest Common Ancestor of a Binary Tree](./src/leetcode_solutions/leetcode_0200_0299/leetcode_0236_lowest_common_ancestor_of_a_binary_tree.rs) <`Medium`> <`dfs`> <`binary tree`>
 - LeetCode 0116 Populating Next Right Pointers in Each Node <`Medium`> <`linked list`> <`dfs`> <`bfs`> <`binary tree`>
 - LeetCode 0230 Kth Smallest Element in a BST <`Medium`> <`dfs`> <`bfs`> <`binary tree`>
 - LeetCode 0101 Symmetric Tree <`Easy`> <`dfs`> <`bfs`> <`binary tree`>
@@ -1101,7 +1101,7 @@
 - [LeetCode 0102 Binary Tree Level Order Traversal](./src/leetcode_solutions/leetcode_0100_0199/leetcode_0102_binary_tree_level_order_traversal.rs) <`Medium`> <`bfs`> <`binary tree`>
 - [LeetCode 0110 Balanced Binary Tree](./src/leetcode_solutions/leetcode_0100_0199/leetcode_0110_balanced_binary_tree.rs) <`Easy`> <`dfs`> <`binary tree`>
 - [LeetCode 0226 Invert Binary Tree](./src/leetcode_solutions/leetcode_0200_0299/leetcode_0226_invert_binary_tree.rs) <`Easy`> <`dfs`> <`bfs`> <`binary tree`>
-- LeetCode 0236 Lowest Common Ancestor of a Binary Tree <`Medium`> <`dfs`> <`binary tree`>
+- [LeetCode 0236 Lowest Common Ancestor of a Binary Tree](./src/leetcode_solutions/leetcode_0200_0299/leetcode_0236_lowest_common_ancestor_of_a_binary_tree.rs) <`Medium`> <`dfs`> <`binary tree`>
 -
 - 位运算，数学问题
 - [LeetCode 0190 Reverse Bits](./src/leetcode_solutions/leetcode_0100_0199/leetcode_0190_reverse_bits.rs) <`Easy`> <`divide and conquer`> <`bit manipulation`>
