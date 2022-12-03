@@ -1054,7 +1054,7 @@
 - [LeetCode 0002 Add Two Numbers](./src/leetcode_solutions/leetcode_0000_0099/leetcode_0002_add_two_numbers.rs) <`Medium`> <`linked list`> <`math`>
 - [LeetCode 0445 Add Two Numbers II](./src/leetcode_solutions/leetcode_0400_0499/leetcode_0445_add_two_numbers_ii.rs) <`Medium`> <`linked list`> <`math`> <`stack`>
 - TODO:[LeetCode 0146 LRU Cache](./src/leetcode_solutions/leetcode_0100_0199/leetcode_0146_lru_cache.rs) <`Medium`> <`hash table`> <`linked list`> <`doubly linked list`>
-- 实现单链表 [linked_list.rs](./src/data_structures/linked_list.rs)
+- [linked_list.rs](./src/data_structures/linked_list.rs) 单链表实现
 -
 - 十大常用排序算法，时间复杂度，空间复杂度，稳定性
 - [quicksort](https://en.wikipedia.org/wiki/Quicksort) 快速排序
@@ -1104,12 +1104,36 @@
 - [LeetCode 0236 Lowest Common Ancestor of a Binary Tree](./src/leetcode_solutions/leetcode_0200_0299/leetcode_0236_lowest_common_ancestor_of_a_binary_tree.rs) <`Medium`> <`dfs`> <`binary tree`>
 -
 - 位运算，数学问题
+- [LeetCode 0461 Hamming Distance](./src/leetcode_solutions/leetcode_0400_0499/leetcode_0461_hamming_distance.rs) <`Easy`> <`bit manipulation`>
 - [LeetCode 0190 Reverse Bits](./src/leetcode_solutions/leetcode_0100_0199/leetcode_0190_reverse_bits.rs) <`Easy`> <`divide and conquer`> <`bit manipulation`>
 - [LeetCode 0338 Counting Bits](./src/leetcode_solutions/leetcode_0300_0399/leetcode_0338_counting_bits.rs) <`Easy`> <`dynamic programming`> <`bit manipulation`>
 - [LeetCode 0415 Add Strings](./src/leetcode_solutions/leetcode_0400_0499/leetcode_0415_add_strings.rs) <`Easy`> <`math`>
 -
 - 原理问题
-- red-black tree 红黑树原理
-- Bloom filter 布隆过滤器原理
-- cuckoo filter 布谷鸟过滤器原理
-- B tree, B+ tree 原理
+- [red-black tree](https://en.wikipedia.org/wiki/Red%E2%80%93black_tree) 红黑树原理
+  - `Completely Fair Schedular` used in current Linux kernels
+  - `epoll` system call
+-
+- [Bloom filter](https://en.wikipedia.org/wiki/Bloom_filter) 布隆过滤器原理
+  - 可用于检索一个元素是否在一个集合中
+  - 优点是空间效率和查询效率都远超一般的数据结构
+  - 缺点是有一定的识别误差率且删除较困难
+  - 本质上是一个概率性数据结构
+  -
+  - 应用于 redis
+  - 数据库用 Bloom filter 来减少实际存取 disk 的 IO 开销
+  - Chromium 浏览器验证大量恶意链接
+  - Medium 避免推荐已经推荐过的文章
+-
+- [cuckoo filter](https://en.wikipedia.org/wiki/Cuckoo_filter) 布谷鸟过滤器
+  - 是改进过的 Bloom filter
+  - 支持动态添加和删除项
+  - 查找性能高于 Bloom filter，即使当期接近满载
+  - 比其他 Bloom filter 的替代品更容易实现，比如 quotient filter
+  - 应用于 redis
+-
+- [B-tree](https://en.wikipedia.org/wiki/B-tree)
+  - The B-tree is well suited for storage systems that read and write relatively large blocks of data, such as databases and file systems.
+-
+- [B+ tree](https://en.wikipedia.org/wiki/B%2B_tree)
+  - databases and file systems
