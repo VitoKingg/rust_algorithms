@@ -627,7 +627,7 @@
 - [LeetCode 0072 Edit Distance](./src/leetcode_solutions/leetcode_0000_0099/leetcode_0072_edit_distance.rs) <`Hard`> <`dynamic programming`>
 - LeetCode 0044 Wildcard Matching <`Hard`> <`dynamic programming`> <`greedy`>
 - LeetCode 0124 Binary Tree Maximum Path Sum <`Hard`> <`dynamic programming`> <`dfs`> <`binary tree`>
-- LeetCode 0042 Trapping Rain Water <`Hard`> <`two pointers`> <`dynamic programming`> <`stack`> <`monotonic stack`>
+- [LeetCode 0042 Trapping Rain Water](./src/leetcode_solutions/leetcode_0000_0099/leetcode_0042_trapping_rain_water.rs) <`Hard`> <`two pointers`> <`dynamic programming`> <`stack`> <`monotonic stack`>
 - LeetCode 0085 Maximal Rectangle <`Hard`> <`dynamic programming`> <`stack`> <`monotonic stack`> <`matrix`>
 - [LeetCode 0046 Permutations](./src/leetcode_solutions/leetcode_0000_0099/leetcode_0046_permutations.rs) <`Medium`> <`backtracking`>
 - LeetCode 0047 Permutations II <`Medium`> <`backtracking`>
@@ -1014,7 +1014,7 @@
 - LeetCode 1408 String Matching in an Array <`Easy`> <`string matching`>
 - LeetCode 1206 Design Skiplist <`Hard`> <`linked list`>
 
-### 常用算法面试题
+### 算法常见面试题
 
 - 做 LeetCode 算法题有助于编程语言的学习和实践，但这并不能增强该编程语言的工程能力，因此做题要适可而止
 - 做题过程中要考虑边界问题，做到全面覆盖，争取一次提交就通过
@@ -1042,6 +1042,7 @@
 - [LeetCode 0344 Reverse String](./src/leetcode_solutions/leetcode_0300_0399/leetcode_0344_reverse_string.rs) <`Easy`> <`two pointers`>
 - [LeetCode 0015 3Sum](./src/leetcode_solutions/leetcode_0000_0099/leetcode_0015_3sum.rs) <`Medium`> <`two pointers`>
 - [LeetCode 0003 Longest Substring Without Repeating Characters](./src/leetcode_solutions/leetcode_0000_0099/leetcode_0003_longest_substring_without_repeating_characters.rs) <`Medium`> <`hash table`> <`sliding window`>
+- [LeetCode 0042 Trapping Rain Water](./src/leetcode_solutions/leetcode_0000_0099/leetcode_0042_trapping_rain_water.rs) <`Hard`> <`two pointers`> <`dynamic programming`> <`stack`> <`monotonic stack`>
 - TODO:[LeetCode 0076 Minimum Window Substring](./src/leetcode_solutions/leetcode_0000_0099/leetcode_0076_minimum_window_substring.rs) <`Hard`> <`hash table`> <`sliding window`>
 -
 - 链表
