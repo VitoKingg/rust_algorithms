@@ -1,6 +1,4 @@
-use rust_algorithms::sorting::{
-    bubble_sort::*,
-};
+use rust_algorithms::sorting::bubble_sort::*;
 
 #[test]
 fn bubble_sort_test() {
